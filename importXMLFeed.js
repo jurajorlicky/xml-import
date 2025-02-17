@@ -97,7 +97,9 @@ async function importXMLFeed() {
         execSync("git config --global user.email 'actions@github.com'");
         execSync("git add feed.xml");
         execSync('git commit -m "🔄 Auto-update XML feed" || echo "No changes to commit"');
-        execSync("git push https://${{ secrets.GITHUB_TOKEN }}@github.com/jurko22/xml-import.git main");
+
+        // 🔥 **Opravený príkaz na push cez GITHUB_TOKEN**
+        execSync(`git push https://x-access-token:${process.env.GITHUB_TOKEN}@github.com/jurajorlicky/xml-import.git main`);
 
         console.log("✅ XML feed successfully pushed to GitHub!");
     } catch (error) {
