@@ -5,7 +5,7 @@ const fs = require('fs');
 const { execSync } = require('child_process');
 
 const supabase = createClient(process.env.SUPABASE_URL, process.env.SUPABASE_KEY);
-const xmlUrl = "https://raw.githubusercontent.com/jurko22/xml-import/main/feed.xml";
+const xmlUrl = "https://raw.githubusercontent.com/jurajorlicky/xml-import/main/feed.xml";
 const xmlFilePath = './feed.xml';
 
 async function importXMLFeed() {
