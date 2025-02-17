@@ -1,18 +1,16 @@
 {
   "name": "xml-gmail-import",
   "version": "1.0.0",
-  "description": "Import XML feed to Supabase & Gmail IMAP webhook",
+  "description": "Import XML feed to Supabase",
   "main": "importXMLFeed.js",
   "scripts": {
-    "start": "node importXMLFeed.js && node gmail-webhook.js",
-    "import": "node importXMLFeed.js",
-    "gmail": "node gmail-webhook.js"
+    "start": "node importXMLFeed.js",
+    "import": "node importXMLFeed.js"
   },
   "dependencies": {
     "node-fetch": "^2.6.7",
     "xml2js": "^0.5.0",
     "@supabase/supabase-js": "^2.0.0",
-    "imap": "^0.8.19",
-    "mailparser": "^3.0.1",
     "axios": "^1.4.0"
   }
+}
