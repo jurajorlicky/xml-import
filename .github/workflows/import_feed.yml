@@ -22,13 +22,12 @@ jobs:
           npm install dotenv
           npm install
 
-      - name: 🔑 Authenticate with GitHub using PAT
-        env:
-          PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
+      - name: 🔄 Trigger next run immediately
         run: |
-          git remote set-url origin https://x-access-token:${{ secrets.PAT_TOKEN }}@github.com/${{ github.repository }}.git
-
-
+          curl -X POST -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+               -H "Accept: application/vnd.github.v3+json" \
+               https://api.github.com/repos/${{ github.repository }}/actions/workflows/import_feed.yml/dispatches \
+               -d '{"ref":"main"}'
 
       - name: 🚀 Run product import script in a loop for 1 hour
         env:
