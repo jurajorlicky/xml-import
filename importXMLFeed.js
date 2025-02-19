@@ -12,14 +12,17 @@ async function importXMLFeed() {
   try {
     console.log("🚀 Fetching XML feed...");
     const response = await fetch(xmlUrl);
-    if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
+    if (!response.ok) {
+      throw new Error(`HTTP error! Status: ${response.status}`);
+    }
     const xmlContent = await response.text();
 
-    // Používame explicitArray: true pre konzistentnú štruktúru
+    // Parse XML do JS objektu
     const parsedData = await parseStringPromise(xmlContent, { explicitArray: true });
     const items = parsedData.SHOP.SHOPITEM || [];
 
     console.log("📡 Fetching updated product prices and statuses from Supabase...");
+    // Získame dáta z tabuľky 'product_price_view'
     const { data: productPrices, error: priceFetchError } = await supabase
       .from('product_price_view')
       .select('product_id, size, final_price, final_status');
@@ -28,76 +31,75 @@ async function importXMLFeed() {
       console.error("❌ Error fetching product prices:", priceFetchError);
       return;
     }
-    
-    // Vytvorenie mapy pre rýchle vyhľadávanie
-    const priceMap = new Map(productPrices.map(p => [`${p.product_id}-${p.size}`, { price: p.final_price, status: p.final_status }]));
+
+    // Vytvoríme mapu (product_id-size) -> { price, status }
+    // Ak je final_price alebo final_status null, uložíme tam reálne null
+    const priceMap = new Map(
+      productPrices.map(p => [
+        `${p.product_id}-${p.size}`,
+        { 
+          price: p.final_price, 
+          status: p.final_status 
+        }
+      ])
+    );
 
     console.log("🛠 Updating XML feed...");
     let changesMade = false;
 
     for (const item of items) {
-      // Pre každý produkt budeme zisťovať, či má aspoň jeden variant so statusom "SKLADOM EXPRES"
-      let hasExpresne = false;
-      
-      if (item.VARIANTS && item.VARIANTS[0].VARIANT) {
-        for (const variant of item.VARIANTS[0].VARIANT) {
-          let size = "Unknown";
-          try {
-            size = variant.PARAMETERS[0].PARAMETER[0].VALUE[0];
-          } catch (err) {
-            console.warn(`⚠️ Could not extract size for item id ${item.$.id}:`, err);
-          }
-          const key = `${item.$.id}-${size}`;
-          const priceData = priceMap.get(key) || { price: "0", status: "Neznámy" };
+      // Overíme, či produkt obsahuje varianty
+      if (!item.VARIANTS || !item.VARIANTS[0].VARIANT) {
+        continue;
+      }
 
-          console.log(`🛠 ${item.$.id} - ${size} → Cena: ${priceData.price}, Status: ${priceData.status}`);
-          
-          // Aktualizácia ceny len ak sa líši
-          if (variant.PRICE_VAT[0] !== priceData.price.toString()) {
-            variant.PRICE_VAT[0] = priceData.price.toString();
+      // Pre každý variant
+      for (const variant of item.VARIANTS[0].VARIANT) {
+        let size = "Unknown";
+        try {
+          size = variant.PARAMETERS[0].PARAMETER[0].VALUE[0];
+        } catch (err) {
+          console.warn(`⚠️ Could not extract size for item id ${item.$.id}:`, err);
+        }
+
+        // Vygenerujeme kľúč do mapy
+        const key = `${item.$.id}-${size}`;
+        const priceData = priceMap.get(key);
+
+        // Ak v DB nič neexistuje, necháme pôvodné hodnoty
+        if (!priceData) {
+          console.log(`❓ No matching data in Supabase for key: ${key}. Skipping update...`);
+          continue;
+        }
+
+        // priceData.price môže byť buď number alebo null
+        // priceData.status môže byť buď string alebo null
+        console.log(`🛠 ${item.$.id} - ${size} → Cena: ${priceData.price}, Status: ${priceData.status}`);
+
+        // Aktualizácia PRICE_VAT, len ak nie je null
+        if (priceData.price !== null) {
+          const newPriceString = priceData.price.toString();
+          if (variant.PRICE_VAT && variant.PRICE_VAT[0] !== newPriceString) {
+            variant.PRICE_VAT[0] = newPriceString;
             changesMade = true;
           }
-          // Aktualizácia stavu len ak sa líši
-          if (variant.AVAILABILITY_OUT_OF_STOCK[0] !== priceData.status) {
+        }
+
+        // Aktualizácia AVAILABILITY_OUT_OF_STOCK, len ak nie je null
+        if (priceData.status !== null) {
+          if (variant.AVAILABILITY_OUT_OF_STOCK && variant.AVAILABILITY_OUT_OF_STOCK[0] !== priceData.status) {
             variant.AVAILABILITY_OUT_OF_STOCK[0] = priceData.status;
             changesMade = true;
           }
-          // Ak je status "SKLADOM EXPRES", nastavíme príznak
-          if (priceData.status === "SKLADOM EXPRES") {
-            hasExpresne = true;
-          }
-        }
-      }
-      
-      // Nastavenie flagu "expresne-odoslanie" podľa stavu variantov:
-      // Ak aspoň jeden variant má status "SKLADOM EXPRES", flag bude ACTIVE "1", inak "0".
-      const newFlagValue = hasExpresne ? "1" : "0";
-      if (!item.FLAGS) {
-        item.FLAGS = [{}];
-        changesMade = true;
-      }
-      if (!item.FLAGS[0].FLAG) {
-        item.FLAGS[0].FLAG = [];
-        changesMade = true;
-      }
-      let flagIndex = item.FLAGS[0].FLAG.findIndex(f => f.CODE && f.CODE[0] === "expresne-odoslanie");
-      if (flagIndex === -1) {
-        // Ak flag neexistuje, vytvoríme ho s hodnotou newFlagValue
-        item.FLAGS[0].FLAG.push({ CODE: ["expresne-odoslanie"], ACTIVE: [newFlagValue] });
-        changesMade = true;
-      } else {
-        // Ak flag existuje, aktualizujeme ho len v prípade, že sa hodnota líši
-        if (item.FLAGS[0].FLAG[flagIndex].ACTIVE[0] !== newFlagValue) {
-          item.FLAGS[0].FLAG[flagIndex].ACTIVE[0] = newFlagValue;
-          changesMade = true;
         }
       }
     }
 
+    // Vygenerujeme nové XML
     const builder = new Builder({ headless: true, renderOpts: { pretty: true } });
     const updatedXml = builder.buildObject({ SHOP: { SHOPITEM: items } });
 
-    // Porovnanie so súčasným obsahom súboru
+    // Porovnanie s existujúcim feed.xml (ak existuje)
     if (fs.existsSync(xmlFilePath)) {
       const existingXml = fs.readFileSync(xmlFilePath, 'utf8');
       if (existingXml.trim() === updatedXml.trim()) {
@@ -111,10 +113,11 @@ async function importXMLFeed() {
       return;
     }
 
+    // Uložíme nový feed.xml
     fs.writeFileSync(xmlFilePath, updatedXml);
     console.log("✅ XML Feed updated!");
 
-    // Commit a push na GitHub
+    // Commit a push do GitHub repozitára
     console.log("🚀 Committing and pushing XML feed to GitHub...");
     execSync("git config --global user.name 'GitHub Actions'");
     execSync("git config --global user.email 'actions@github.com'");
@@ -126,11 +129,10 @@ async function importXMLFeed() {
     }
     execSync(`git push https://x-access-token:${process.env.GITHUB_TOKEN}@github.com/jurajorlicky/xml-import.git main`);
     console.log("✅ XML feed successfully pushed to GitHub!");
-    
+
   } catch (error) {
     console.error("❌ Error importing XML feed:", error);
   }
 }
 
 importXMLFeed();
-
