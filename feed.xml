@@ -1,631 +1,6506 @@
-<SHOP>
-  <SHOPITEM id="706">
-    <NAME>adidas Campus 00s Better Scarlet Cloud White</NAME>
-    <GUID>a293cdc0-071b-11ef-b3f6-92d9043686e6</GUID>
-    <DESCRIPTION>&lt;p&gt;&lt;span&gt;Adidas Campus 00s predstavuje nezameniteľnú líniu tenisiek, ktorá vychádza z klasických dizajnov počiatkom tretieho tisícročia. S autentickým štýlom a proporciám, ktoré môžu variabilne meniť, tieto tenisky si udržiavajú svoje výsostné postavenie.&lt;/span&gt;&lt;/p&gt;
+<?xml version='1.0' encoding='utf-8'?>
+<SHOP><SHOPITEM id="706"><NAME>adidas Campus 00s Better Scarlet Cloud White</NAME><GUID>a293cdc0-071b-11ef-b3f6-92d9043686e6</GUID><SHORT_DESCRIPTION>&lt;ul&gt;
+&lt;li&gt;&lt;span&gt;Adidas Campus&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;limitovaná edícia tenisiek&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;pohodlná obuv&amp;nbsp;pre každú príležitosť&amp;nbsp;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Obvyklá veľkosť, ktorú bežne nosíš&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="color-options-container"&gt;
+&lt;p class="color-options-title"&gt;Ostatné farebné prevedenia:&lt;/p&gt;
+&lt;div class="color-options"&gt;&lt;a href="/adidas-campus-00s-core-black/" class="color-option" style="background-image: url('https://cdn.myshoptet.com/usr/www.airkicks.eu/user/shop/big/432_cb.jpg?65761099');"&gt;&lt;/a&gt; &lt;a href="/adidas-campus-00s-grey-white/" class="color-option" style="background-image: url('https://cdn.myshoptet.com/usr/www.airkicks.eu/user/shop/big/429-3_00s-grey.jpg?65761143');"&gt;&lt;/a&gt; &lt;a href="/adidas-campus-00s-crystal-white-core-black/" class="color-option" style="background-image: url('https://cdn.myshoptet.com/usr/www.airkicks.eu/user/shop/big/450-2_campus-whitecore.jpg?65be90e4');"&gt;&lt;/a&gt;&lt;a href="/adidas-campus-00s-lucid-fuchsia-cloud-white/" class="color-option" style="background-image: url('https://cdn.myshoptet.com/usr/www.airkicks.eu/user/shop/big/709-3_fuchsia-1.jpg?667febc4');"&gt;&lt;/a&gt; &lt;a href="/adidas-campus-00s-better-scarlet-cloud-white/" class="color-option" style="background-image: url('https://cdn.myshoptet.com/usr/www.airkicks.eu/user/shop/big/706-2_scarlet-f.jpg?667ff631');"&gt;&lt;/a&gt; &lt;a href="/adidas-campus-00s-wonder-beige/" class="color-option" style="background-image: url('https://cdn.myshoptet.com/usr/www.airkicks.eu/user/shop/big/718_adidas-campus-00s-wonder-beige.jpg?667c7c5f');"&gt;&lt;/a&gt;&lt;a href="/campus/" class="color-option" style="background-image: url('/user/documents/upload/others.jpg');"&gt;&lt;/a&gt; &lt;!-- Ďalšie možnosti farieb budú doplnené sem --&gt;&lt;/div&gt;
+&lt;/div&gt;</SHORT_DESCRIPTION><DESCRIPTION>&lt;p&gt;&lt;span&gt;Adidas Campus 00s predstavuje nezameniteľnú líniu tenisiek, ktorá vychádza z klasických dizajnov počiatkom tretieho tisícročia. S autentickým štýlom a proporciám, ktoré môžu variabilne meniť, tieto tenisky si udržiavajú svoje výsostné postavenie.&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Niektoré modely Adidas Campus 00s vynikajú nielen svojím dizajnom, ale aj funkčnosťou. Odkazujú na športový duch a pohodlie a zachovávajú nostalgiu 80. rokov, inšpirovanú Y2K vzhľadmi.&lt;/p&gt;
 &lt;p&gt;Tieto tenisky sú viac než len módnym výrokom s pohodlným a moderným designom z kvalitných materiálov, ktoré ponúkajú komfort na najvyššej úrovni.&amp;nbsp;&lt;/p&gt;
-&lt;p&gt;&lt;span&gt;Dnes si Adidas Campus 00s získavajú srdcia širokej skupiny zákazníkov. Ich časovo odolný dizajn a pohodlie združujú generácie a zabezpečujú, že každý krok v týchto teniskách je spojením modernosti a klasiky.&lt;/span&gt;&lt;/p&gt;</DESCRIPTION>
-    <MANUFACTURER>Adidas</MANUFACTURER>
-    <ADULT>0</ADULT>
-    <ITEM_TYPE>bazaar</ITEM_TYPE>
-    <CATEGORIES>
-      <CATEGORY id="786">Adidas &gt; Campus</CATEGORY>
-      <DEFAULT_CATEGORY id="786">Adidas &gt; Campus</DEFAULT_CATEGORY>
-    </CATEGORIES>
-    <IMAGES>
-      <IMAGE description="scarlet f">https://cdn.myshoptet.com/usr/www.airkicks.eu/user/shop/orig/706-2_scarlet-f.jpg?667ff631</IMAGE>
-      <IMAGE description="scarlet2">https://cdn.myshoptet.com/usr/www.airkicks.eu/user/shop/orig/706-1_scarlet2.jpg?667fecfa</IMAGE>
-      <IMAGE description="scarlet4">https://cdn.myshoptet.com/usr/www.airkicks.eu/user/shop/orig/706_scarlet4.jpg?667fed4b</IMAGE>
-    </IMAGES>
-    <TEXT_PROPERTIES>
-      <TEXT_PROPERTY>
-        <NAME>Názov</NAME>
-        <VALUE>adidas Campus 00s Better Scarlet Cloud White</VALUE>
-        <DESCRIPTION/>
-      </TEXT_PROPERTY>
-      <TEXT_PROPERTY>
-        <NAME>SKU</NAME>
-        <VALUE>H03474</VALUE>
-        <DESCRIPTION/>
-      </TEXT_PROPERTY>
-      <TEXT_PROPERTY>
-        <NAME>Farba</NAME>
-        <VALUE>Better Scarlet Cloud White</VALUE>
-        <DESCRIPTION/>
-      </TEXT_PROPERTY>
-    </TEXT_PROPERTIES>
+&lt;p&gt;&lt;span&gt;Dnes si Adidas Campus 00s získavajú srdcia širokej skupiny zákazníkov. Ich časovo odolný dizajn a pohodlie združujú generácie a zabezpečujú, že každý krok v týchto teniskách je spojením modernosti a klasiky.&lt;/span&gt;&lt;/p&gt;</DESCRIPTION><MANUFACTURER>Adidas</MANUFACTURER><ADULT>0</ADULT><ITEM_TYPE>bazaar</ITEM_TYPE><CATEGORIES><CATEGORY id="786">Adidas &gt; Campus</CATEGORY><DEFAULT_CATEGORY id="786">Adidas &gt; Campus</DEFAULT_CATEGORY></CATEGORIES><IMAGES><IMAGE description="scarlet f">https://cdn.myshoptet.com/usr/www.airkicks.eu/user/shop/orig/706-2_scarlet-f.jpg?667ff631</IMAGE><IMAGE description="scarlet2">https://cdn.myshoptet.com/usr/www.airkicks.eu/user/shop/orig/706-1_scarlet2.jpg?667fecfa</IMAGE><IMAGE description="scarlet4">https://cdn.myshoptet.com/usr/www.airkicks.eu/user/shop/orig/706_scarlet4.jpg?667fed4b</IMAGE></IMAGES><TEXT_PROPERTIES><TEXT_PROPERTY><NAME>Názov</NAME><VALUE>adidas Campus 00s Better Scarlet Cloud White</VALUE><DESCRIPTION /></TEXT_PROPERTY><TEXT_PROPERTY><NAME>SKU</NAME><VALUE>H03474</VALUE><DESCRIPTION /></TEXT_PROPERTY><TEXT_PROPERTY><NAME>Farba</NAME><VALUE>Better Scarlet Cloud White</VALUE><DESCRIPTION /></TEXT_PROPERTY></TEXT_PROPERTIES>
     <FLAGS>
-      <FLAG>
-        <CODE>expresne-odoslanie</CODE>
-        <ACTIVE>1</ACTIVE>
-      </FLAG>
-    </FLAGS>
-    <VISIBILITY>visible</VISIBILITY>
-    <SEO_TITLE>adidas Campus 00s Better Scarlet Cloud White - airkicks.eu</SEO_TITLE>
-    <META_DESCRIPTION>adidas Campus 00s Better Scarlet Cloud White H03474</META_DESCRIPTION>
-    <ALLOWS_IPLATBA>0</ALLOWS_IPLATBA>
-    <ALLOWS_PAY_ONLINE>1</ALLOWS_PAY_ONLINE>
-    <INTERNAL_NOTE/>
-    <ITEM_CONDITION>
-      <GRADE>used</GRADE>
-      <DESCRIPTION/>
-    </ITEM_CONDITION>
-    <HEUREKA_CATEGORY_ID/>
-    <ZBOZI_CATEGORY_ID/>
-    <GOOGLE_CATEGORY_ID/>
-    <GLAMI_CATEGORY_ID/>
-    <VARIANTS>
-      <VARIANT id="9688">
-        <FREE_SHIPPING>0</FREE_SHIPPING>
-        <FREE_BILLING>0</FREE_BILLING>
-        <UNIT>ks</UNIT>
-        <CODE>706/36</CODE>
-        <LOGISTIC>
-          <WEIGHT>2</WEIGHT>
+                    <FLAG>
+                <CODE>action</CODE>
+                                    <ACTIVE>0</ACTIVE>
+                                                            </FLAG>
+                    <FLAG>
+                <CODE>tip</CODE>
+                                    <ACTIVE>0</ACTIVE>
+                                                            </FLAG>
+                    <FLAG>
+                <CODE>new</CODE>
+                                    <ACTIVE>0</ACTIVE>
+                                                            </FLAG>
+                    <FLAG>
+                <CODE>custom1</CODE>
+                                    <ACTIVE>0</ACTIVE>
+                                                            </FLAG>
+                    <FLAG>
+                <CODE>custom2</CODE>
+                                    <ACTIVE>0</ACTIVE>
+                                                            </FLAG>
+                    <FLAG>
+                <CODE>custom3</CODE>
+                                    <ACTIVE>0</ACTIVE>
+                                                            </FLAG>
+                    <FLAG>
+                <CODE>expresne-odoslanie</CODE>
+                                    <ACTIVE>0</ACTIVE>
+                                                            </FLAG>
+                    <FLAG>
+                <CODE>bestseller</CODE>
+                                    <ACTIVE>0</ACTIVE>
+                                                            </FLAG>
+            </FLAGS>
+
+        
+        
+        <VISIBILITY>visible</VISIBILITY>
+
+                
+                
+        
+        
+                    <SEO_TITLE>adidas Campus 00s Better Scarlet Cloud White - airkicks.eu</SEO_TITLE>
+        
+                    <META_DESCRIPTION>adidas Campus 00s Better Scarlet Cloud White H03474</META_DESCRIPTION>
+        
+        <ALLOWS_IPLATBA>0</ALLOWS_IPLATBA>
+
+        <ALLOWS_PAY_ONLINE>1</ALLOWS_PAY_ONLINE>
+
+        <INTERNAL_NOTE />
+
+                    <ITEM_CONDITION>
+                <GRADE>used</GRADE>
+                <DESCRIPTION />
+            </ITEM_CONDITION>
+        
+        
+        
+        
+        
+        <HEUREKA_CATEGORY_ID />
+        <ZBOZI_CATEGORY_ID />
+        <GOOGLE_CATEGORY_ID />
+        <GLAMI_CATEGORY_ID />
+
+    
+            <VARIANTS><VARIANT id="9688">                                    
+
+
+<FREE_SHIPPING>0</FREE_SHIPPING>
+
+<FREE_BILLING>0</FREE_BILLING>
+
+    <UNIT>ks</UNIT>
+
+<CODE>706/36</CODE>
+
+
+<LOGISTIC>
+                        <WEIGHT>2</WEIGHT>
         </LOGISTIC>
-        <ATYPICAL_PRODUCT>
-          <ATYPICAL_SHIPPING>0</ATYPICAL_SHIPPING>
-          <ATYPICAL_BILLING>0</ATYPICAL_BILLING>
-        </ATYPICAL_PRODUCT>
-        <CURRENCY>EUR</CURRENCY>
-        <VAT>0</VAT>
-        <PRICE_VAT>135</PRICE_VAT>
-        <PURCHASE_PRICE/>
-        <STANDARD_PRICE/>
-        <STOCK>
-          <AMOUNT>0</AMOUNT>
-          <LOCATION/>
-          <MINIMAL_AMOUNT/>
-          <MAXIMAL_AMOUNT/>
-        </STOCK>
-        <AVAILABILITY_OUT_OF_STOCK>Skladom</AVAILABILITY_OUT_OF_STOCK>
-        <STOCK_MIN_SUPPLY/>
-        <VISIBLE>1</VISIBLE>
-        <FIRMY_CZ>1</FIRMY_CZ>
-        <HEUREKA_HIDDEN>0</HEUREKA_HIDDEN>
-        <HEUREKA_CART_HIDDEN>0</HEUREKA_CART_HIDDEN>
-        <HEUREKA_CPC/>
-        <ZBOZI_HIDDEN>0</ZBOZI_HIDDEN>
-        <ZBOZI_CPC/>
-        <ZBOZI_SEARCH_CPC/>
-        <ARUKERESO_HIDDEN>0</ARUKERESO_HIDDEN>
-        <ARUKERESO_MARKETPLACE_HIDDEN>0</ARUKERESO_MARKETPLACE_HIDDEN>
-        <DECIMAL_COUNT>0</DECIMAL_COUNT>
-        <NEGATIVE_AMOUNT>0</NEGATIVE_AMOUNT>
-        <UNIT_OF_MEASURE>
-          <PACKAGE_AMOUNT/>
-          <PACKAGE_AMOUNT_UNIT/>
-          <MEASURE_AMOUNT/>
-          <MEASURE_AMOUNT_UNIT/>
+
+    <ATYPICAL_PRODUCT>
+                    <ATYPICAL_SHIPPING>0</ATYPICAL_SHIPPING>
+        
+                    <ATYPICAL_BILLING>0</ATYPICAL_BILLING>
+            </ATYPICAL_PRODUCT>
+    <CURRENCY>EUR</CURRENCY>
+
+            <VAT>0</VAT>
+                    <PRICE_VAT>135</PRICE_VAT>
+            
+    
+<PURCHASE_PRICE />
+
+<STANDARD_PRICE />
+
+
+<STOCK>
+                        <AMOUNT>0</AMOUNT>
+                            <LOCATION />
+                            <MINIMAL_AMOUNT />
+    <MAXIMAL_AMOUNT />
+</STOCK>
+
+    <AVAILABILITY_OUT_OF_STOCK>Skladom</AVAILABILITY_OUT_OF_STOCK>
+
+
+
+
+    
+    <STOCK_MIN_SUPPLY />
+
+
+    <VISIBLE>1</VISIBLE>
+
+    
+    
+    
+    
+    
+    <FIRMY_CZ>1</FIRMY_CZ>
+
+    <HEUREKA_HIDDEN>0</HEUREKA_HIDDEN>
+
+    <HEUREKA_CART_HIDDEN>0</HEUREKA_CART_HIDDEN>
+
+    <HEUREKA_CPC />
+
+    <ZBOZI_HIDDEN>0</ZBOZI_HIDDEN>
+
+    <ZBOZI_CPC />
+
+    <ZBOZI_SEARCH_CPC />
+
+    <ARUKERESO_HIDDEN>0</ARUKERESO_HIDDEN>
+
+    <ARUKERESO_MARKETPLACE_HIDDEN>0</ARUKERESO_MARKETPLACE_HIDDEN>
+
+    <DECIMAL_COUNT>0</DECIMAL_COUNT>
+
+    <NEGATIVE_AMOUNT>0</NEGATIVE_AMOUNT>
+
+            <UNIT_OF_MEASURE>
+            <PACKAGE_AMOUNT />
+            <PACKAGE_AMOUNT_UNIT />
+            <MEASURE_AMOUNT />
+            <MEASURE_AMOUNT_UNIT />
         </UNIT_OF_MEASURE>
-        <PRICE_RATIO>1</PRICE_RATIO>
-        <MIN_PRICE_RATIO>0</MIN_PRICE_RATIO>
-        <ACTION_PRICE/>
-        <APPLY_LOYALTY_DISCOUNT>1</APPLY_LOYALTY_DISCOUNT>
-        <APPLY_VOLUME_DISCOUNT>1</APPLY_VOLUME_DISCOUNT>
-        <APPLY_QUANTITY_DISCOUNT>1</APPLY_QUANTITY_DISCOUNT>
-        <APPLY_DISCOUNT_COUPON>1</APPLY_DISCOUNT_COUPON>
-        <PARAMETERS>
-          <PARAMETER>
-            <NAME>Veľkosť</NAME>
-            <VALUE>36</VALUE>
-          </PARAMETER>
-        </PARAMETERS>
-      </VARIANT>
-      <VARIANT id="9691">
-        <FREE_SHIPPING>0</FREE_SHIPPING>
-        <FREE_BILLING>0</FREE_BILLING>
-        <UNIT>ks</UNIT>
-        <CODE>706/37</CODE>
-        <LOGISTIC>
-          <WEIGHT>2</WEIGHT>
+    
+    
+    <PRICE_RATIO>1</PRICE_RATIO>
+
+    <MIN_PRICE_RATIO>0</MIN_PRICE_RATIO>
+
+    <ACTION_PRICE />
+
+    
+    
+    <APPLY_LOYALTY_DISCOUNT>1</APPLY_LOYALTY_DISCOUNT>
+
+    <APPLY_VOLUME_DISCOUNT>1</APPLY_VOLUME_DISCOUNT>
+
+    <APPLY_QUANTITY_DISCOUNT>1</APPLY_QUANTITY_DISCOUNT>
+
+    <APPLY_DISCOUNT_COUPON>1</APPLY_DISCOUNT_COUPON>
+
+    
+            
+                                    
+            
+    
+
+<PARAMETERS><PARAMETER><NAME>Veľkosť</NAME><VALUE>36</VALUE></PARAMETER></PARAMETERS></VARIANT><VARIANT id="9691">                                    
+
+
+<FREE_SHIPPING>0</FREE_SHIPPING>
+
+<FREE_BILLING>0</FREE_BILLING>
+
+    <UNIT>ks</UNIT>
+
+<CODE>706/37</CODE>
+
+
+<LOGISTIC>
+                        <WEIGHT>2</WEIGHT>
         </LOGISTIC>
-        <ATYPICAL_PRODUCT>
-          <ATYPICAL_SHIPPING>0</ATYPICAL_SHIPPING>
-          <ATYPICAL_BILLING>0</ATYPICAL_BILLING>
-        </ATYPICAL_PRODUCT>
-        <CURRENCY>EUR</CURRENCY>
-        <VAT>0</VAT>
-        <PRICE_VAT>135</PRICE_VAT>
-        <PURCHASE_PRICE/>
-        <STANDARD_PRICE/>
-        <STOCK>
-          <AMOUNT>0</AMOUNT>
-          <LOCATION/>
-          <MINIMAL_AMOUNT/>
-          <MAXIMAL_AMOUNT/>
-        </STOCK>
-        <AVAILABILITY_OUT_OF_STOCK>Skladom</AVAILABILITY_OUT_OF_STOCK>
-        <STOCK_MIN_SUPPLY/>
-        <VISIBLE>1</VISIBLE>
-        <FIRMY_CZ>1</FIRMY_CZ>
-        <HEUREKA_HIDDEN>0</HEUREKA_HIDDEN>
-        <HEUREKA_CART_HIDDEN>0</HEUREKA_CART_HIDDEN>
-        <HEUREKA_CPC/>
-        <ZBOZI_HIDDEN>0</ZBOZI_HIDDEN>
-        <ZBOZI_CPC/>
-        <ZBOZI_SEARCH_CPC/>
-        <ARUKERESO_HIDDEN>0</ARUKERESO_HIDDEN>
-        <ARUKERESO_MARKETPLACE_HIDDEN>0</ARUKERESO_MARKETPLACE_HIDDEN>
-        <DECIMAL_COUNT>0</DECIMAL_COUNT>
-        <NEGATIVE_AMOUNT>0</NEGATIVE_AMOUNT>
-        <UNIT_OF_MEASURE>
-          <PACKAGE_AMOUNT/>
-          <PACKAGE_AMOUNT_UNIT/>
-          <MEASURE_AMOUNT/>
-          <MEASURE_AMOUNT_UNIT/>
+
+    <ATYPICAL_PRODUCT>
+                    <ATYPICAL_SHIPPING>0</ATYPICAL_SHIPPING>
+        
+                    <ATYPICAL_BILLING>0</ATYPICAL_BILLING>
+            </ATYPICAL_PRODUCT>
+    <CURRENCY>EUR</CURRENCY>
+
+            <VAT>0</VAT>
+                    <PRICE_VAT>135</PRICE_VAT>
+            
+    
+<PURCHASE_PRICE />
+
+<STANDARD_PRICE />
+
+
+<STOCK>
+                        <AMOUNT>0</AMOUNT>
+                            <LOCATION />
+                            <MINIMAL_AMOUNT />
+    <MAXIMAL_AMOUNT />
+</STOCK>
+
+    <AVAILABILITY_OUT_OF_STOCK>Skladom</AVAILABILITY_OUT_OF_STOCK>
+
+
+
+
+    
+    <STOCK_MIN_SUPPLY />
+
+
+    <VISIBLE>1</VISIBLE>
+
+    
+    
+    
+    
+    
+    <FIRMY_CZ>1</FIRMY_CZ>
+
+    <HEUREKA_HIDDEN>0</HEUREKA_HIDDEN>
+
+    <HEUREKA_CART_HIDDEN>0</HEUREKA_CART_HIDDEN>
+
+    <HEUREKA_CPC />
+
+    <ZBOZI_HIDDEN>0</ZBOZI_HIDDEN>
+
+    <ZBOZI_CPC />
+
+    <ZBOZI_SEARCH_CPC />
+
+    <ARUKERESO_HIDDEN>0</ARUKERESO_HIDDEN>
+
+    <ARUKERESO_MARKETPLACE_HIDDEN>0</ARUKERESO_MARKETPLACE_HIDDEN>
+
+    <DECIMAL_COUNT>0</DECIMAL_COUNT>
+
+    <NEGATIVE_AMOUNT>0</NEGATIVE_AMOUNT>
+
+            <UNIT_OF_MEASURE>
+            <PACKAGE_AMOUNT />
+            <PACKAGE_AMOUNT_UNIT />
+            <MEASURE_AMOUNT />
+            <MEASURE_AMOUNT_UNIT />
         </UNIT_OF_MEASURE>
-        <PRICE_RATIO>1</PRICE_RATIO>
-        <MIN_PRICE_RATIO>0</MIN_PRICE_RATIO>
-        <ACTION_PRICE/>
-        <APPLY_LOYALTY_DISCOUNT>1</APPLY_LOYALTY_DISCOUNT>
-        <APPLY_VOLUME_DISCOUNT>1</APPLY_VOLUME_DISCOUNT>
-        <APPLY_QUANTITY_DISCOUNT>1</APPLY_QUANTITY_DISCOUNT>
-        <APPLY_DISCOUNT_COUPON>1</APPLY_DISCOUNT_COUPON>
-        <PARAMETERS>
-          <PARAMETER>
-            <NAME>Veľkosť</NAME>
-            <VALUE>36 2/3</VALUE>
-          </PARAMETER>
-        </PARAMETERS>
-      </VARIANT>
-      <VARIANT id="9694">
-        <FREE_SHIPPING>0</FREE_SHIPPING>
-        <FREE_BILLING>0</FREE_BILLING>
-        <UNIT>ks</UNIT>
-        <CODE>706/38</CODE>
-        <LOGISTIC>
-          <WEIGHT>2</WEIGHT>
+    
+    
+    <PRICE_RATIO>1</PRICE_RATIO>
+
+    <MIN_PRICE_RATIO>0</MIN_PRICE_RATIO>
+
+    <ACTION_PRICE />
+
+    
+    
+    <APPLY_LOYALTY_DISCOUNT>1</APPLY_LOYALTY_DISCOUNT>
+
+    <APPLY_VOLUME_DISCOUNT>1</APPLY_VOLUME_DISCOUNT>
+
+    <APPLY_QUANTITY_DISCOUNT>1</APPLY_QUANTITY_DISCOUNT>
+
+    <APPLY_DISCOUNT_COUPON>1</APPLY_DISCOUNT_COUPON>
+
+    
+            
+                                    
+            
+    
+
+<PARAMETERS><PARAMETER><NAME>Veľkosť</NAME><VALUE>36 2/3</VALUE></PARAMETER></PARAMETERS></VARIANT><VARIANT id="9694">                                    
+
+
+<FREE_SHIPPING>0</FREE_SHIPPING>
+
+<FREE_BILLING>0</FREE_BILLING>
+
+    <UNIT>ks</UNIT>
+
+<CODE>706/38</CODE>
+
+
+<LOGISTIC>
+                        <WEIGHT>2</WEIGHT>
         </LOGISTIC>
-        <ATYPICAL_PRODUCT>
-          <ATYPICAL_SHIPPING>0</ATYPICAL_SHIPPING>
-          <ATYPICAL_BILLING>0</ATYPICAL_BILLING>
-        </ATYPICAL_PRODUCT>
-        <CURRENCY>EUR</CURRENCY>
-        <VAT>0</VAT>
-        <PRICE_VAT>135</PRICE_VAT>
-        <PURCHASE_PRICE/>
-        <STANDARD_PRICE/>
-        <STOCK>
-          <AMOUNT>0</AMOUNT>
-          <LOCATION/>
-          <MINIMAL_AMOUNT/>
-          <MAXIMAL_AMOUNT/>
-        </STOCK>
-        <AVAILABILITY_OUT_OF_STOCK>Skladom</AVAILABILITY_OUT_OF_STOCK>
-        <STOCK_MIN_SUPPLY/>
-        <VISIBLE>1</VISIBLE>
-        <FIRMY_CZ>1</FIRMY_CZ>
-        <HEUREKA_HIDDEN>0</HEUREKA_HIDDEN>
-        <HEUREKA_CART_HIDDEN>0</HEUREKA_CART_HIDDEN>
-        <HEUREKA_CPC/>
-        <ZBOZI_HIDDEN>0</ZBOZI_HIDDEN>
-        <ZBOZI_CPC/>
-        <ZBOZI_SEARCH_CPC/>
-        <ARUKERESO_HIDDEN>0</ARUKERESO_HIDDEN>
-        <ARUKERESO_MARKETPLACE_HIDDEN>0</ARUKERESO_MARKETPLACE_HIDDEN>
-        <DECIMAL_COUNT>0</DECIMAL_COUNT>
-        <NEGATIVE_AMOUNT>0</NEGATIVE_AMOUNT>
-        <UNIT_OF_MEASURE>
-          <PACKAGE_AMOUNT/>
-          <PACKAGE_AMOUNT_UNIT/>
-          <MEASURE_AMOUNT/>
-          <MEASURE_AMOUNT_UNIT/>
+
+    <ATYPICAL_PRODUCT>
+                    <ATYPICAL_SHIPPING>0</ATYPICAL_SHIPPING>
+        
+                    <ATYPICAL_BILLING>0</ATYPICAL_BILLING>
+            </ATYPICAL_PRODUCT>
+    <CURRENCY>EUR</CURRENCY>
+
+            <VAT>0</VAT>
+                    <PRICE_VAT>135</PRICE_VAT>
+            
+    
+<PURCHASE_PRICE />
+
+<STANDARD_PRICE />
+
+
+<STOCK>
+                        <AMOUNT>0</AMOUNT>
+                            <LOCATION />
+                            <MINIMAL_AMOUNT />
+    <MAXIMAL_AMOUNT />
+</STOCK>
+
+    <AVAILABILITY_OUT_OF_STOCK>Skladom</AVAILABILITY_OUT_OF_STOCK>
+
+
+
+
+    
+    <STOCK_MIN_SUPPLY />
+
+
+    <VISIBLE>1</VISIBLE>
+
+    
+    
+    
+    
+    
+    <FIRMY_CZ>1</FIRMY_CZ>
+
+    <HEUREKA_HIDDEN>0</HEUREKA_HIDDEN>
+
+    <HEUREKA_CART_HIDDEN>0</HEUREKA_CART_HIDDEN>
+
+    <HEUREKA_CPC />
+
+    <ZBOZI_HIDDEN>0</ZBOZI_HIDDEN>
+
+    <ZBOZI_CPC />
+
+    <ZBOZI_SEARCH_CPC />
+
+    <ARUKERESO_HIDDEN>0</ARUKERESO_HIDDEN>
+
+    <ARUKERESO_MARKETPLACE_HIDDEN>0</ARUKERESO_MARKETPLACE_HIDDEN>
+
+    <DECIMAL_COUNT>0</DECIMAL_COUNT>
+
+    <NEGATIVE_AMOUNT>0</NEGATIVE_AMOUNT>
+
+            <UNIT_OF_MEASURE>
+            <PACKAGE_AMOUNT />
+            <PACKAGE_AMOUNT_UNIT />
+            <MEASURE_AMOUNT />
+            <MEASURE_AMOUNT_UNIT />
         </UNIT_OF_MEASURE>
-        <PRICE_RATIO>1</PRICE_RATIO>
-        <MIN_PRICE_RATIO>0</MIN_PRICE_RATIO>
-        <ACTION_PRICE/>
-        <APPLY_LOYALTY_DISCOUNT>1</APPLY_LOYALTY_DISCOUNT>
-        <APPLY_VOLUME_DISCOUNT>1</APPLY_VOLUME_DISCOUNT>
-        <APPLY_QUANTITY_DISCOUNT>1</APPLY_QUANTITY_DISCOUNT>
-        <APPLY_DISCOUNT_COUPON>1</APPLY_DISCOUNT_COUPON>
-        <PARAMETERS>
-          <PARAMETER>
-            <NAME>Veľkosť</NAME>
-            <VALUE>37 1/3</VALUE>
-          </PARAMETER>
-        </PARAMETERS>
-      </VARIANT>
-      <VARIANT id="9697">
-        <FREE_SHIPPING>0</FREE_SHIPPING>
-        <FREE_BILLING>0</FREE_BILLING>
-        <UNIT>ks</UNIT>
-        <CODE>706/39</CODE>
-        <LOGISTIC>
-          <WEIGHT>2</WEIGHT>
+    
+    
+    <PRICE_RATIO>1</PRICE_RATIO>
+
+    <MIN_PRICE_RATIO>0</MIN_PRICE_RATIO>
+
+    <ACTION_PRICE />
+
+    
+    
+    <APPLY_LOYALTY_DISCOUNT>1</APPLY_LOYALTY_DISCOUNT>
+
+    <APPLY_VOLUME_DISCOUNT>1</APPLY_VOLUME_DISCOUNT>
+
+    <APPLY_QUANTITY_DISCOUNT>1</APPLY_QUANTITY_DISCOUNT>
+
+    <APPLY_DISCOUNT_COUPON>1</APPLY_DISCOUNT_COUPON>
+
+    
+            
+                                    
+            
+    
+
+<PARAMETERS><PARAMETER><NAME>Veľkosť</NAME><VALUE>37 1/3</VALUE></PARAMETER></PARAMETERS></VARIANT><VARIANT id="9697">                                    
+
+
+<FREE_SHIPPING>0</FREE_SHIPPING>
+
+<FREE_BILLING>0</FREE_BILLING>
+
+    <UNIT>ks</UNIT>
+
+<CODE>706/39</CODE>
+
+
+<LOGISTIC>
+                        <WEIGHT>2</WEIGHT>
         </LOGISTIC>
-        <ATYPICAL_PRODUCT>
-          <ATYPICAL_SHIPPING>0</ATYPICAL_SHIPPING>
-          <ATYPICAL_BILLING>0</ATYPICAL_BILLING>
-        </ATYPICAL_PRODUCT>
-        <CURRENCY>EUR</CURRENCY>
-        <VAT>0</VAT>
-        <PRICE_VAT>135</PRICE_VAT>
-        <PURCHASE_PRICE/>
-        <STANDARD_PRICE/>
-        <STOCK>
-          <AMOUNT>0</AMOUNT>
-          <LOCATION/>
-          <MINIMAL_AMOUNT/>
-          <MAXIMAL_AMOUNT/>
-        </STOCK>
-        <AVAILABILITY_OUT_OF_STOCK>Skladom</AVAILABILITY_OUT_OF_STOCK>
-        <STOCK_MIN_SUPPLY/>
-        <VISIBLE>1</VISIBLE>
-        <FIRMY_CZ>1</FIRMY_CZ>
-        <HEUREKA_HIDDEN>0</HEUREKA_HIDDEN>
-        <HEUREKA_CART_HIDDEN>0</HEUREKA_CART_HIDDEN>
-        <HEUREKA_CPC/>
-        <ZBOZI_HIDDEN>0</ZBOZI_HIDDEN>
-        <ZBOZI_CPC/>
-        <ZBOZI_SEARCH_CPC/>
-        <ARUKERESO_HIDDEN>0</ARUKERESO_HIDDEN>
-        <ARUKERESO_MARKETPLACE_HIDDEN>0</ARUKERESO_MARKETPLACE_HIDDEN>
-        <DECIMAL_COUNT>0</DECIMAL_COUNT>
-        <NEGATIVE_AMOUNT>0</NEGATIVE_AMOUNT>
-        <UNIT_OF_MEASURE>
-          <PACKAGE_AMOUNT/>
-          <PACKAGE_AMOUNT_UNIT/>
-          <MEASURE_AMOUNT/>
-          <MEASURE_AMOUNT_UNIT/>
+
+    <ATYPICAL_PRODUCT>
+                    <ATYPICAL_SHIPPING>0</ATYPICAL_SHIPPING>
+        
+                    <ATYPICAL_BILLING>0</ATYPICAL_BILLING>
+            </ATYPICAL_PRODUCT>
+    <CURRENCY>EUR</CURRENCY>
+
+            <VAT>0</VAT>
+                    <PRICE_VAT>135</PRICE_VAT>
+            
+    
+<PURCHASE_PRICE />
+
+<STANDARD_PRICE />
+
+
+<STOCK>
+                        <AMOUNT>0</AMOUNT>
+                            <LOCATION />
+                            <MINIMAL_AMOUNT />
+    <MAXIMAL_AMOUNT />
+</STOCK>
+
+    <AVAILABILITY_OUT_OF_STOCK>Skladom</AVAILABILITY_OUT_OF_STOCK>
+
+
+
+
+    
+    <STOCK_MIN_SUPPLY />
+
+
+    <VISIBLE>1</VISIBLE>
+
+    
+    
+    
+    
+    
+    <FIRMY_CZ>1</FIRMY_CZ>
+
+    <HEUREKA_HIDDEN>0</HEUREKA_HIDDEN>
+
+    <HEUREKA_CART_HIDDEN>0</HEUREKA_CART_HIDDEN>
+
+    <HEUREKA_CPC />
+
+    <ZBOZI_HIDDEN>0</ZBOZI_HIDDEN>
+
+    <ZBOZI_CPC />
+
+    <ZBOZI_SEARCH_CPC />
+
+    <ARUKERESO_HIDDEN>0</ARUKERESO_HIDDEN>
+
+    <ARUKERESO_MARKETPLACE_HIDDEN>0</ARUKERESO_MARKETPLACE_HIDDEN>
+
+    <DECIMAL_COUNT>0</DECIMAL_COUNT>
+
+    <NEGATIVE_AMOUNT>0</NEGATIVE_AMOUNT>
+
+            <UNIT_OF_MEASURE>
+            <PACKAGE_AMOUNT />
+            <PACKAGE_AMOUNT_UNIT />
+            <MEASURE_AMOUNT />
+            <MEASURE_AMOUNT_UNIT />
         </UNIT_OF_MEASURE>
-        <PRICE_RATIO>1</PRICE_RATIO>
-        <MIN_PRICE_RATIO>0</MIN_PRICE_RATIO>
-        <ACTION_PRICE/>
-        <APPLY_LOYALTY_DISCOUNT>1</APPLY_LOYALTY_DISCOUNT>
-        <APPLY_VOLUME_DISCOUNT>1</APPLY_VOLUME_DISCOUNT>
-        <APPLY_QUANTITY_DISCOUNT>1</APPLY_QUANTITY_DISCOUNT>
-        <APPLY_DISCOUNT_COUPON>1</APPLY_DISCOUNT_COUPON>
-        <PARAMETERS>
-          <PARAMETER>
-            <NAME>Veľkosť</NAME>
-            <VALUE>38</VALUE>
-          </PARAMETER>
-        </PARAMETERS>
-      </VARIANT>
-      <VARIANT id="9700">
-        <FREE_SHIPPING>0</FREE_SHIPPING>
-        <FREE_BILLING>0</FREE_BILLING>
-        <UNIT>ks</UNIT>
-        <CODE>706/40</CODE>
-        <LOGISTIC>
-          <WEIGHT>2</WEIGHT>
+    
+    
+    <PRICE_RATIO>1</PRICE_RATIO>
+
+    <MIN_PRICE_RATIO>0</MIN_PRICE_RATIO>
+
+    <ACTION_PRICE />
+
+    
+    
+    <APPLY_LOYALTY_DISCOUNT>1</APPLY_LOYALTY_DISCOUNT>
+
+    <APPLY_VOLUME_DISCOUNT>1</APPLY_VOLUME_DISCOUNT>
+
+    <APPLY_QUANTITY_DISCOUNT>1</APPLY_QUANTITY_DISCOUNT>
+
+    <APPLY_DISCOUNT_COUPON>1</APPLY_DISCOUNT_COUPON>
+
+    
+            
+                                    
+            
+    
+
+<PARAMETERS><PARAMETER><NAME>Veľkosť</NAME><VALUE>38</VALUE></PARAMETER></PARAMETERS></VARIANT><VARIANT id="9700">                                    
+
+
+<FREE_SHIPPING>0</FREE_SHIPPING>
+
+<FREE_BILLING>0</FREE_BILLING>
+
+    <UNIT>ks</UNIT>
+
+<CODE>706/40</CODE>
+
+
+<LOGISTIC>
+                        <WEIGHT>2</WEIGHT>
         </LOGISTIC>
-        <ATYPICAL_PRODUCT>
-          <ATYPICAL_SHIPPING>0</ATYPICAL_SHIPPING>
-          <ATYPICAL_BILLING>0</ATYPICAL_BILLING>
-        </ATYPICAL_PRODUCT>
-        <CURRENCY>EUR</CURRENCY>
-        <VAT>0</VAT>
-        <PRICE_VAT>135</PRICE_VAT>
-        <PURCHASE_PRICE/>
-        <STANDARD_PRICE/>
-        <STOCK>
-          <AMOUNT>0</AMOUNT>
-          <LOCATION/>
-          <MINIMAL_AMOUNT/>
-          <MAXIMAL_AMOUNT/>
-        </STOCK>
-        <AVAILABILITY_OUT_OF_STOCK>Skladom</AVAILABILITY_OUT_OF_STOCK>
-        <STOCK_MIN_SUPPLY/>
-        <VISIBLE>1</VISIBLE>
-        <FIRMY_CZ>1</FIRMY_CZ>
-        <HEUREKA_HIDDEN>0</HEUREKA_HIDDEN>
-        <HEUREKA_CART_HIDDEN>0</HEUREKA_CART_HIDDEN>
-        <HEUREKA_CPC/>
-        <ZBOZI_HIDDEN>0</ZBOZI_HIDDEN>
-        <ZBOZI_CPC/>
-        <ZBOZI_SEARCH_CPC/>
-        <ARUKERESO_HIDDEN>0</ARUKERESO_HIDDEN>
-        <ARUKERESO_MARKETPLACE_HIDDEN>0</ARUKERESO_MARKETPLACE_HIDDEN>
-        <DECIMAL_COUNT>0</DECIMAL_COUNT>
-        <NEGATIVE_AMOUNT>0</NEGATIVE_AMOUNT>
-        <UNIT_OF_MEASURE>
-          <PACKAGE_AMOUNT/>
-          <PACKAGE_AMOUNT_UNIT/>
-          <MEASURE_AMOUNT/>
-          <MEASURE_AMOUNT_UNIT/>
+
+    <ATYPICAL_PRODUCT>
+                    <ATYPICAL_SHIPPING>0</ATYPICAL_SHIPPING>
+        
+                    <ATYPICAL_BILLING>0</ATYPICAL_BILLING>
+            </ATYPICAL_PRODUCT>
+    <CURRENCY>EUR</CURRENCY>
+
+            <VAT>0</VAT>
+                    <PRICE_VAT>135</PRICE_VAT>
+            
+    
+<PURCHASE_PRICE />
+
+<STANDARD_PRICE />
+
+
+<STOCK>
+                        <AMOUNT>0</AMOUNT>
+                            <LOCATION />
+                            <MINIMAL_AMOUNT />
+    <MAXIMAL_AMOUNT />
+</STOCK>
+
+    <AVAILABILITY_OUT_OF_STOCK>Skladom</AVAILABILITY_OUT_OF_STOCK>
+
+
+
+
+    
+    <STOCK_MIN_SUPPLY />
+
+
+    <VISIBLE>1</VISIBLE>
+
+    
+    
+    
+    
+    
+    <FIRMY_CZ>1</FIRMY_CZ>
+
+    <HEUREKA_HIDDEN>0</HEUREKA_HIDDEN>
+
+    <HEUREKA_CART_HIDDEN>0</HEUREKA_CART_HIDDEN>
+
+    <HEUREKA_CPC />
+
+    <ZBOZI_HIDDEN>0</ZBOZI_HIDDEN>
+
+    <ZBOZI_CPC />
+
+    <ZBOZI_SEARCH_CPC />
+
+    <ARUKERESO_HIDDEN>0</ARUKERESO_HIDDEN>
+
+    <ARUKERESO_MARKETPLACE_HIDDEN>0</ARUKERESO_MARKETPLACE_HIDDEN>
+
+    <DECIMAL_COUNT>0</DECIMAL_COUNT>
+
+    <NEGATIVE_AMOUNT>0</NEGATIVE_AMOUNT>
+
+            <UNIT_OF_MEASURE>
+            <PACKAGE_AMOUNT />
+            <PACKAGE_AMOUNT_UNIT />
+            <MEASURE_AMOUNT />
+            <MEASURE_AMOUNT_UNIT />
         </UNIT_OF_MEASURE>
-        <PRICE_RATIO>1</PRICE_RATIO>
-        <MIN_PRICE_RATIO>0</MIN_PRICE_RATIO>
-        <ACTION_PRICE/>
-        <APPLY_LOYALTY_DISCOUNT>1</APPLY_LOYALTY_DISCOUNT>
-        <APPLY_VOLUME_DISCOUNT>1</APPLY_VOLUME_DISCOUNT>
-        <APPLY_QUANTITY_DISCOUNT>1</APPLY_QUANTITY_DISCOUNT>
-        <APPLY_DISCOUNT_COUPON>1</APPLY_DISCOUNT_COUPON>
-        <PARAMETERS>
-          <PARAMETER>
-            <NAME>Veľkosť</NAME>
-            <VALUE>38 2/3</VALUE>
-          </PARAMETER>
-        </PARAMETERS>
-      </VARIANT>
-      <VARIANT id="9703">
-        <FREE_SHIPPING>0</FREE_SHIPPING>
-        <FREE_BILLING>0</FREE_BILLING>
-        <UNIT>ks</UNIT>
-        <CODE>706/41</CODE>
-        <LOGISTIC>
-          <WEIGHT>2</WEIGHT>
+    
+    
+    <PRICE_RATIO>1</PRICE_RATIO>
+
+    <MIN_PRICE_RATIO>0</MIN_PRICE_RATIO>
+
+    <ACTION_PRICE />
+
+    
+    
+    <APPLY_LOYALTY_DISCOUNT>1</APPLY_LOYALTY_DISCOUNT>
+
+    <APPLY_VOLUME_DISCOUNT>1</APPLY_VOLUME_DISCOUNT>
+
+    <APPLY_QUANTITY_DISCOUNT>1</APPLY_QUANTITY_DISCOUNT>
+
+    <APPLY_DISCOUNT_COUPON>1</APPLY_DISCOUNT_COUPON>
+
+    
+            
+                                    
+            
+    
+
+<PARAMETERS><PARAMETER><NAME>Veľkosť</NAME><VALUE>38 2/3</VALUE></PARAMETER></PARAMETERS></VARIANT><VARIANT id="9703">                                    
+
+
+<FREE_SHIPPING>0</FREE_SHIPPING>
+
+<FREE_BILLING>0</FREE_BILLING>
+
+    <UNIT>ks</UNIT>
+
+<CODE>706/41</CODE>
+
+
+<LOGISTIC>
+                        <WEIGHT>2</WEIGHT>
         </LOGISTIC>
-        <ATYPICAL_PRODUCT>
-          <ATYPICAL_SHIPPING>0</ATYPICAL_SHIPPING>
-          <ATYPICAL_BILLING>0</ATYPICAL_BILLING>
-        </ATYPICAL_PRODUCT>
-        <CURRENCY>EUR</CURRENCY>
-        <VAT>0</VAT>
-        <PRICE_VAT>140</PRICE_VAT>
-        <PURCHASE_PRICE/>
-        <STANDARD_PRICE/>
-        <STOCK>
-          <AMOUNT>0</AMOUNT>
-          <LOCATION/>
-          <MINIMAL_AMOUNT/>
-          <MAXIMAL_AMOUNT/>
-        </STOCK>
-        <AVAILABILITY_OUT_OF_STOCK>Skladom</AVAILABILITY_OUT_OF_STOCK>
-        <STOCK_MIN_SUPPLY/>
-        <VISIBLE>1</VISIBLE>
-        <FIRMY_CZ>1</FIRMY_CZ>
-        <HEUREKA_HIDDEN>0</HEUREKA_HIDDEN>
-        <HEUREKA_CART_HIDDEN>0</HEUREKA_CART_HIDDEN>
-        <HEUREKA_CPC/>
-        <ZBOZI_HIDDEN>0</ZBOZI_HIDDEN>
-        <ZBOZI_CPC/>
-        <ZBOZI_SEARCH_CPC/>
-        <ARUKERESO_HIDDEN>0</ARUKERESO_HIDDEN>
-        <ARUKERESO_MARKETPLACE_HIDDEN>0</ARUKERESO_MARKETPLACE_HIDDEN>
-        <DECIMAL_COUNT>0</DECIMAL_COUNT>
-        <NEGATIVE_AMOUNT>0</NEGATIVE_AMOUNT>
-        <UNIT_OF_MEASURE>
-          <PACKAGE_AMOUNT/>
-          <PACKAGE_AMOUNT_UNIT/>
-          <MEASURE_AMOUNT/>
-          <MEASURE_AMOUNT_UNIT/>
+
+    <ATYPICAL_PRODUCT>
+                    <ATYPICAL_SHIPPING>0</ATYPICAL_SHIPPING>
+        
+                    <ATYPICAL_BILLING>0</ATYPICAL_BILLING>
+            </ATYPICAL_PRODUCT>
+    <CURRENCY>EUR</CURRENCY>
+
+            <VAT>0</VAT>
+                    <PRICE_VAT>140</PRICE_VAT>
+            
+    
+<PURCHASE_PRICE />
+
+<STANDARD_PRICE />
+
+
+<STOCK>
+                        <AMOUNT>0</AMOUNT>
+                            <LOCATION />
+                            <MINIMAL_AMOUNT />
+    <MAXIMAL_AMOUNT />
+</STOCK>
+
+    <AVAILABILITY_OUT_OF_STOCK>Skladom</AVAILABILITY_OUT_OF_STOCK>
+
+
+
+
+    
+    <STOCK_MIN_SUPPLY />
+
+
+    <VISIBLE>1</VISIBLE>
+
+    
+    
+    
+    
+    
+    <FIRMY_CZ>1</FIRMY_CZ>
+
+    <HEUREKA_HIDDEN>0</HEUREKA_HIDDEN>
+
+    <HEUREKA_CART_HIDDEN>0</HEUREKA_CART_HIDDEN>
+
+    <HEUREKA_CPC />
+
+    <ZBOZI_HIDDEN>0</ZBOZI_HIDDEN>
+
+    <ZBOZI_CPC />
+
+    <ZBOZI_SEARCH_CPC />
+
+    <ARUKERESO_HIDDEN>0</ARUKERESO_HIDDEN>
+
+    <ARUKERESO_MARKETPLACE_HIDDEN>0</ARUKERESO_MARKETPLACE_HIDDEN>
+
+    <DECIMAL_COUNT>0</DECIMAL_COUNT>
+
+    <NEGATIVE_AMOUNT>0</NEGATIVE_AMOUNT>
+
+            <UNIT_OF_MEASURE>
+            <PACKAGE_AMOUNT />
+            <PACKAGE_AMOUNT_UNIT />
+            <MEASURE_AMOUNT />
+            <MEASURE_AMOUNT_UNIT />
         </UNIT_OF_MEASURE>
-        <PRICE_RATIO>1</PRICE_RATIO>
-        <MIN_PRICE_RATIO>0</MIN_PRICE_RATIO>
-        <ACTION_PRICE/>
-        <APPLY_LOYALTY_DISCOUNT>1</APPLY_LOYALTY_DISCOUNT>
-        <APPLY_VOLUME_DISCOUNT>1</APPLY_VOLUME_DISCOUNT>
-        <APPLY_QUANTITY_DISCOUNT>1</APPLY_QUANTITY_DISCOUNT>
-        <APPLY_DISCOUNT_COUPON>1</APPLY_DISCOUNT_COUPON>
-        <PARAMETERS>
-          <PARAMETER>
-            <NAME>Veľkosť</NAME>
-            <VALUE>39 1/3</VALUE>
-          </PARAMETER>
-        </PARAMETERS>
-      </VARIANT>
-      <VARIANT id="9706">
-        <FREE_SHIPPING>0</FREE_SHIPPING>
-        <FREE_BILLING>0</FREE_BILLING>
-        <UNIT>ks</UNIT>
-        <CODE>706/42</CODE>
-        <LOGISTIC>
-          <WEIGHT>2</WEIGHT>
+    
+    
+    <PRICE_RATIO>1</PRICE_RATIO>
+
+    <MIN_PRICE_RATIO>0</MIN_PRICE_RATIO>
+
+    <ACTION_PRICE />
+
+    
+    
+    <APPLY_LOYALTY_DISCOUNT>1</APPLY_LOYALTY_DISCOUNT>
+
+    <APPLY_VOLUME_DISCOUNT>1</APPLY_VOLUME_DISCOUNT>
+
+    <APPLY_QUANTITY_DISCOUNT>1</APPLY_QUANTITY_DISCOUNT>
+
+    <APPLY_DISCOUNT_COUPON>1</APPLY_DISCOUNT_COUPON>
+
+    
+            
+                                    
+            
+    
+
+<PARAMETERS><PARAMETER><NAME>Veľkosť</NAME><VALUE>39 1/3</VALUE></PARAMETER></PARAMETERS></VARIANT><VARIANT id="9706">                                    
+
+
+<FREE_SHIPPING>0</FREE_SHIPPING>
+
+<FREE_BILLING>0</FREE_BILLING>
+
+    <UNIT>ks</UNIT>
+
+<CODE>706/42</CODE>
+
+
+<LOGISTIC>
+                        <WEIGHT>2</WEIGHT>
         </LOGISTIC>
-        <ATYPICAL_PRODUCT>
-          <ATYPICAL_SHIPPING>0</ATYPICAL_SHIPPING>
-          <ATYPICAL_BILLING>0</ATYPICAL_BILLING>
-        </ATYPICAL_PRODUCT>
-        <CURRENCY>EUR</CURRENCY>
-        <VAT>0</VAT>
-        <PRICE_VAT>140</PRICE_VAT>
-        <PURCHASE_PRICE/>
-        <STANDARD_PRICE/>
-        <STOCK>
-          <AMOUNT>0</AMOUNT>
-          <LOCATION/>
-          <MINIMAL_AMOUNT/>
-          <MAXIMAL_AMOUNT/>
-        </STOCK>
-        <AVAILABILITY_OUT_OF_STOCK>Skladom</AVAILABILITY_OUT_OF_STOCK>
-        <STOCK_MIN_SUPPLY/>
-        <VISIBLE>1</VISIBLE>
-        <FIRMY_CZ>1</FIRMY_CZ>
-        <HEUREKA_HIDDEN>0</HEUREKA_HIDDEN>
-        <HEUREKA_CART_HIDDEN>0</HEUREKA_CART_HIDDEN>
-        <HEUREKA_CPC/>
-        <ZBOZI_HIDDEN>0</ZBOZI_HIDDEN>
-        <ZBOZI_CPC/>
-        <ZBOZI_SEARCH_CPC/>
-        <ARUKERESO_HIDDEN>0</ARUKERESO_HIDDEN>
-        <ARUKERESO_MARKETPLACE_HIDDEN>0</ARUKERESO_MARKETPLACE_HIDDEN>
-        <DECIMAL_COUNT>0</DECIMAL_COUNT>
-        <NEGATIVE_AMOUNT>0</NEGATIVE_AMOUNT>
-        <UNIT_OF_MEASURE>
-          <PACKAGE_AMOUNT/>
-          <PACKAGE_AMOUNT_UNIT/>
-          <MEASURE_AMOUNT/>
-          <MEASURE_AMOUNT_UNIT/>
+
+    <ATYPICAL_PRODUCT>
+                    <ATYPICAL_SHIPPING>0</ATYPICAL_SHIPPING>
+        
+                    <ATYPICAL_BILLING>0</ATYPICAL_BILLING>
+            </ATYPICAL_PRODUCT>
+    <CURRENCY>EUR</CURRENCY>
+
+            <VAT>0</VAT>
+                    <PRICE_VAT>140</PRICE_VAT>
+            
+    
+<PURCHASE_PRICE />
+
+<STANDARD_PRICE />
+
+
+<STOCK>
+                        <AMOUNT>0</AMOUNT>
+                            <LOCATION />
+                            <MINIMAL_AMOUNT />
+    <MAXIMAL_AMOUNT />
+</STOCK>
+
+    <AVAILABILITY_OUT_OF_STOCK>Skladom</AVAILABILITY_OUT_OF_STOCK>
+
+
+
+
+    
+    <STOCK_MIN_SUPPLY />
+
+
+    <VISIBLE>1</VISIBLE>
+
+    
+    
+    
+    
+    
+    <FIRMY_CZ>1</FIRMY_CZ>
+
+    <HEUREKA_HIDDEN>0</HEUREKA_HIDDEN>
+
+    <HEUREKA_CART_HIDDEN>0</HEUREKA_CART_HIDDEN>
+
+    <HEUREKA_CPC />
+
+    <ZBOZI_HIDDEN>0</ZBOZI_HIDDEN>
+
+    <ZBOZI_CPC />
+
+    <ZBOZI_SEARCH_CPC />
+
+    <ARUKERESO_HIDDEN>0</ARUKERESO_HIDDEN>
+
+    <ARUKERESO_MARKETPLACE_HIDDEN>0</ARUKERESO_MARKETPLACE_HIDDEN>
+
+    <DECIMAL_COUNT>0</DECIMAL_COUNT>
+
+    <NEGATIVE_AMOUNT>0</NEGATIVE_AMOUNT>
+
+            <UNIT_OF_MEASURE>
+            <PACKAGE_AMOUNT />
+            <PACKAGE_AMOUNT_UNIT />
+            <MEASURE_AMOUNT />
+            <MEASURE_AMOUNT_UNIT />
         </UNIT_OF_MEASURE>
-        <PRICE_RATIO>1</PRICE_RATIO>
-        <MIN_PRICE_RATIO>0</MIN_PRICE_RATIO>
-        <ACTION_PRICE/>
-        <APPLY_LOYALTY_DISCOUNT>1</APPLY_LOYALTY_DISCOUNT>
-        <APPLY_VOLUME_DISCOUNT>1</APPLY_VOLUME_DISCOUNT>
-        <APPLY_QUANTITY_DISCOUNT>1</APPLY_QUANTITY_DISCOUNT>
-        <APPLY_DISCOUNT_COUPON>1</APPLY_DISCOUNT_COUPON>
-        <PARAMETERS>
-          <PARAMETER>
-            <NAME>Veľkosť</NAME>
-            <VALUE>40</VALUE>
-          </PARAMETER>
-        </PARAMETERS>
-      </VARIANT>
-      <VARIANT id="9709">
-        <FREE_SHIPPING>0</FREE_SHIPPING>
-        <FREE_BILLING>0</FREE_BILLING>
-        <UNIT>ks</UNIT>
-        <CODE>706/43</CODE>
-        <LOGISTIC>
-          <WEIGHT>2</WEIGHT>
+    
+    
+    <PRICE_RATIO>1</PRICE_RATIO>
+
+    <MIN_PRICE_RATIO>0</MIN_PRICE_RATIO>
+
+    <ACTION_PRICE />
+
+    
+    
+    <APPLY_LOYALTY_DISCOUNT>1</APPLY_LOYALTY_DISCOUNT>
+
+    <APPLY_VOLUME_DISCOUNT>1</APPLY_VOLUME_DISCOUNT>
+
+    <APPLY_QUANTITY_DISCOUNT>1</APPLY_QUANTITY_DISCOUNT>
+
+    <APPLY_DISCOUNT_COUPON>1</APPLY_DISCOUNT_COUPON>
+
+    
+            
+                                    
+            
+    
+
+<PARAMETERS><PARAMETER><NAME>Veľkosť</NAME><VALUE>40</VALUE></PARAMETER></PARAMETERS></VARIANT><VARIANT id="9709">                                    
+
+
+<FREE_SHIPPING>0</FREE_SHIPPING>
+
+<FREE_BILLING>0</FREE_BILLING>
+
+    <UNIT>ks</UNIT>
+
+<CODE>706/43</CODE>
+
+
+<LOGISTIC>
+                        <WEIGHT>2</WEIGHT>
         </LOGISTIC>
-        <ATYPICAL_PRODUCT>
-          <ATYPICAL_SHIPPING>0</ATYPICAL_SHIPPING>
-          <ATYPICAL_BILLING>0</ATYPICAL_BILLING>
-        </ATYPICAL_PRODUCT>
-        <CURRENCY>EUR</CURRENCY>
-        <VAT>0</VAT>
-        <PRICE_VAT>130</PRICE_VAT>
-        <PURCHASE_PRICE/>
-        <STANDARD_PRICE/>
-        <STOCK>
-          <AMOUNT>0</AMOUNT>
-          <LOCATION/>
-          <MINIMAL_AMOUNT/>
-          <MAXIMAL_AMOUNT/>
-        </STOCK>
-        <AVAILABILITY_OUT_OF_STOCK>Skladom</AVAILABILITY_OUT_OF_STOCK>
-        <STOCK_MIN_SUPPLY/>
-        <VISIBLE>1</VISIBLE>
-        <FIRMY_CZ>1</FIRMY_CZ>
-        <HEUREKA_HIDDEN>0</HEUREKA_HIDDEN>
-        <HEUREKA_CART_HIDDEN>0</HEUREKA_CART_HIDDEN>
-        <HEUREKA_CPC/>
-        <ZBOZI_HIDDEN>0</ZBOZI_HIDDEN>
-        <ZBOZI_CPC/>
-        <ZBOZI_SEARCH_CPC/>
-        <ARUKERESO_HIDDEN>0</ARUKERESO_HIDDEN>
-        <ARUKERESO_MARKETPLACE_HIDDEN>0</ARUKERESO_MARKETPLACE_HIDDEN>
-        <DECIMAL_COUNT>0</DECIMAL_COUNT>
-        <NEGATIVE_AMOUNT>0</NEGATIVE_AMOUNT>
-        <UNIT_OF_MEASURE>
-          <PACKAGE_AMOUNT/>
-          <PACKAGE_AMOUNT_UNIT/>
-          <MEASURE_AMOUNT/>
-          <MEASURE_AMOUNT_UNIT/>
+
+    <ATYPICAL_PRODUCT>
+                    <ATYPICAL_SHIPPING>0</ATYPICAL_SHIPPING>
+        
+                    <ATYPICAL_BILLING>0</ATYPICAL_BILLING>
+            </ATYPICAL_PRODUCT>
+    <CURRENCY>EUR</CURRENCY>
+
+            <VAT>0</VAT>
+                    <PRICE_VAT>130</PRICE_VAT>
+            
+    
+<PURCHASE_PRICE />
+
+<STANDARD_PRICE />
+
+
+<STOCK>
+                        <AMOUNT>0</AMOUNT>
+                            <LOCATION />
+                            <MINIMAL_AMOUNT />
+    <MAXIMAL_AMOUNT />
+</STOCK>
+
+    <AVAILABILITY_OUT_OF_STOCK>Skladom</AVAILABILITY_OUT_OF_STOCK>
+
+
+
+
+    
+    <STOCK_MIN_SUPPLY />
+
+
+    <VISIBLE>1</VISIBLE>
+
+    
+    
+    
+    
+    
+    <FIRMY_CZ>1</FIRMY_CZ>
+
+    <HEUREKA_HIDDEN>0</HEUREKA_HIDDEN>
+
+    <HEUREKA_CART_HIDDEN>0</HEUREKA_CART_HIDDEN>
+
+    <HEUREKA_CPC />
+
+    <ZBOZI_HIDDEN>0</ZBOZI_HIDDEN>
+
+    <ZBOZI_CPC />
+
+    <ZBOZI_SEARCH_CPC />
+
+    <ARUKERESO_HIDDEN>0</ARUKERESO_HIDDEN>
+
+    <ARUKERESO_MARKETPLACE_HIDDEN>0</ARUKERESO_MARKETPLACE_HIDDEN>
+
+    <DECIMAL_COUNT>0</DECIMAL_COUNT>
+
+    <NEGATIVE_AMOUNT>0</NEGATIVE_AMOUNT>
+
+            <UNIT_OF_MEASURE>
+            <PACKAGE_AMOUNT />
+            <PACKAGE_AMOUNT_UNIT />
+            <MEASURE_AMOUNT />
+            <MEASURE_AMOUNT_UNIT />
         </UNIT_OF_MEASURE>
-        <PRICE_RATIO>1</PRICE_RATIO>
-        <MIN_PRICE_RATIO>0</MIN_PRICE_RATIO>
-        <ACTION_PRICE/>
-        <APPLY_LOYALTY_DISCOUNT>1</APPLY_LOYALTY_DISCOUNT>
-        <APPLY_VOLUME_DISCOUNT>1</APPLY_VOLUME_DISCOUNT>
-        <APPLY_QUANTITY_DISCOUNT>1</APPLY_QUANTITY_DISCOUNT>
-        <APPLY_DISCOUNT_COUPON>1</APPLY_DISCOUNT_COUPON>
-        <PARAMETERS>
-          <PARAMETER>
-            <NAME>Veľkosť</NAME>
-            <VALUE>40 2/3</VALUE>
-          </PARAMETER>
-        </PARAMETERS>
-      </VARIANT>
-      <VARIANT id="9712">
-        <FREE_SHIPPING>0</FREE_SHIPPING>
-        <FREE_BILLING>0</FREE_BILLING>
-        <UNIT>ks</UNIT>
-        <CODE>706/44</CODE>
-        <LOGISTIC>
-          <WEIGHT>2</WEIGHT>
+    
+    
+    <PRICE_RATIO>1</PRICE_RATIO>
+
+    <MIN_PRICE_RATIO>0</MIN_PRICE_RATIO>
+
+    <ACTION_PRICE />
+
+    
+    
+    <APPLY_LOYALTY_DISCOUNT>1</APPLY_LOYALTY_DISCOUNT>
+
+    <APPLY_VOLUME_DISCOUNT>1</APPLY_VOLUME_DISCOUNT>
+
+    <APPLY_QUANTITY_DISCOUNT>1</APPLY_QUANTITY_DISCOUNT>
+
+    <APPLY_DISCOUNT_COUPON>1</APPLY_DISCOUNT_COUPON>
+
+    
+            
+                                    
+            
+    
+
+<PARAMETERS><PARAMETER><NAME>Veľkosť</NAME><VALUE>40 2/3</VALUE></PARAMETER></PARAMETERS></VARIANT><VARIANT id="9712">                                    
+
+
+<FREE_SHIPPING>0</FREE_SHIPPING>
+
+<FREE_BILLING>0</FREE_BILLING>
+
+    <UNIT>ks</UNIT>
+
+<CODE>706/44</CODE>
+
+
+<LOGISTIC>
+                        <WEIGHT>2</WEIGHT>
         </LOGISTIC>
-        <ATYPICAL_PRODUCT>
-          <ATYPICAL_SHIPPING>0</ATYPICAL_SHIPPING>
-          <ATYPICAL_BILLING>0</ATYPICAL_BILLING>
-        </ATYPICAL_PRODUCT>
-        <CURRENCY>EUR</CURRENCY>
-        <VAT>0</VAT>
-        <PRICE_VAT>310</PRICE_VAT>
-        <PURCHASE_PRICE/>
-        <STANDARD_PRICE/>
-        <STOCK>
-          <AMOUNT>0</AMOUNT>
-          <LOCATION/>
-          <MINIMAL_AMOUNT/>
-          <MAXIMAL_AMOUNT/>
-        </STOCK>
-        <AVAILABILITY_OUT_OF_STOCK>Skladom</AVAILABILITY_OUT_OF_STOCK>
-        <STOCK_MIN_SUPPLY/>
-        <VISIBLE>1</VISIBLE>
-        <FIRMY_CZ>1</FIRMY_CZ>
-        <HEUREKA_HIDDEN>0</HEUREKA_HIDDEN>
-        <HEUREKA_CART_HIDDEN>0</HEUREKA_CART_HIDDEN>
-        <HEUREKA_CPC/>
-        <ZBOZI_HIDDEN>0</ZBOZI_HIDDEN>
-        <ZBOZI_CPC/>
-        <ZBOZI_SEARCH_CPC/>
-        <ARUKERESO_HIDDEN>0</ARUKERESO_HIDDEN>
-        <ARUKERESO_MARKETPLACE_HIDDEN>0</ARUKERESO_MARKETPLACE_HIDDEN>
-        <DECIMAL_COUNT>0</DECIMAL_COUNT>
-        <NEGATIVE_AMOUNT>0</NEGATIVE_AMOUNT>
-        <UNIT_OF_MEASURE>
-          <PACKAGE_AMOUNT/>
-          <PACKAGE_AMOUNT_UNIT/>
-          <MEASURE_AMOUNT/>
-          <MEASURE_AMOUNT_UNIT/>
+
+    <ATYPICAL_PRODUCT>
+                    <ATYPICAL_SHIPPING>0</ATYPICAL_SHIPPING>
+        
+                    <ATYPICAL_BILLING>0</ATYPICAL_BILLING>
+            </ATYPICAL_PRODUCT>
+    <CURRENCY>EUR</CURRENCY>
+
+            <VAT>0</VAT>
+                    <PRICE_VAT>130</PRICE_VAT>
+            
+    
+<PURCHASE_PRICE />
+
+<STANDARD_PRICE />
+
+
+<STOCK>
+                        <AMOUNT>0</AMOUNT>
+                            <LOCATION />
+                            <MINIMAL_AMOUNT />
+    <MAXIMAL_AMOUNT />
+</STOCK>
+
+    <AVAILABILITY_OUT_OF_STOCK>Skladom</AVAILABILITY_OUT_OF_STOCK>
+
+
+
+
+    
+    <STOCK_MIN_SUPPLY />
+
+
+    <VISIBLE>1</VISIBLE>
+
+    
+    
+    
+    
+    
+    <FIRMY_CZ>1</FIRMY_CZ>
+
+    <HEUREKA_HIDDEN>0</HEUREKA_HIDDEN>
+
+    <HEUREKA_CART_HIDDEN>0</HEUREKA_CART_HIDDEN>
+
+    <HEUREKA_CPC />
+
+    <ZBOZI_HIDDEN>0</ZBOZI_HIDDEN>
+
+    <ZBOZI_CPC />
+
+    <ZBOZI_SEARCH_CPC />
+
+    <ARUKERESO_HIDDEN>0</ARUKERESO_HIDDEN>
+
+    <ARUKERESO_MARKETPLACE_HIDDEN>0</ARUKERESO_MARKETPLACE_HIDDEN>
+
+    <DECIMAL_COUNT>0</DECIMAL_COUNT>
+
+    <NEGATIVE_AMOUNT>0</NEGATIVE_AMOUNT>
+
+            <UNIT_OF_MEASURE>
+            <PACKAGE_AMOUNT />
+            <PACKAGE_AMOUNT_UNIT />
+            <MEASURE_AMOUNT />
+            <MEASURE_AMOUNT_UNIT />
         </UNIT_OF_MEASURE>
-        <PRICE_RATIO>1</PRICE_RATIO>
-        <MIN_PRICE_RATIO>0</MIN_PRICE_RATIO>
-        <ACTION_PRICE/>
-        <APPLY_LOYALTY_DISCOUNT>1</APPLY_LOYALTY_DISCOUNT>
-        <APPLY_VOLUME_DISCOUNT>1</APPLY_VOLUME_DISCOUNT>
-        <APPLY_QUANTITY_DISCOUNT>1</APPLY_QUANTITY_DISCOUNT>
-        <APPLY_DISCOUNT_COUPON>1</APPLY_DISCOUNT_COUPON>
-        <PARAMETERS>
-          <PARAMETER>
-            <NAME>Veľkosť</NAME>
-            <VALUE>41 1/3</VALUE>
-          </PARAMETER>
-        </PARAMETERS>
-      </VARIANT>
-      <VARIANT id="9715">
-        <FREE_SHIPPING>0</FREE_SHIPPING>
-        <FREE_BILLING>0</FREE_BILLING>
-        <UNIT>ks</UNIT>
-        <CODE>706/45</CODE>
-        <LOGISTIC>
-          <WEIGHT>2</WEIGHT>
+    
+    
+    <PRICE_RATIO>1</PRICE_RATIO>
+
+    <MIN_PRICE_RATIO>0</MIN_PRICE_RATIO>
+
+    <ACTION_PRICE />
+
+    
+    
+    <APPLY_LOYALTY_DISCOUNT>1</APPLY_LOYALTY_DISCOUNT>
+
+    <APPLY_VOLUME_DISCOUNT>1</APPLY_VOLUME_DISCOUNT>
+
+    <APPLY_QUANTITY_DISCOUNT>1</APPLY_QUANTITY_DISCOUNT>
+
+    <APPLY_DISCOUNT_COUPON>1</APPLY_DISCOUNT_COUPON>
+
+    
+            
+                                    
+            
+    
+
+<PARAMETERS><PARAMETER><NAME>Veľkosť</NAME><VALUE>41 1/3</VALUE></PARAMETER></PARAMETERS></VARIANT><VARIANT id="9715">                                    
+
+
+<FREE_SHIPPING>0</FREE_SHIPPING>
+
+<FREE_BILLING>0</FREE_BILLING>
+
+    <UNIT>ks</UNIT>
+
+<CODE>706/45</CODE>
+
+
+<LOGISTIC>
+                        <WEIGHT>2</WEIGHT>
         </LOGISTIC>
-        <ATYPICAL_PRODUCT>
-          <ATYPICAL_SHIPPING>0</ATYPICAL_SHIPPING>
-          <ATYPICAL_BILLING>0</ATYPICAL_BILLING>
-        </ATYPICAL_PRODUCT>
-        <CURRENCY>EUR</CURRENCY>
-        <VAT>0</VAT>
-        <PRICE_VAT>145</PRICE_VAT>
-        <PURCHASE_PRICE/>
-        <STANDARD_PRICE/>
-        <STOCK>
-          <AMOUNT>0</AMOUNT>
-          <LOCATION/>
-          <MINIMAL_AMOUNT/>
-          <MAXIMAL_AMOUNT/>
-        </STOCK>
-        <AVAILABILITY_OUT_OF_STOCK>SKLADOM EXPRES</AVAILABILITY_OUT_OF_STOCK>
-        <STOCK_MIN_SUPPLY/>
-        <VISIBLE>1</VISIBLE>
-        <FIRMY_CZ>1</FIRMY_CZ>
-        <HEUREKA_HIDDEN>0</HEUREKA_HIDDEN>
-        <HEUREKA_CART_HIDDEN>0</HEUREKA_CART_HIDDEN>
-        <HEUREKA_CPC/>
-        <ZBOZI_HIDDEN>0</ZBOZI_HIDDEN>
-        <ZBOZI_CPC/>
-        <ZBOZI_SEARCH_CPC/>
-        <ARUKERESO_HIDDEN>0</ARUKERESO_HIDDEN>
-        <ARUKERESO_MARKETPLACE_HIDDEN>0</ARUKERESO_MARKETPLACE_HIDDEN>
-        <DECIMAL_COUNT>0</DECIMAL_COUNT>
-        <NEGATIVE_AMOUNT>0</NEGATIVE_AMOUNT>
-        <UNIT_OF_MEASURE>
-          <PACKAGE_AMOUNT/>
-          <PACKAGE_AMOUNT_UNIT/>
-          <MEASURE_AMOUNT/>
-          <MEASURE_AMOUNT_UNIT/>
+
+    <ATYPICAL_PRODUCT>
+                    <ATYPICAL_SHIPPING>0</ATYPICAL_SHIPPING>
+        
+                    <ATYPICAL_BILLING>0</ATYPICAL_BILLING>
+            </ATYPICAL_PRODUCT>
+    <CURRENCY>EUR</CURRENCY>
+
+            <VAT>0</VAT>
+                    <PRICE_VAT>130</PRICE_VAT>
+            
+    
+<PURCHASE_PRICE />
+
+<STANDARD_PRICE />
+
+
+<STOCK>
+                        <AMOUNT>0</AMOUNT>
+                            <LOCATION />
+                            <MINIMAL_AMOUNT />
+    <MAXIMAL_AMOUNT />
+</STOCK>
+
+    <AVAILABILITY_OUT_OF_STOCK>Skladom</AVAILABILITY_OUT_OF_STOCK>
+
+
+
+
+    
+    <STOCK_MIN_SUPPLY />
+
+
+    <VISIBLE>1</VISIBLE>
+
+    
+    
+    
+    
+    
+    <FIRMY_CZ>1</FIRMY_CZ>
+
+    <HEUREKA_HIDDEN>0</HEUREKA_HIDDEN>
+
+    <HEUREKA_CART_HIDDEN>0</HEUREKA_CART_HIDDEN>
+
+    <HEUREKA_CPC />
+
+    <ZBOZI_HIDDEN>0</ZBOZI_HIDDEN>
+
+    <ZBOZI_CPC />
+
+    <ZBOZI_SEARCH_CPC />
+
+    <ARUKERESO_HIDDEN>0</ARUKERESO_HIDDEN>
+
+    <ARUKERESO_MARKETPLACE_HIDDEN>0</ARUKERESO_MARKETPLACE_HIDDEN>
+
+    <DECIMAL_COUNT>0</DECIMAL_COUNT>
+
+    <NEGATIVE_AMOUNT>0</NEGATIVE_AMOUNT>
+
+            <UNIT_OF_MEASURE>
+            <PACKAGE_AMOUNT />
+            <PACKAGE_AMOUNT_UNIT />
+            <MEASURE_AMOUNT />
+            <MEASURE_AMOUNT_UNIT />
         </UNIT_OF_MEASURE>
-        <PRICE_RATIO>1</PRICE_RATIO>
-        <MIN_PRICE_RATIO>0</MIN_PRICE_RATIO>
-        <ACTION_PRICE/>
-        <APPLY_LOYALTY_DISCOUNT>1</APPLY_LOYALTY_DISCOUNT>
-        <APPLY_VOLUME_DISCOUNT>1</APPLY_VOLUME_DISCOUNT>
-        <APPLY_QUANTITY_DISCOUNT>1</APPLY_QUANTITY_DISCOUNT>
-        <APPLY_DISCOUNT_COUPON>1</APPLY_DISCOUNT_COUPON>
-        <PARAMETERS>
-          <PARAMETER>
-            <NAME>Veľkosť</NAME>
-            <VALUE>42</VALUE>
-          </PARAMETER>
-        </PARAMETERS>
-      </VARIANT>
-    </VARIANTS>
-  </SHOPITEM>
+    
+    
+    <PRICE_RATIO>1</PRICE_RATIO>
+
+    <MIN_PRICE_RATIO>0</MIN_PRICE_RATIO>
+
+    <ACTION_PRICE />
+
+    
+    
+    <APPLY_LOYALTY_DISCOUNT>1</APPLY_LOYALTY_DISCOUNT>
+
+    <APPLY_VOLUME_DISCOUNT>1</APPLY_VOLUME_DISCOUNT>
+
+    <APPLY_QUANTITY_DISCOUNT>1</APPLY_QUANTITY_DISCOUNT>
+
+    <APPLY_DISCOUNT_COUPON>1</APPLY_DISCOUNT_COUPON>
+
+    
+            
+                                    
+            
+    
+
+<PARAMETERS><PARAMETER><NAME>Veľkosť</NAME><VALUE>42</VALUE></PARAMETER></PARAMETERS></VARIANT></VARIANTS></SHOPITEM>
+
+
+<SHOPITEM id="435"><NAME>adidas Campus 00s Black White Gum</NAME><GUID>af9b14f0-63a7-11ee-bdf8-d216876cc7a6</GUID><SHORT_DESCRIPTION>&lt;ul&gt;
+&lt;li&gt;&lt;span&gt;Adidas Campus&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;limitovaná edícia tenisiek&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;pohodlná obuv&amp;nbsp;pre každú príležitosť&amp;nbsp;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Obvyklá veľkosť, ktorú bežne nosíš&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Biele šnúrky sú súčasťou balenia&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="color-options-container"&gt;
+&lt;p class="color-options-title"&gt;Ostatné farebné prevedenia:&lt;/p&gt;
+&lt;div class="color-options"&gt;&lt;a href="/adidas-campus-00s-core-black/" class="color-option" style="background-image: url('https://cdn.myshoptet.com/usr/www.airkicks.eu/user/shop/big/432_cb.jpg?65761099');"&gt;&lt;/a&gt; &lt;a href="/adidas-campus-00s-grey-white/" class="color-option" style="background-image: url('https://cdn.myshoptet.com/usr/www.airkicks.eu/user/shop/big/429-3_00s-grey.jpg?65761143');"&gt;&lt;/a&gt; &lt;a href="/adidas-campus-00s-crystal-white-core-black/" class="color-option" style="background-image: url('https://cdn.myshoptet.com/usr/www.airkicks.eu/user/shop/big/450-2_campus-whitecore.jpg?65be90e4');"&gt;&lt;/a&gt;&lt;a href="/adidas-campus-00s-lucid-fuchsia-cloud-white/" class="color-option" style="background-image: url('https://cdn.myshoptet.com/usr/www.airkicks.eu/user/shop/big/709-3_fuchsia-1.jpg?667febc4');"&gt;&lt;/a&gt; &lt;a href="/adidas-campus-00s-better-scarlet-cloud-white/" class="color-option" style="background-image: url('https://cdn.myshoptet.com/usr/www.airkicks.eu/user/shop/big/706-2_scarlet-f.jpg?667ff631');"&gt;&lt;/a&gt; &lt;a href="/adidas-campus-00s-wonder-beige/" class="color-option" style="background-image: url('https://cdn.myshoptet.com/usr/www.airkicks.eu/user/shop/big/718_adidas-campus-00s-wonder-beige.jpg?667c7c5f');"&gt;&lt;/a&gt;&lt;a href="/campus/" class="color-option" style="background-image: url('/user/documents/upload/others.jpg');"&gt;&lt;/a&gt; &lt;!-- Ďalšie možnosti farieb budú doplnené sem --&gt;&lt;/div&gt;
+&lt;/div&gt;</SHORT_DESCRIPTION><DESCRIPTION>&lt;p&gt;&lt;span&gt;Adidas Campus 00s predstavuje nezameniteľnú líniu tenisiek, ktorá vychádza z klasických dizajnov počiatkom tretieho tisícročia. S autentickým štýlom a proporciám, ktoré môžu variabilne meniť, tieto tenisky si udržiavajú svoje výsostné postavenie.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Niektoré modely Adidas Campus 00s vynikajú nielen svojím dizajnom, ale aj funkčnosťou. Odkazujú na športový duch a pohodlie a zachovávajú nostalgiu 80. rokov, inšpirovanú Y2K vzhľadmi.&lt;/p&gt;
+&lt;p&gt;Tieto tenisky sú viac než len módnym výrokom s pohodlným a moderným designom z kvalitných materiálov, ktoré ponúkajú komfort na najvyššej úrovni. &lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Dnes si Adidas Campus 00s získavajú srdcia širokej skupiny zákazníkov. Ich časovo odolný dizajn a pohodlie združujú generácie a zabezpečujú, že každý krok v týchto teniskách je spojením modernosti a klasiky.&lt;/span&gt;&lt;/p&gt;</DESCRIPTION><MANUFACTURER>Adidas</MANUFACTURER><ADULT>0</ADULT><ITEM_TYPE>product</ITEM_TYPE><CATEGORIES><CATEGORY id="786">Adidas &gt; Campus</CATEGORY><DEFAULT_CATEGORY id="786">Adidas &gt; Campus</DEFAULT_CATEGORY></CATEGORIES><IMAGES><IMAGE description="campus gs">https://cdn.myshoptet.com/usr/www.airkicks.eu/user/shop/orig/435_campus-gs.jpg?6576122a</IMAGE><IMAGE description="adidas Campus 00s Black White Gum (Veľkosť 40)">https://cdn.myshoptet.com/usr/www.airkicks.eu/user/shop/orig/435-1_adidas-campus-00s-black-white-gum--velkost-40.jpg?65cde75a</IMAGE></IMAGES><TEXT_PROPERTIES><TEXT_PROPERTY><NAME>Názov</NAME><VALUE>adidas Campus 00s Black White Gum</VALUE><DESCRIPTION /></TEXT_PROPERTY><TEXT_PROPERTY><NAME>SKU</NAME><VALUE>HQ6638 (niektoré 36-40 môžu byť HQ8708 )</VALUE><DESCRIPTION /></TEXT_PROPERTY><TEXT_PROPERTY><NAME>Farba</NAME><VALUE>Black White Gum</VALUE><DESCRIPTION /></TEXT_PROPERTY></TEXT_PROPERTIES>
+    <FLAGS>
+                    <FLAG>
+                <CODE>bestseller</CODE>
+                                    <ACTIVE>1</ACTIVE>
+                                                            </FLAG>
+                    <FLAG>
+                <CODE>action</CODE>
+                                    <ACTIVE>0</ACTIVE>
+                                                            </FLAG>
+                    <FLAG>
+                <CODE>tip</CODE>
+                                    <ACTIVE>0</ACTIVE>
+                                                            </FLAG>
+                    <FLAG>
+                <CODE>new</CODE>
+                                    <ACTIVE>0</ACTIVE>
+                                                            </FLAG>
+                    <FLAG>
+                <CODE>custom1</CODE>
+                                    <ACTIVE>0</ACTIVE>
+                                                            </FLAG>
+                    <FLAG>
+                <CODE>custom2</CODE>
+                                    <ACTIVE>0</ACTIVE>
+                                                            </FLAG>
+                    <FLAG>
+                <CODE>custom3</CODE>
+                                    <ACTIVE>0</ACTIVE>
+                                                            </FLAG>
+                    <FLAG>
+                <CODE>expresne-odoslanie</CODE>
+                                    <ACTIVE>0</ACTIVE>
+                                                            </FLAG>
+            </FLAGS>
+
+        
+        
+        <VISIBILITY>visible</VISIBILITY>
+
+                
+                
+        
+        
+                    <SEO_TITLE>adidas Campus 00s Black White Gum - airkicks.eu</SEO_TITLE>
+        
+                    <META_DESCRIPTION>adidas Campus 00s Black White Gum HQ6638 sú ikonické tenisky inšpirované 80. rokmi. S ich kultovým dizajnom sú ideálnou voľbou pre každú príležitosť.</META_DESCRIPTION>
+        
+        <ALLOWS_IPLATBA>0</ALLOWS_IPLATBA>
+
+        <ALLOWS_PAY_ONLINE>1</ALLOWS_PAY_ONLINE>
+
+        <INTERNAL_NOTE />
+
+        
+        
+        
+        
+        
+        <HEUREKA_CATEGORY_ID />
+        <ZBOZI_CATEGORY_ID />
+        <GOOGLE_CATEGORY_ID />
+        <GLAMI_CATEGORY_ID />
+
+    
+            <VARIANTS><VARIANT id="5805">                                    
+
+
+<FREE_SHIPPING>0</FREE_SHIPPING>
+
+<FREE_BILLING>0</FREE_BILLING>
+
+    <UNIT>ks</UNIT>
+
+<CODE>123//36.</CODE>
+
+
+<LOGISTIC>
+                        <WEIGHT>0</WEIGHT>
+        </LOGISTIC>
+
+    <ATYPICAL_PRODUCT>
+                    <ATYPICAL_SHIPPING>0</ATYPICAL_SHIPPING>
+        
+                    <ATYPICAL_BILLING>0</ATYPICAL_BILLING>
+            </ATYPICAL_PRODUCT>
+    <CURRENCY>EUR</CURRENCY>
+
+            <VAT>0</VAT>
+                    <PRICE_VAT>130</PRICE_VAT>
+            
+    
+<PURCHASE_PRICE />
+
+<STANDARD_PRICE />
+
+
+<STOCK>
+                        <AMOUNT>0</AMOUNT>
+                            <LOCATION />
+                            <MINIMAL_AMOUNT />
+    <MAXIMAL_AMOUNT />
+</STOCK>
+
+    <AVAILABILITY_OUT_OF_STOCK>Skladom</AVAILABILITY_OUT_OF_STOCK>
+
+
+
+
+    
+    <STOCK_MIN_SUPPLY />
+
+
+    <VISIBLE>1</VISIBLE>
+
+    
+    
+    
+    
+    
+    <FIRMY_CZ>1</FIRMY_CZ>
+
+    <HEUREKA_HIDDEN>0</HEUREKA_HIDDEN>
+
+    <HEUREKA_CART_HIDDEN>0</HEUREKA_CART_HIDDEN>
+
+    <HEUREKA_CPC />
+
+    <ZBOZI_HIDDEN>0</ZBOZI_HIDDEN>
+
+    <ZBOZI_CPC />
+
+    <ZBOZI_SEARCH_CPC />
+
+    <ARUKERESO_HIDDEN>0</ARUKERESO_HIDDEN>
+
+    <ARUKERESO_MARKETPLACE_HIDDEN>0</ARUKERESO_MARKETPLACE_HIDDEN>
+
+    <DECIMAL_COUNT>0</DECIMAL_COUNT>
+
+    <NEGATIVE_AMOUNT>0</NEGATIVE_AMOUNT>
+
+            <UNIT_OF_MEASURE>
+            <PACKAGE_AMOUNT />
+            <PACKAGE_AMOUNT_UNIT />
+            <MEASURE_AMOUNT />
+            <MEASURE_AMOUNT_UNIT />
+        </UNIT_OF_MEASURE>
+    
+    
+    <PRICE_RATIO>1</PRICE_RATIO>
+
+    <MIN_PRICE_RATIO>0</MIN_PRICE_RATIO>
+
+    <ACTION_PRICE />
+
+    
+    
+    <APPLY_LOYALTY_DISCOUNT>1</APPLY_LOYALTY_DISCOUNT>
+
+    <APPLY_VOLUME_DISCOUNT>1</APPLY_VOLUME_DISCOUNT>
+
+    <APPLY_QUANTITY_DISCOUNT>1</APPLY_QUANTITY_DISCOUNT>
+
+    <APPLY_DISCOUNT_COUPON>1</APPLY_DISCOUNT_COUPON>
+
+    
+            
+                                    
+            
+    
+
+<PARAMETERS><PARAMETER><NAME>Veľkosť</NAME><VALUE>36 2/3</VALUE></PARAMETER></PARAMETERS></VARIANT><VARIANT id="5802">                                    
+
+
+<FREE_SHIPPING>0</FREE_SHIPPING>
+
+<FREE_BILLING>0</FREE_BILLING>
+
+    <UNIT>ks</UNIT>
+
+<CODE>123/36</CODE>
+
+
+<LOGISTIC>
+                        <WEIGHT>0</WEIGHT>
+        </LOGISTIC>
+
+    <ATYPICAL_PRODUCT>
+                    <ATYPICAL_SHIPPING>0</ATYPICAL_SHIPPING>
+        
+                    <ATYPICAL_BILLING>0</ATYPICAL_BILLING>
+            </ATYPICAL_PRODUCT>
+    <CURRENCY>EUR</CURRENCY>
+
+            <VAT>0</VAT>
+                    <PRICE_VAT>130</PRICE_VAT>
+            
+    
+<PURCHASE_PRICE />
+
+<STANDARD_PRICE />
+
+
+<STOCK>
+                        <AMOUNT>0</AMOUNT>
+                            <LOCATION />
+                            <MINIMAL_AMOUNT />
+    <MAXIMAL_AMOUNT />
+</STOCK>
+
+    <AVAILABILITY_OUT_OF_STOCK>Skladom</AVAILABILITY_OUT_OF_STOCK>
+
+
+
+
+    
+    <STOCK_MIN_SUPPLY />
+
+
+    <VISIBLE>1</VISIBLE>
+
+    
+    
+    
+    
+    
+    <FIRMY_CZ>1</FIRMY_CZ>
+
+    <HEUREKA_HIDDEN>0</HEUREKA_HIDDEN>
+
+    <HEUREKA_CART_HIDDEN>0</HEUREKA_CART_HIDDEN>
+
+    <HEUREKA_CPC />
+
+    <ZBOZI_HIDDEN>0</ZBOZI_HIDDEN>
+
+    <ZBOZI_CPC />
+
+    <ZBOZI_SEARCH_CPC />
+
+    <ARUKERESO_HIDDEN>0</ARUKERESO_HIDDEN>
+
+    <ARUKERESO_MARKETPLACE_HIDDEN>0</ARUKERESO_MARKETPLACE_HIDDEN>
+
+    <DECIMAL_COUNT>0</DECIMAL_COUNT>
+
+    <NEGATIVE_AMOUNT>0</NEGATIVE_AMOUNT>
+
+            <UNIT_OF_MEASURE>
+            <PACKAGE_AMOUNT />
+            <PACKAGE_AMOUNT_UNIT />
+            <MEASURE_AMOUNT />
+            <MEASURE_AMOUNT_UNIT />
+        </UNIT_OF_MEASURE>
+    
+    
+    <PRICE_RATIO>1</PRICE_RATIO>
+
+    <MIN_PRICE_RATIO>0</MIN_PRICE_RATIO>
+
+    <ACTION_PRICE />
+
+    
+    
+    <APPLY_LOYALTY_DISCOUNT>1</APPLY_LOYALTY_DISCOUNT>
+
+    <APPLY_VOLUME_DISCOUNT>1</APPLY_VOLUME_DISCOUNT>
+
+    <APPLY_QUANTITY_DISCOUNT>1</APPLY_QUANTITY_DISCOUNT>
+
+    <APPLY_DISCOUNT_COUPON>1</APPLY_DISCOUNT_COUPON>
+
+    
+            
+                                    
+            
+    
+
+<PARAMETERS><PARAMETER><NAME>Veľkosť</NAME><VALUE>36</VALUE></PARAMETER></PARAMETERS></VARIANT><VARIANT id="5808">                                    
+
+
+<FREE_SHIPPING>0</FREE_SHIPPING>
+
+<FREE_BILLING>0</FREE_BILLING>
+
+    <UNIT>ks</UNIT>
+
+<CODE>123/37</CODE>
+
+
+<LOGISTIC>
+                        <WEIGHT>0</WEIGHT>
+        </LOGISTIC>
+
+    <ATYPICAL_PRODUCT>
+                    <ATYPICAL_SHIPPING>0</ATYPICAL_SHIPPING>
+        
+                    <ATYPICAL_BILLING>0</ATYPICAL_BILLING>
+            </ATYPICAL_PRODUCT>
+    <CURRENCY>EUR</CURRENCY>
+
+            <VAT>0</VAT>
+                    <PRICE_VAT>100</PRICE_VAT>
+            
+    
+<PURCHASE_PRICE />
+
+<STANDARD_PRICE />
+
+
+<STOCK>
+                        <AMOUNT>0</AMOUNT>
+                            <LOCATION />
+                            <MINIMAL_AMOUNT />
+    <MAXIMAL_AMOUNT />
+</STOCK>
+
+    <AVAILABILITY_OUT_OF_STOCK>Skladom</AVAILABILITY_OUT_OF_STOCK>
+
+
+
+
+    
+    <STOCK_MIN_SUPPLY />
+
+
+    <VISIBLE>1</VISIBLE>
+
+    
+    
+    
+    
+    
+    <FIRMY_CZ>1</FIRMY_CZ>
+
+    <HEUREKA_HIDDEN>0</HEUREKA_HIDDEN>
+
+    <HEUREKA_CART_HIDDEN>0</HEUREKA_CART_HIDDEN>
+
+    <HEUREKA_CPC />
+
+    <ZBOZI_HIDDEN>0</ZBOZI_HIDDEN>
+
+    <ZBOZI_CPC />
+
+    <ZBOZI_SEARCH_CPC />
+
+    <ARUKERESO_HIDDEN>0</ARUKERESO_HIDDEN>
+
+    <ARUKERESO_MARKETPLACE_HIDDEN>0</ARUKERESO_MARKETPLACE_HIDDEN>
+
+    <DECIMAL_COUNT>0</DECIMAL_COUNT>
+
+    <NEGATIVE_AMOUNT>0</NEGATIVE_AMOUNT>
+
+            <UNIT_OF_MEASURE>
+            <PACKAGE_AMOUNT />
+            <PACKAGE_AMOUNT_UNIT />
+            <MEASURE_AMOUNT />
+            <MEASURE_AMOUNT_UNIT />
+        </UNIT_OF_MEASURE>
+    
+    
+    <PRICE_RATIO>1</PRICE_RATIO>
+
+    <MIN_PRICE_RATIO>0</MIN_PRICE_RATIO>
+
+    <ACTION_PRICE />
+
+    
+    
+    <APPLY_LOYALTY_DISCOUNT>1</APPLY_LOYALTY_DISCOUNT>
+
+    <APPLY_VOLUME_DISCOUNT>1</APPLY_VOLUME_DISCOUNT>
+
+    <APPLY_QUANTITY_DISCOUNT>1</APPLY_QUANTITY_DISCOUNT>
+
+    <APPLY_DISCOUNT_COUPON>1</APPLY_DISCOUNT_COUPON>
+
+    
+            
+                                    
+            
+    
+
+<PARAMETERS><PARAMETER><NAME>Veľkosť</NAME><VALUE>37 1/3</VALUE></PARAMETER></PARAMETERS></VARIANT><VARIANT id="5811">                                    
+
+
+<FREE_SHIPPING>0</FREE_SHIPPING>
+
+<FREE_BILLING>0</FREE_BILLING>
+
+    <UNIT>ks</UNIT>
+
+<CODE>123/38</CODE>
+
+
+<LOGISTIC>
+                        <WEIGHT>0</WEIGHT>
+        </LOGISTIC>
+
+    <ATYPICAL_PRODUCT>
+                    <ATYPICAL_SHIPPING>0</ATYPICAL_SHIPPING>
+        
+                    <ATYPICAL_BILLING>0</ATYPICAL_BILLING>
+            </ATYPICAL_PRODUCT>
+    <CURRENCY>EUR</CURRENCY>
+
+            <VAT>0</VAT>
+                    <PRICE_VAT>110</PRICE_VAT>
+            
+    
+<PURCHASE_PRICE />
+
+<STANDARD_PRICE />
+
+
+<STOCK>
+                        <AMOUNT>0</AMOUNT>
+                            <LOCATION />
+                            <MINIMAL_AMOUNT />
+    <MAXIMAL_AMOUNT />
+</STOCK>
+
+    <AVAILABILITY_OUT_OF_STOCK>Skladom</AVAILABILITY_OUT_OF_STOCK>
+
+
+
+
+    
+    <STOCK_MIN_SUPPLY />
+
+
+    <VISIBLE>1</VISIBLE>
+
+    
+    
+    
+    
+    
+    <FIRMY_CZ>1</FIRMY_CZ>
+
+    <HEUREKA_HIDDEN>0</HEUREKA_HIDDEN>
+
+    <HEUREKA_CART_HIDDEN>0</HEUREKA_CART_HIDDEN>
+
+    <HEUREKA_CPC />
+
+    <ZBOZI_HIDDEN>0</ZBOZI_HIDDEN>
+
+    <ZBOZI_CPC />
+
+    <ZBOZI_SEARCH_CPC />
+
+    <ARUKERESO_HIDDEN>0</ARUKERESO_HIDDEN>
+
+    <ARUKERESO_MARKETPLACE_HIDDEN>0</ARUKERESO_MARKETPLACE_HIDDEN>
+
+    <DECIMAL_COUNT>0</DECIMAL_COUNT>
+
+    <NEGATIVE_AMOUNT>0</NEGATIVE_AMOUNT>
+
+            <UNIT_OF_MEASURE>
+            <PACKAGE_AMOUNT />
+            <PACKAGE_AMOUNT_UNIT />
+            <MEASURE_AMOUNT />
+            <MEASURE_AMOUNT_UNIT />
+        </UNIT_OF_MEASURE>
+    
+    
+    <PRICE_RATIO>1</PRICE_RATIO>
+
+    <MIN_PRICE_RATIO>0</MIN_PRICE_RATIO>
+
+    <ACTION_PRICE />
+
+    
+    
+    <APPLY_LOYALTY_DISCOUNT>1</APPLY_LOYALTY_DISCOUNT>
+
+    <APPLY_VOLUME_DISCOUNT>1</APPLY_VOLUME_DISCOUNT>
+
+    <APPLY_QUANTITY_DISCOUNT>1</APPLY_QUANTITY_DISCOUNT>
+
+    <APPLY_DISCOUNT_COUPON>1</APPLY_DISCOUNT_COUPON>
+
+    
+            
+                                    
+            
+    
+
+<PARAMETERS><PARAMETER><NAME>Veľkosť</NAME><VALUE>38</VALUE></PARAMETER></PARAMETERS></VARIANT><VARIANT id="5814">                                    
+
+
+<FREE_SHIPPING>0</FREE_SHIPPING>
+
+<FREE_BILLING>0</FREE_BILLING>
+
+    <UNIT>ks</UNIT>
+
+<CODE>123/38.</CODE>
+
+
+<LOGISTIC>
+                        <WEIGHT>0</WEIGHT>
+        </LOGISTIC>
+
+    <ATYPICAL_PRODUCT>
+                    <ATYPICAL_SHIPPING>0</ATYPICAL_SHIPPING>
+        
+                    <ATYPICAL_BILLING>0</ATYPICAL_BILLING>
+            </ATYPICAL_PRODUCT>
+    <CURRENCY>EUR</CURRENCY>
+
+            <VAT>0</VAT>
+                    <PRICE_VAT>110</PRICE_VAT>
+            
+    
+<PURCHASE_PRICE />
+
+<STANDARD_PRICE />
+
+
+<STOCK>
+                        <AMOUNT>0</AMOUNT>
+                            <LOCATION />
+                            <MINIMAL_AMOUNT />
+    <MAXIMAL_AMOUNT />
+</STOCK>
+
+    <AVAILABILITY_OUT_OF_STOCK>Skladom</AVAILABILITY_OUT_OF_STOCK>
+
+
+
+
+    
+    <STOCK_MIN_SUPPLY />
+
+
+    <VISIBLE>1</VISIBLE>
+
+    
+    
+    
+    
+    
+    <FIRMY_CZ>1</FIRMY_CZ>
+
+    <HEUREKA_HIDDEN>0</HEUREKA_HIDDEN>
+
+    <HEUREKA_CART_HIDDEN>0</HEUREKA_CART_HIDDEN>
+
+    <HEUREKA_CPC />
+
+    <ZBOZI_HIDDEN>0</ZBOZI_HIDDEN>
+
+    <ZBOZI_CPC />
+
+    <ZBOZI_SEARCH_CPC />
+
+    <ARUKERESO_HIDDEN>0</ARUKERESO_HIDDEN>
+
+    <ARUKERESO_MARKETPLACE_HIDDEN>0</ARUKERESO_MARKETPLACE_HIDDEN>
+
+    <DECIMAL_COUNT>0</DECIMAL_COUNT>
+
+    <NEGATIVE_AMOUNT>0</NEGATIVE_AMOUNT>
+
+            <UNIT_OF_MEASURE>
+            <PACKAGE_AMOUNT />
+            <PACKAGE_AMOUNT_UNIT />
+            <MEASURE_AMOUNT />
+            <MEASURE_AMOUNT_UNIT />
+        </UNIT_OF_MEASURE>
+    
+    
+    <PRICE_RATIO>1</PRICE_RATIO>
+
+    <MIN_PRICE_RATIO>0</MIN_PRICE_RATIO>
+
+    <ACTION_PRICE />
+
+    
+    
+    <APPLY_LOYALTY_DISCOUNT>1</APPLY_LOYALTY_DISCOUNT>
+
+    <APPLY_VOLUME_DISCOUNT>1</APPLY_VOLUME_DISCOUNT>
+
+    <APPLY_QUANTITY_DISCOUNT>1</APPLY_QUANTITY_DISCOUNT>
+
+    <APPLY_DISCOUNT_COUPON>1</APPLY_DISCOUNT_COUPON>
+
+    
+            
+                                    
+            
+    
+
+<PARAMETERS><PARAMETER><NAME>Veľkosť</NAME><VALUE>38 2/3</VALUE></PARAMETER></PARAMETERS></VARIANT><VARIANT id="5817">                                    
+
+
+<FREE_SHIPPING>0</FREE_SHIPPING>
+
+<FREE_BILLING>0</FREE_BILLING>
+
+    <UNIT>ks</UNIT>
+
+<CODE>123/39</CODE>
+
+
+<LOGISTIC>
+                        <WEIGHT>0</WEIGHT>
+        </LOGISTIC>
+
+    <ATYPICAL_PRODUCT>
+                    <ATYPICAL_SHIPPING>0</ATYPICAL_SHIPPING>
+        
+                    <ATYPICAL_BILLING>0</ATYPICAL_BILLING>
+            </ATYPICAL_PRODUCT>
+    <CURRENCY>EUR</CURRENCY>
+
+            <VAT>0</VAT>
+                    <PRICE_VAT>130</PRICE_VAT>
+            
+    
+<PURCHASE_PRICE />
+
+<STANDARD_PRICE />
+
+
+<STOCK>
+                        <AMOUNT>0</AMOUNT>
+                            <LOCATION />
+                            <MINIMAL_AMOUNT />
+    <MAXIMAL_AMOUNT />
+</STOCK>
+
+    <AVAILABILITY_OUT_OF_STOCK>Skladom</AVAILABILITY_OUT_OF_STOCK>
+
+
+
+
+    
+    <STOCK_MIN_SUPPLY />
+
+
+    <VISIBLE>1</VISIBLE>
+
+    
+    
+    
+    
+    
+    <FIRMY_CZ>1</FIRMY_CZ>
+
+    <HEUREKA_HIDDEN>0</HEUREKA_HIDDEN>
+
+    <HEUREKA_CART_HIDDEN>0</HEUREKA_CART_HIDDEN>
+
+    <HEUREKA_CPC />
+
+    <ZBOZI_HIDDEN>0</ZBOZI_HIDDEN>
+
+    <ZBOZI_CPC />
+
+    <ZBOZI_SEARCH_CPC />
+
+    <ARUKERESO_HIDDEN>0</ARUKERESO_HIDDEN>
+
+    <ARUKERESO_MARKETPLACE_HIDDEN>0</ARUKERESO_MARKETPLACE_HIDDEN>
+
+    <DECIMAL_COUNT>0</DECIMAL_COUNT>
+
+    <NEGATIVE_AMOUNT>0</NEGATIVE_AMOUNT>
+
+            <UNIT_OF_MEASURE>
+            <PACKAGE_AMOUNT />
+            <PACKAGE_AMOUNT_UNIT />
+            <MEASURE_AMOUNT />
+            <MEASURE_AMOUNT_UNIT />
+        </UNIT_OF_MEASURE>
+    
+    
+    <PRICE_RATIO>1</PRICE_RATIO>
+
+    <MIN_PRICE_RATIO>0</MIN_PRICE_RATIO>
+
+    <ACTION_PRICE />
+
+    
+    
+    <APPLY_LOYALTY_DISCOUNT>0</APPLY_LOYALTY_DISCOUNT>
+
+    <APPLY_VOLUME_DISCOUNT>0</APPLY_VOLUME_DISCOUNT>
+
+    <APPLY_QUANTITY_DISCOUNT>0</APPLY_QUANTITY_DISCOUNT>
+
+    <APPLY_DISCOUNT_COUPON>0</APPLY_DISCOUNT_COUPON>
+
+    
+            
+                                    
+            
+    
+
+<PARAMETERS><PARAMETER><NAME>Veľkosť</NAME><VALUE>39 1/3</VALUE></PARAMETER></PARAMETERS></VARIANT><VARIANT id="5820">                                    
+
+
+<FREE_SHIPPING>0</FREE_SHIPPING>
+
+<FREE_BILLING>0</FREE_BILLING>
+
+    <UNIT>ks</UNIT>
+
+<CODE>123/40</CODE>
+
+
+<LOGISTIC>
+                        <WEIGHT>0</WEIGHT>
+        </LOGISTIC>
+
+    <ATYPICAL_PRODUCT>
+                    <ATYPICAL_SHIPPING>0</ATYPICAL_SHIPPING>
+        
+                    <ATYPICAL_BILLING>0</ATYPICAL_BILLING>
+            </ATYPICAL_PRODUCT>
+    <CURRENCY>EUR</CURRENCY>
+
+            <VAT>0</VAT>
+                    <PRICE_VAT>130</PRICE_VAT>
+            
+    
+<PURCHASE_PRICE />
+
+<STANDARD_PRICE />
+
+
+<STOCK>
+                        <AMOUNT>0</AMOUNT>
+                            <LOCATION />
+                            <MINIMAL_AMOUNT />
+    <MAXIMAL_AMOUNT />
+</STOCK>
+
+    <AVAILABILITY_OUT_OF_STOCK>Skladom</AVAILABILITY_OUT_OF_STOCK>
+
+
+
+
+    
+    <STOCK_MIN_SUPPLY />
+
+
+    <VISIBLE>1</VISIBLE>
+
+    
+    
+    
+    
+    
+    <FIRMY_CZ>1</FIRMY_CZ>
+
+    <HEUREKA_HIDDEN>0</HEUREKA_HIDDEN>
+
+    <HEUREKA_CART_HIDDEN>0</HEUREKA_CART_HIDDEN>
+
+    <HEUREKA_CPC />
+
+    <ZBOZI_HIDDEN>0</ZBOZI_HIDDEN>
+
+    <ZBOZI_CPC />
+
+    <ZBOZI_SEARCH_CPC />
+
+    <ARUKERESO_HIDDEN>0</ARUKERESO_HIDDEN>
+
+    <ARUKERESO_MARKETPLACE_HIDDEN>0</ARUKERESO_MARKETPLACE_HIDDEN>
+
+    <DECIMAL_COUNT>0</DECIMAL_COUNT>
+
+    <NEGATIVE_AMOUNT>0</NEGATIVE_AMOUNT>
+
+            <UNIT_OF_MEASURE>
+            <PACKAGE_AMOUNT />
+            <PACKAGE_AMOUNT_UNIT />
+            <MEASURE_AMOUNT />
+            <MEASURE_AMOUNT_UNIT />
+        </UNIT_OF_MEASURE>
+    
+    
+    <PRICE_RATIO>1</PRICE_RATIO>
+
+    <MIN_PRICE_RATIO>0</MIN_PRICE_RATIO>
+
+    <ACTION_PRICE />
+
+    
+    
+    <APPLY_LOYALTY_DISCOUNT>1</APPLY_LOYALTY_DISCOUNT>
+
+    <APPLY_VOLUME_DISCOUNT>1</APPLY_VOLUME_DISCOUNT>
+
+    <APPLY_QUANTITY_DISCOUNT>1</APPLY_QUANTITY_DISCOUNT>
+
+    <APPLY_DISCOUNT_COUPON>1</APPLY_DISCOUNT_COUPON>
+
+    
+            
+                                    
+            
+    
+
+<PARAMETERS><PARAMETER><NAME>Veľkosť</NAME><VALUE>40</VALUE></PARAMETER></PARAMETERS></VARIANT></VARIANTS></SHOPITEM>
+
+
+<SHOPITEM id="432"><NAME>adidas Campus 00s Core Black</NAME><GUID>67893122-63a4-11ee-9a91-3e5eb9a3f9dd</GUID><SHORT_DESCRIPTION>&lt;ul&gt;
+&lt;li&gt;&lt;span&gt;Adidas Campus&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;limitovaná edícia tenisiek&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;pohodlná obuv&amp;nbsp;pre každú príležitosť&amp;nbsp;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Obvyklá veľkosť, ktorú bežne nosíš&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="color-options-container"&gt;
+&lt;p class="color-options-title"&gt;Ostatné farebné prevedenia:&lt;/p&gt;
+&lt;div class="color-options"&gt;&lt;a href="/adidas-campus-00s-core-black/" class="color-option" style="background-image: url('https://cdn.myshoptet.com/usr/www.airkicks.eu/user/shop/big/432_cb.jpg?65761099');"&gt;&lt;/a&gt; &lt;a href="/adidas-campus-00s-grey-white/" class="color-option" style="background-image: url('https://cdn.myshoptet.com/usr/www.airkicks.eu/user/shop/big/429-3_00s-grey.jpg?65761143');"&gt;&lt;/a&gt; &lt;a href="/adidas-campus-00s-crystal-white-core-black/" class="color-option" style="background-image: url('https://cdn.myshoptet.com/usr/www.airkicks.eu/user/shop/big/450-2_campus-whitecore.jpg?65be90e4');"&gt;&lt;/a&gt;&lt;a href="/adidas-campus-00s-lucid-fuchsia-cloud-white/" class="color-option" style="background-image: url('https://cdn.myshoptet.com/usr/www.airkicks.eu/user/shop/big/709-3_fuchsia-1.jpg?667febc4');"&gt;&lt;/a&gt; &lt;a href="/adidas-campus-00s-better-scarlet-cloud-white/" class="color-option" style="background-image: url('https://cdn.myshoptet.com/usr/www.airkicks.eu/user/shop/big/706-2_scarlet-f.jpg?667ff631');"&gt;&lt;/a&gt; &lt;a href="/adidas-campus-00s-wonder-beige/" class="color-option" style="background-image: url('https://cdn.myshoptet.com/usr/www.airkicks.eu/user/shop/big/718_adidas-campus-00s-wonder-beige.jpg?667c7c5f');"&gt;&lt;/a&gt;&lt;a href="/campus/" class="color-option" style="background-image: url('/user/documents/upload/others.jpg');"&gt;&lt;/a&gt; &lt;!-- Ďalšie možnosti farieb budú doplnené sem --&gt;&lt;/div&gt;
+&lt;/div&gt;</SHORT_DESCRIPTION><DESCRIPTION>&lt;p&gt;&lt;span&gt;Adidas Campus 00s predstavuje nezameniteľnú líniu tenisiek, ktorá vychádza z klasických dizajnov počiatkom tretieho tisícročia. S autentickým štýlom a proporciám, ktoré môžu variabilne meniť, tieto tenisky si udržiavajú svoje výsostné postavenie.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Niektoré modely Adidas Campus 00s vynikajú nielen svojím dizajnom, ale aj funkčnosťou. Odkazujú na športový duch a pohodlie a zachovávajú nostalgiu 80. rokov, inšpirovanú Y2K vzhľadmi.&lt;/p&gt;
+&lt;p&gt;Tieto tenisky sú viac než len módnym výrokom s pohodlným a moderným designom z kvalitných materiálov, ktoré ponúkajú komfort na najvyššej úrovni.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Dnes si Adidas Campus 00s získavajú srdcia širokej skupiny zákazníkov. Ich časovo odolný dizajn a pohodlie združujú generácie a zabezpečujú, že každý krok v týchto teniskách je spojením modernosti a klasiky.&lt;/span&gt;&lt;/p&gt;</DESCRIPTION><MANUFACTURER>Adidas</MANUFACTURER><ADULT>0</ADULT><ITEM_TYPE>product</ITEM_TYPE><CATEGORIES><CATEGORY id="786">Adidas &gt; Campus</CATEGORY><DEFAULT_CATEGORY id="786">Adidas &gt; Campus</DEFAULT_CATEGORY></CATEGORIES><IMAGES><IMAGE description="cb">https://cdn.myshoptet.com/usr/www.airkicks.eu/user/shop/orig/432_cb.jpg?65761099</IMAGE><IMAGE description="core black2">https://cdn.myshoptet.com/usr/www.airkicks.eu/user/shop/orig/432-1_core-black2.jpg?65760f83</IMAGE><IMAGE description="core black3">https://cdn.myshoptet.com/usr/www.airkicks.eu/user/shop/orig/432-2_core-black3.jpg?65760f83</IMAGE><IMAGE description="core black4">https://cdn.myshoptet.com/usr/www.airkicks.eu/user/shop/orig/432-3_core-black4.jpg?65760f85</IMAGE></IMAGES><TEXT_PROPERTIES><TEXT_PROPERTY><NAME>Názov</NAME><VALUE>adidas Campus 00s Core Black</VALUE><DESCRIPTION /></TEXT_PROPERTY><TEXT_PROPERTY><NAME>SKU</NAME><VALUE>HQ8708 (niektoré 36-40 môžu byť HQ6638 )</VALUE><DESCRIPTION /></TEXT_PROPERTY><TEXT_PROPERTY><NAME>Farba</NAME><VALUE>Core Black</VALUE><DESCRIPTION /></TEXT_PROPERTY></TEXT_PROPERTIES>
+    <FLAGS>
+                    <FLAG>
+                <CODE>bestseller</CODE>
+                                    <ACTIVE>1</ACTIVE>
+                                                            </FLAG>
+                    <FLAG>
+                <CODE>action</CODE>
+                                    <ACTIVE>0</ACTIVE>
+                                                            </FLAG>
+                    <FLAG>
+                <CODE>tip</CODE>
+                                    <ACTIVE>0</ACTIVE>
+                                                            </FLAG>
+                    <FLAG>
+                <CODE>new</CODE>
+                                    <ACTIVE>0</ACTIVE>
+                                                            </FLAG>
+                    <FLAG>
+                <CODE>custom1</CODE>
+                                    <ACTIVE>0</ACTIVE>
+                                                            </FLAG>
+                    <FLAG>
+                <CODE>custom2</CODE>
+                                    <ACTIVE>0</ACTIVE>
+                                                            </FLAG>
+                    <FLAG>
+                <CODE>custom3</CODE>
+                                    <ACTIVE>0</ACTIVE>
+                                                            </FLAG>
+                    <FLAG>
+                <CODE>expresne-odoslanie</CODE>
+                                    <ACTIVE>0</ACTIVE>
+                                                            </FLAG>
+            </FLAGS>
+
+        
+        
+        <VISIBILITY>visible</VISIBILITY>
+
+                
+                
+        
+        
+                    <SEO_TITLE>adidas Campus 00s Core Black - airkicks.eu</SEO_TITLE>
+        
+                    <META_DESCRIPTION>adidas Campus 00s Core Black HQ8708 sú ikonické tenisky inšpirované 80. rokmi. S ich kultovým dizajnom sú ideálnou voľbou pre každú príležitosť.</META_DESCRIPTION>
+        
+        <ALLOWS_IPLATBA>0</ALLOWS_IPLATBA>
+
+        <ALLOWS_PAY_ONLINE>1</ALLOWS_PAY_ONLINE>
+
+        <INTERNAL_NOTE />
+
+        
+        
+        
+        
+        
+        <HEUREKA_CATEGORY_ID />
+        <ZBOZI_CATEGORY_ID />
+        <GOOGLE_CATEGORY_ID />
+        <GLAMI_CATEGORY_ID />
+
+    
+            <VARIANTS><VARIANT id="5769">                                    
+
+
+<FREE_SHIPPING>0</FREE_SHIPPING>
+
+<FREE_BILLING>0</FREE_BILLING>
+
+    <UNIT>ks</UNIT>
+
+<CODE>HQ8708 /40</CODE>
+
+
+<LOGISTIC>
+                        <WEIGHT>0</WEIGHT>
+        </LOGISTIC>
+
+    <ATYPICAL_PRODUCT>
+                    <ATYPICAL_SHIPPING>0</ATYPICAL_SHIPPING>
+        
+                    <ATYPICAL_BILLING>0</ATYPICAL_BILLING>
+            </ATYPICAL_PRODUCT>
+    <CURRENCY>EUR</CURRENCY>
+
+            <VAT>0</VAT>
+                    <PRICE_VAT>130</PRICE_VAT>
+            
+    
+<PURCHASE_PRICE />
+
+<STANDARD_PRICE />
+
+
+<STOCK>
+                        <AMOUNT>0</AMOUNT>
+                            <LOCATION />
+                            <MINIMAL_AMOUNT />
+    <MAXIMAL_AMOUNT />
+</STOCK>
+
+    <AVAILABILITY_OUT_OF_STOCK>Skladom</AVAILABILITY_OUT_OF_STOCK>
+
+
+
+
+    
+    <STOCK_MIN_SUPPLY />
+
+
+    <VISIBLE>1</VISIBLE>
+
+    
+    
+    
+    
+    
+    <FIRMY_CZ>1</FIRMY_CZ>
+
+    <HEUREKA_HIDDEN>0</HEUREKA_HIDDEN>
+
+    <HEUREKA_CART_HIDDEN>0</HEUREKA_CART_HIDDEN>
+
+    <HEUREKA_CPC />
+
+    <ZBOZI_HIDDEN>0</ZBOZI_HIDDEN>
+
+    <ZBOZI_CPC />
+
+    <ZBOZI_SEARCH_CPC />
+
+    <ARUKERESO_HIDDEN>0</ARUKERESO_HIDDEN>
+
+    <ARUKERESO_MARKETPLACE_HIDDEN>0</ARUKERESO_MARKETPLACE_HIDDEN>
+
+    <DECIMAL_COUNT>0</DECIMAL_COUNT>
+
+    <NEGATIVE_AMOUNT>0</NEGATIVE_AMOUNT>
+
+            <UNIT_OF_MEASURE>
+            <PACKAGE_AMOUNT />
+            <PACKAGE_AMOUNT_UNIT />
+            <MEASURE_AMOUNT />
+            <MEASURE_AMOUNT_UNIT />
+        </UNIT_OF_MEASURE>
+    
+    
+    <PRICE_RATIO>1</PRICE_RATIO>
+
+    <MIN_PRICE_RATIO>0</MIN_PRICE_RATIO>
+
+    <ACTION_PRICE />
+
+    
+    
+    <APPLY_LOYALTY_DISCOUNT>1</APPLY_LOYALTY_DISCOUNT>
+
+    <APPLY_VOLUME_DISCOUNT>1</APPLY_VOLUME_DISCOUNT>
+
+    <APPLY_QUANTITY_DISCOUNT>1</APPLY_QUANTITY_DISCOUNT>
+
+    <APPLY_DISCOUNT_COUPON>1</APPLY_DISCOUNT_COUPON>
+
+    
+            
+                                    
+            
+    
+
+<PARAMETERS><PARAMETER><NAME>Veľkosť</NAME><VALUE>40</VALUE></PARAMETER></PARAMETERS></VARIANT><VARIANT id="5772">                                    
+
+
+<FREE_SHIPPING>0</FREE_SHIPPING>
+
+<FREE_BILLING>0</FREE_BILLING>
+
+    <UNIT>ks</UNIT>
+
+<CODE>HQ8708 /40.</CODE>
+
+
+<LOGISTIC>
+                        <WEIGHT>0</WEIGHT>
+        </LOGISTIC>
+
+    <ATYPICAL_PRODUCT>
+                    <ATYPICAL_SHIPPING>0</ATYPICAL_SHIPPING>
+        
+                    <ATYPICAL_BILLING>0</ATYPICAL_BILLING>
+            </ATYPICAL_PRODUCT>
+    <CURRENCY>EUR</CURRENCY>
+
+            <VAT>0</VAT>
+                    <PRICE_VAT>130</PRICE_VAT>
+            
+    
+<PURCHASE_PRICE />
+
+<STANDARD_PRICE />
+
+
+<STOCK>
+                        <AMOUNT>0</AMOUNT>
+                            <LOCATION />
+                            <MINIMAL_AMOUNT />
+    <MAXIMAL_AMOUNT />
+</STOCK>
+
+    <AVAILABILITY_OUT_OF_STOCK>Skladom</AVAILABILITY_OUT_OF_STOCK>
+
+
+
+
+    
+    <STOCK_MIN_SUPPLY />
+
+
+    <VISIBLE>1</VISIBLE>
+
+    
+    
+    
+    
+    
+    <FIRMY_CZ>1</FIRMY_CZ>
+
+    <HEUREKA_HIDDEN>0</HEUREKA_HIDDEN>
+
+    <HEUREKA_CART_HIDDEN>0</HEUREKA_CART_HIDDEN>
+
+    <HEUREKA_CPC />
+
+    <ZBOZI_HIDDEN>0</ZBOZI_HIDDEN>
+
+    <ZBOZI_CPC />
+
+    <ZBOZI_SEARCH_CPC />
+
+    <ARUKERESO_HIDDEN>0</ARUKERESO_HIDDEN>
+
+    <ARUKERESO_MARKETPLACE_HIDDEN>0</ARUKERESO_MARKETPLACE_HIDDEN>
+
+    <DECIMAL_COUNT>0</DECIMAL_COUNT>
+
+    <NEGATIVE_AMOUNT>0</NEGATIVE_AMOUNT>
+
+            <UNIT_OF_MEASURE>
+            <PACKAGE_AMOUNT />
+            <PACKAGE_AMOUNT_UNIT />
+            <MEASURE_AMOUNT />
+            <MEASURE_AMOUNT_UNIT />
+        </UNIT_OF_MEASURE>
+    
+    
+    <PRICE_RATIO>1</PRICE_RATIO>
+
+    <MIN_PRICE_RATIO>0</MIN_PRICE_RATIO>
+
+    <ACTION_PRICE />
+
+    
+    
+    <APPLY_LOYALTY_DISCOUNT>1</APPLY_LOYALTY_DISCOUNT>
+
+    <APPLY_VOLUME_DISCOUNT>1</APPLY_VOLUME_DISCOUNT>
+
+    <APPLY_QUANTITY_DISCOUNT>1</APPLY_QUANTITY_DISCOUNT>
+
+    <APPLY_DISCOUNT_COUPON>1</APPLY_DISCOUNT_COUPON>
+
+    
+            
+                                    
+            
+    
+
+<PARAMETERS><PARAMETER><NAME>Veľkosť</NAME><VALUE>40 2/3</VALUE></PARAMETER></PARAMETERS></VARIANT><VARIANT id="5775">                                    
+
+
+<FREE_SHIPPING>0</FREE_SHIPPING>
+
+<FREE_BILLING>0</FREE_BILLING>
+
+    <UNIT>ks</UNIT>
+
+<CODE>HQ8708 /41</CODE>
+
+
+<LOGISTIC>
+                        <WEIGHT>0</WEIGHT>
+        </LOGISTIC>
+
+    <ATYPICAL_PRODUCT>
+                    <ATYPICAL_SHIPPING>0</ATYPICAL_SHIPPING>
+        
+                    <ATYPICAL_BILLING>0</ATYPICAL_BILLING>
+            </ATYPICAL_PRODUCT>
+    <CURRENCY>EUR</CURRENCY>
+
+            <VAT>0</VAT>
+                    <PRICE_VAT>130</PRICE_VAT>
+            
+    
+<PURCHASE_PRICE />
+
+<STANDARD_PRICE />
+
+
+<STOCK>
+                        <AMOUNT>0</AMOUNT>
+                            <LOCATION />
+                            <MINIMAL_AMOUNT />
+    <MAXIMAL_AMOUNT />
+</STOCK>
+
+    <AVAILABILITY_OUT_OF_STOCK>Skladom</AVAILABILITY_OUT_OF_STOCK>
+
+
+
+
+    
+    <STOCK_MIN_SUPPLY />
+
+
+    <VISIBLE>1</VISIBLE>
+
+    
+    
+    
+    
+    
+    <FIRMY_CZ>1</FIRMY_CZ>
+
+    <HEUREKA_HIDDEN>0</HEUREKA_HIDDEN>
+
+    <HEUREKA_CART_HIDDEN>0</HEUREKA_CART_HIDDEN>
+
+    <HEUREKA_CPC />
+
+    <ZBOZI_HIDDEN>0</ZBOZI_HIDDEN>
+
+    <ZBOZI_CPC />
+
+    <ZBOZI_SEARCH_CPC />
+
+    <ARUKERESO_HIDDEN>0</ARUKERESO_HIDDEN>
+
+    <ARUKERESO_MARKETPLACE_HIDDEN>0</ARUKERESO_MARKETPLACE_HIDDEN>
+
+    <DECIMAL_COUNT>0</DECIMAL_COUNT>
+
+    <NEGATIVE_AMOUNT>0</NEGATIVE_AMOUNT>
+
+            <UNIT_OF_MEASURE>
+            <PACKAGE_AMOUNT />
+            <PACKAGE_AMOUNT_UNIT />
+            <MEASURE_AMOUNT />
+            <MEASURE_AMOUNT_UNIT />
+        </UNIT_OF_MEASURE>
+    
+    
+    <PRICE_RATIO>1</PRICE_RATIO>
+
+    <MIN_PRICE_RATIO>0</MIN_PRICE_RATIO>
+
+    <ACTION_PRICE />
+
+    
+    
+    <APPLY_LOYALTY_DISCOUNT>0</APPLY_LOYALTY_DISCOUNT>
+
+    <APPLY_VOLUME_DISCOUNT>0</APPLY_VOLUME_DISCOUNT>
+
+    <APPLY_QUANTITY_DISCOUNT>0</APPLY_QUANTITY_DISCOUNT>
+
+    <APPLY_DISCOUNT_COUPON>0</APPLY_DISCOUNT_COUPON>
+
+    
+            
+                                    
+            
+    
+
+<PARAMETERS><PARAMETER><NAME>Veľkosť</NAME><VALUE>41 1/3</VALUE></PARAMETER></PARAMETERS></VARIANT><VARIANT id="5778">                                    
+
+
+<FREE_SHIPPING>0</FREE_SHIPPING>
+
+<FREE_BILLING>0</FREE_BILLING>
+
+    <UNIT>ks</UNIT>
+
+<CODE>HQ8708 /42</CODE>
+
+
+<LOGISTIC>
+                        <WEIGHT>0</WEIGHT>
+        </LOGISTIC>
+
+    <ATYPICAL_PRODUCT>
+                    <ATYPICAL_SHIPPING>0</ATYPICAL_SHIPPING>
+        
+                    <ATYPICAL_BILLING>0</ATYPICAL_BILLING>
+            </ATYPICAL_PRODUCT>
+    <CURRENCY>EUR</CURRENCY>
+
+            <VAT>0</VAT>
+                    <PRICE_VAT>130</PRICE_VAT>
+            
+    
+<PURCHASE_PRICE />
+
+<STANDARD_PRICE />
+
+
+<STOCK>
+                        <AMOUNT>0</AMOUNT>
+                            <LOCATION />
+                            <MINIMAL_AMOUNT />
+    <MAXIMAL_AMOUNT />
+</STOCK>
+
+    <AVAILABILITY_OUT_OF_STOCK>Skladom</AVAILABILITY_OUT_OF_STOCK>
+
+
+
+
+    
+    <STOCK_MIN_SUPPLY />
+
+
+    <VISIBLE>1</VISIBLE>
+
+    
+    
+    
+    
+    
+    <FIRMY_CZ>1</FIRMY_CZ>
+
+    <HEUREKA_HIDDEN>0</HEUREKA_HIDDEN>
+
+    <HEUREKA_CART_HIDDEN>0</HEUREKA_CART_HIDDEN>
+
+    <HEUREKA_CPC />
+
+    <ZBOZI_HIDDEN>0</ZBOZI_HIDDEN>
+
+    <ZBOZI_CPC />
+
+    <ZBOZI_SEARCH_CPC />
+
+    <ARUKERESO_HIDDEN>0</ARUKERESO_HIDDEN>
+
+    <ARUKERESO_MARKETPLACE_HIDDEN>0</ARUKERESO_MARKETPLACE_HIDDEN>
+
+    <DECIMAL_COUNT>0</DECIMAL_COUNT>
+
+    <NEGATIVE_AMOUNT>0</NEGATIVE_AMOUNT>
+
+            <UNIT_OF_MEASURE>
+            <PACKAGE_AMOUNT />
+            <PACKAGE_AMOUNT_UNIT />
+            <MEASURE_AMOUNT />
+            <MEASURE_AMOUNT_UNIT />
+        </UNIT_OF_MEASURE>
+    
+    
+    <PRICE_RATIO>1</PRICE_RATIO>
+
+    <MIN_PRICE_RATIO>0</MIN_PRICE_RATIO>
+
+    <ACTION_PRICE />
+
+    
+    
+    <APPLY_LOYALTY_DISCOUNT>1</APPLY_LOYALTY_DISCOUNT>
+
+    <APPLY_VOLUME_DISCOUNT>1</APPLY_VOLUME_DISCOUNT>
+
+    <APPLY_QUANTITY_DISCOUNT>1</APPLY_QUANTITY_DISCOUNT>
+
+    <APPLY_DISCOUNT_COUPON>1</APPLY_DISCOUNT_COUPON>
+
+    
+            
+                                    
+            
+    
+
+<PARAMETERS><PARAMETER><NAME>Veľkosť</NAME><VALUE>42</VALUE></PARAMETER></PARAMETERS></VARIANT><VARIANT id="6996">                                    
+
+
+<FREE_SHIPPING>0</FREE_SHIPPING>
+
+<FREE_BILLING>0</FREE_BILLING>
+
+    <UNIT>ks</UNIT>
+
+<CODE>HQ8708 /42.</CODE>
+
+
+<LOGISTIC>
+                        <WEIGHT>0</WEIGHT>
+        </LOGISTIC>
+
+    <ATYPICAL_PRODUCT>
+                    <ATYPICAL_SHIPPING>0</ATYPICAL_SHIPPING>
+        
+                    <ATYPICAL_BILLING>0</ATYPICAL_BILLING>
+            </ATYPICAL_PRODUCT>
+    <CURRENCY>EUR</CURRENCY>
+
+            <VAT>0</VAT>
+                    <PRICE_VAT>130</PRICE_VAT>
+            
+    
+<PURCHASE_PRICE />
+
+<STANDARD_PRICE />
+
+
+<STOCK>
+                        <AMOUNT>0</AMOUNT>
+                            <LOCATION />
+                            <MINIMAL_AMOUNT />
+    <MAXIMAL_AMOUNT />
+</STOCK>
+
+    <AVAILABILITY_OUT_OF_STOCK>Skladom</AVAILABILITY_OUT_OF_STOCK>
+
+
+
+
+    
+    <STOCK_MIN_SUPPLY />
+
+
+    <VISIBLE>1</VISIBLE>
+
+    
+    
+    
+    
+    
+    <FIRMY_CZ>1</FIRMY_CZ>
+
+    <HEUREKA_HIDDEN>0</HEUREKA_HIDDEN>
+
+    <HEUREKA_CART_HIDDEN>0</HEUREKA_CART_HIDDEN>
+
+    <HEUREKA_CPC />
+
+    <ZBOZI_HIDDEN>0</ZBOZI_HIDDEN>
+
+    <ZBOZI_CPC />
+
+    <ZBOZI_SEARCH_CPC />
+
+    <ARUKERESO_HIDDEN>0</ARUKERESO_HIDDEN>
+
+    <ARUKERESO_MARKETPLACE_HIDDEN>0</ARUKERESO_MARKETPLACE_HIDDEN>
+
+    <DECIMAL_COUNT>0</DECIMAL_COUNT>
+
+    <NEGATIVE_AMOUNT>0</NEGATIVE_AMOUNT>
+
+            <UNIT_OF_MEASURE>
+            <PACKAGE_AMOUNT />
+            <PACKAGE_AMOUNT_UNIT />
+            <MEASURE_AMOUNT />
+            <MEASURE_AMOUNT_UNIT />
+        </UNIT_OF_MEASURE>
+    
+    
+    <PRICE_RATIO>1</PRICE_RATIO>
+
+    <MIN_PRICE_RATIO>0</MIN_PRICE_RATIO>
+
+    <ACTION_PRICE />
+
+    
+    
+    <APPLY_LOYALTY_DISCOUNT>1</APPLY_LOYALTY_DISCOUNT>
+
+    <APPLY_VOLUME_DISCOUNT>1</APPLY_VOLUME_DISCOUNT>
+
+    <APPLY_QUANTITY_DISCOUNT>1</APPLY_QUANTITY_DISCOUNT>
+
+    <APPLY_DISCOUNT_COUPON>1</APPLY_DISCOUNT_COUPON>
+
+    
+            
+                                    
+            
+    
+
+<PARAMETERS><PARAMETER><NAME>Veľkosť</NAME><VALUE>42 2/3</VALUE></PARAMETER></PARAMETERS></VARIANT><VARIANT id="5751">                                    
+
+
+<FREE_SHIPPING>0</FREE_SHIPPING>
+
+<FREE_BILLING>0</FREE_BILLING>
+
+    <UNIT>ks</UNIT>
+
+<CODE>HQ8708/36</CODE>
+
+
+<LOGISTIC>
+                        <WEIGHT>0</WEIGHT>
+        </LOGISTIC>
+
+    <ATYPICAL_PRODUCT>
+                    <ATYPICAL_SHIPPING>0</ATYPICAL_SHIPPING>
+        
+                    <ATYPICAL_BILLING>0</ATYPICAL_BILLING>
+            </ATYPICAL_PRODUCT>
+    <CURRENCY>EUR</CURRENCY>
+
+            <VAT>0</VAT>
+                    <PRICE_VAT>130</PRICE_VAT>
+            
+    
+<PURCHASE_PRICE />
+
+<STANDARD_PRICE />
+
+
+<STOCK>
+                        <AMOUNT>0</AMOUNT>
+                            <LOCATION />
+                            <MINIMAL_AMOUNT />
+    <MAXIMAL_AMOUNT />
+</STOCK>
+
+    <AVAILABILITY_OUT_OF_STOCK>Skladom</AVAILABILITY_OUT_OF_STOCK>
+
+
+
+
+    
+    <STOCK_MIN_SUPPLY />
+
+
+    <VISIBLE>1</VISIBLE>
+
+    
+    
+    
+    
+    
+    <FIRMY_CZ>1</FIRMY_CZ>
+
+    <HEUREKA_HIDDEN>0</HEUREKA_HIDDEN>
+
+    <HEUREKA_CART_HIDDEN>0</HEUREKA_CART_HIDDEN>
+
+    <HEUREKA_CPC />
+
+    <ZBOZI_HIDDEN>0</ZBOZI_HIDDEN>
+
+    <ZBOZI_CPC />
+
+    <ZBOZI_SEARCH_CPC />
+
+    <ARUKERESO_HIDDEN>0</ARUKERESO_HIDDEN>
+
+    <ARUKERESO_MARKETPLACE_HIDDEN>0</ARUKERESO_MARKETPLACE_HIDDEN>
+
+    <DECIMAL_COUNT>0</DECIMAL_COUNT>
+
+    <NEGATIVE_AMOUNT>0</NEGATIVE_AMOUNT>
+
+            <UNIT_OF_MEASURE>
+            <PACKAGE_AMOUNT />
+            <PACKAGE_AMOUNT_UNIT />
+            <MEASURE_AMOUNT />
+            <MEASURE_AMOUNT_UNIT />
+        </UNIT_OF_MEASURE>
+    
+    
+    <PRICE_RATIO>1</PRICE_RATIO>
+
+    <MIN_PRICE_RATIO>0</MIN_PRICE_RATIO>
+
+    <ACTION_PRICE />
+
+    
+    
+    <APPLY_LOYALTY_DISCOUNT>1</APPLY_LOYALTY_DISCOUNT>
+
+    <APPLY_VOLUME_DISCOUNT>1</APPLY_VOLUME_DISCOUNT>
+
+    <APPLY_QUANTITY_DISCOUNT>1</APPLY_QUANTITY_DISCOUNT>
+
+    <APPLY_DISCOUNT_COUPON>1</APPLY_DISCOUNT_COUPON>
+
+    
+            
+                                    
+            
+    
+
+<PARAMETERS><PARAMETER><NAME>Veľkosť</NAME><VALUE>36</VALUE></PARAMETER></PARAMETERS></VARIANT><VARIANT id="5754">                                    
+
+
+<FREE_SHIPPING>0</FREE_SHIPPING>
+
+<FREE_BILLING>0</FREE_BILLING>
+
+    <UNIT>ks</UNIT>
+
+<CODE>HQ8708/36.</CODE>
+
+
+<LOGISTIC>
+                        <WEIGHT>0</WEIGHT>
+        </LOGISTIC>
+
+    <ATYPICAL_PRODUCT>
+                    <ATYPICAL_SHIPPING>0</ATYPICAL_SHIPPING>
+        
+                    <ATYPICAL_BILLING>0</ATYPICAL_BILLING>
+            </ATYPICAL_PRODUCT>
+    <CURRENCY>EUR</CURRENCY>
+
+            <VAT>0</VAT>
+                    <PRICE_VAT>130</PRICE_VAT>
+            
+    
+<PURCHASE_PRICE />
+
+<STANDARD_PRICE />
+
+
+<STOCK>
+                        <AMOUNT>0</AMOUNT>
+                            <LOCATION />
+                            <MINIMAL_AMOUNT />
+    <MAXIMAL_AMOUNT />
+</STOCK>
+
+    <AVAILABILITY_OUT_OF_STOCK>Skladom</AVAILABILITY_OUT_OF_STOCK>
+
+
+
+
+    
+    <STOCK_MIN_SUPPLY />
+
+
+    <VISIBLE>1</VISIBLE>
+
+    
+    
+    
+    
+    
+    <FIRMY_CZ>1</FIRMY_CZ>
+
+    <HEUREKA_HIDDEN>0</HEUREKA_HIDDEN>
+
+    <HEUREKA_CART_HIDDEN>0</HEUREKA_CART_HIDDEN>
+
+    <HEUREKA_CPC />
+
+    <ZBOZI_HIDDEN>0</ZBOZI_HIDDEN>
+
+    <ZBOZI_CPC />
+
+    <ZBOZI_SEARCH_CPC />
+
+    <ARUKERESO_HIDDEN>0</ARUKERESO_HIDDEN>
+
+    <ARUKERESO_MARKETPLACE_HIDDEN>0</ARUKERESO_MARKETPLACE_HIDDEN>
+
+    <DECIMAL_COUNT>0</DECIMAL_COUNT>
+
+    <NEGATIVE_AMOUNT>0</NEGATIVE_AMOUNT>
+
+            <UNIT_OF_MEASURE>
+            <PACKAGE_AMOUNT />
+            <PACKAGE_AMOUNT_UNIT />
+            <MEASURE_AMOUNT />
+            <MEASURE_AMOUNT_UNIT />
+        </UNIT_OF_MEASURE>
+    
+    
+    <PRICE_RATIO>1</PRICE_RATIO>
+
+    <MIN_PRICE_RATIO>0</MIN_PRICE_RATIO>
+
+    <ACTION_PRICE />
+
+    
+    
+    <APPLY_LOYALTY_DISCOUNT>1</APPLY_LOYALTY_DISCOUNT>
+
+    <APPLY_VOLUME_DISCOUNT>1</APPLY_VOLUME_DISCOUNT>
+
+    <APPLY_QUANTITY_DISCOUNT>1</APPLY_QUANTITY_DISCOUNT>
+
+    <APPLY_DISCOUNT_COUPON>1</APPLY_DISCOUNT_COUPON>
+
+    
+            
+                                    
+            
+    
+
+<PARAMETERS><PARAMETER><NAME>Veľkosť</NAME><VALUE>36 2/3</VALUE></PARAMETER></PARAMETERS></VARIANT><VARIANT id="5757">                                    
+
+
+<FREE_SHIPPING>0</FREE_SHIPPING>
+
+<FREE_BILLING>0</FREE_BILLING>
+
+    <UNIT>ks</UNIT>
+
+<CODE>HQ8708/37</CODE>
+
+
+<LOGISTIC>
+                        <WEIGHT>0</WEIGHT>
+        </LOGISTIC>
+
+    <ATYPICAL_PRODUCT>
+                    <ATYPICAL_SHIPPING>0</ATYPICAL_SHIPPING>
+        
+                    <ATYPICAL_BILLING>0</ATYPICAL_BILLING>
+            </ATYPICAL_PRODUCT>
+    <CURRENCY>EUR</CURRENCY>
+
+            <VAT>0</VAT>
+                    <PRICE_VAT>110</PRICE_VAT>
+            
+    
+<PURCHASE_PRICE />
+
+<STANDARD_PRICE />
+
+
+<STOCK>
+                        <AMOUNT>0</AMOUNT>
+                            <LOCATION />
+                            <MINIMAL_AMOUNT />
+    <MAXIMAL_AMOUNT />
+</STOCK>
+
+    <AVAILABILITY_OUT_OF_STOCK>Skladom</AVAILABILITY_OUT_OF_STOCK>
+
+
+
+
+    
+    <STOCK_MIN_SUPPLY />
+
+
+    <VISIBLE>1</VISIBLE>
+
+    
+    
+    
+    
+    
+    <FIRMY_CZ>1</FIRMY_CZ>
+
+    <HEUREKA_HIDDEN>0</HEUREKA_HIDDEN>
+
+    <HEUREKA_CART_HIDDEN>0</HEUREKA_CART_HIDDEN>
+
+    <HEUREKA_CPC />
+
+    <ZBOZI_HIDDEN>0</ZBOZI_HIDDEN>
+
+    <ZBOZI_CPC />
+
+    <ZBOZI_SEARCH_CPC />
+
+    <ARUKERESO_HIDDEN>0</ARUKERESO_HIDDEN>
+
+    <ARUKERESO_MARKETPLACE_HIDDEN>0</ARUKERESO_MARKETPLACE_HIDDEN>
+
+    <DECIMAL_COUNT>0</DECIMAL_COUNT>
+
+    <NEGATIVE_AMOUNT>0</NEGATIVE_AMOUNT>
+
+            <UNIT_OF_MEASURE>
+            <PACKAGE_AMOUNT />
+            <PACKAGE_AMOUNT_UNIT />
+            <MEASURE_AMOUNT />
+            <MEASURE_AMOUNT_UNIT />
+        </UNIT_OF_MEASURE>
+    
+    
+    <PRICE_RATIO>1</PRICE_RATIO>
+
+    <MIN_PRICE_RATIO>0</MIN_PRICE_RATIO>
+
+    <ACTION_PRICE />
+
+    
+    
+    <APPLY_LOYALTY_DISCOUNT>1</APPLY_LOYALTY_DISCOUNT>
+
+    <APPLY_VOLUME_DISCOUNT>1</APPLY_VOLUME_DISCOUNT>
+
+    <APPLY_QUANTITY_DISCOUNT>1</APPLY_QUANTITY_DISCOUNT>
+
+    <APPLY_DISCOUNT_COUPON>1</APPLY_DISCOUNT_COUPON>
+
+    
+            
+                                    
+            
+    
+
+<PARAMETERS><PARAMETER><NAME>Veľkosť</NAME><VALUE>37 1/3</VALUE></PARAMETER></PARAMETERS></VARIANT><VARIANT id="5760">                                    
+
+
+<FREE_SHIPPING>0</FREE_SHIPPING>
+
+<FREE_BILLING>0</FREE_BILLING>
+
+    <UNIT>ks</UNIT>
+
+<CODE>HQ8708/38</CODE>
+
+
+<LOGISTIC>
+                        <WEIGHT>0</WEIGHT>
+        </LOGISTIC>
+
+    <ATYPICAL_PRODUCT>
+                    <ATYPICAL_SHIPPING>0</ATYPICAL_SHIPPING>
+        
+                    <ATYPICAL_BILLING>0</ATYPICAL_BILLING>
+            </ATYPICAL_PRODUCT>
+    <CURRENCY>EUR</CURRENCY>
+
+            <VAT>0</VAT>
+                    <PRICE_VAT>110</PRICE_VAT>
+            
+    
+<PURCHASE_PRICE />
+
+<STANDARD_PRICE />
+
+
+<STOCK>
+                        <AMOUNT>0</AMOUNT>
+                            <LOCATION />
+                            <MINIMAL_AMOUNT />
+    <MAXIMAL_AMOUNT />
+</STOCK>
+
+    <AVAILABILITY_OUT_OF_STOCK>Skladom</AVAILABILITY_OUT_OF_STOCK>
+
+
+
+
+    
+    <STOCK_MIN_SUPPLY />
+
+
+    <VISIBLE>1</VISIBLE>
+
+    
+    
+    
+    
+    
+    <FIRMY_CZ>1</FIRMY_CZ>
+
+    <HEUREKA_HIDDEN>0</HEUREKA_HIDDEN>
+
+    <HEUREKA_CART_HIDDEN>0</HEUREKA_CART_HIDDEN>
+
+    <HEUREKA_CPC />
+
+    <ZBOZI_HIDDEN>0</ZBOZI_HIDDEN>
+
+    <ZBOZI_CPC />
+
+    <ZBOZI_SEARCH_CPC />
+
+    <ARUKERESO_HIDDEN>0</ARUKERESO_HIDDEN>
+
+    <ARUKERESO_MARKETPLACE_HIDDEN>0</ARUKERESO_MARKETPLACE_HIDDEN>
+
+    <DECIMAL_COUNT>0</DECIMAL_COUNT>
+
+    <NEGATIVE_AMOUNT>0</NEGATIVE_AMOUNT>
+
+            <UNIT_OF_MEASURE>
+            <PACKAGE_AMOUNT />
+            <PACKAGE_AMOUNT_UNIT />
+            <MEASURE_AMOUNT />
+            <MEASURE_AMOUNT_UNIT />
+        </UNIT_OF_MEASURE>
+    
+    
+    <PRICE_RATIO>1</PRICE_RATIO>
+
+    <MIN_PRICE_RATIO>0</MIN_PRICE_RATIO>
+
+    <ACTION_PRICE />
+
+    
+    
+    <APPLY_LOYALTY_DISCOUNT>1</APPLY_LOYALTY_DISCOUNT>
+
+    <APPLY_VOLUME_DISCOUNT>1</APPLY_VOLUME_DISCOUNT>
+
+    <APPLY_QUANTITY_DISCOUNT>1</APPLY_QUANTITY_DISCOUNT>
+
+    <APPLY_DISCOUNT_COUPON>1</APPLY_DISCOUNT_COUPON>
+
+    
+            
+                                    
+            
+    
+
+<PARAMETERS><PARAMETER><NAME>Veľkosť</NAME><VALUE>38</VALUE></PARAMETER></PARAMETERS></VARIANT><VARIANT id="5763">                                    
+
+
+<FREE_SHIPPING>0</FREE_SHIPPING>
+
+<FREE_BILLING>0</FREE_BILLING>
+
+    <UNIT>ks</UNIT>
+
+<CODE>HQ8708/38.</CODE>
+
+
+<LOGISTIC>
+                        <WEIGHT>0</WEIGHT>
+        </LOGISTIC>
+
+    <ATYPICAL_PRODUCT>
+                    <ATYPICAL_SHIPPING>0</ATYPICAL_SHIPPING>
+        
+                    <ATYPICAL_BILLING>0</ATYPICAL_BILLING>
+            </ATYPICAL_PRODUCT>
+    <CURRENCY>EUR</CURRENCY>
+
+            <VAT>0</VAT>
+                    <PRICE_VAT>110</PRICE_VAT>
+            
+    
+<PURCHASE_PRICE />
+
+<STANDARD_PRICE />
+
+
+<STOCK>
+                        <AMOUNT>0</AMOUNT>
+                            <LOCATION />
+                            <MINIMAL_AMOUNT />
+    <MAXIMAL_AMOUNT />
+</STOCK>
+
+    <AVAILABILITY_OUT_OF_STOCK>Skladom</AVAILABILITY_OUT_OF_STOCK>
+
+
+
+
+    
+    <STOCK_MIN_SUPPLY />
+
+
+    <VISIBLE>1</VISIBLE>
+
+    
+    
+    
+    
+    
+    <FIRMY_CZ>1</FIRMY_CZ>
+
+    <HEUREKA_HIDDEN>0</HEUREKA_HIDDEN>
+
+    <HEUREKA_CART_HIDDEN>0</HEUREKA_CART_HIDDEN>
+
+    <HEUREKA_CPC />
+
+    <ZBOZI_HIDDEN>0</ZBOZI_HIDDEN>
+
+    <ZBOZI_CPC />
+
+    <ZBOZI_SEARCH_CPC />
+
+    <ARUKERESO_HIDDEN>0</ARUKERESO_HIDDEN>
+
+    <ARUKERESO_MARKETPLACE_HIDDEN>0</ARUKERESO_MARKETPLACE_HIDDEN>
+
+    <DECIMAL_COUNT>0</DECIMAL_COUNT>
+
+    <NEGATIVE_AMOUNT>0</NEGATIVE_AMOUNT>
+
+            <UNIT_OF_MEASURE>
+            <PACKAGE_AMOUNT />
+            <PACKAGE_AMOUNT_UNIT />
+            <MEASURE_AMOUNT />
+            <MEASURE_AMOUNT_UNIT />
+        </UNIT_OF_MEASURE>
+    
+    
+    <PRICE_RATIO>1</PRICE_RATIO>
+
+    <MIN_PRICE_RATIO>0</MIN_PRICE_RATIO>
+
+    <ACTION_PRICE />
+
+    
+    
+    <APPLY_LOYALTY_DISCOUNT>1</APPLY_LOYALTY_DISCOUNT>
+
+    <APPLY_VOLUME_DISCOUNT>1</APPLY_VOLUME_DISCOUNT>
+
+    <APPLY_QUANTITY_DISCOUNT>1</APPLY_QUANTITY_DISCOUNT>
+
+    <APPLY_DISCOUNT_COUPON>1</APPLY_DISCOUNT_COUPON>
+
+    
+            
+                                    
+            
+    
+
+<PARAMETERS><PARAMETER><NAME>Veľkosť</NAME><VALUE>38 2/3</VALUE></PARAMETER></PARAMETERS></VARIANT><VARIANT id="5766">                                    
+
+
+<FREE_SHIPPING>0</FREE_SHIPPING>
+
+<FREE_BILLING>0</FREE_BILLING>
+
+    <UNIT>ks</UNIT>
+
+<CODE>HQ8708/39</CODE>
+
+
+<LOGISTIC>
+                        <WEIGHT>0</WEIGHT>
+        </LOGISTIC>
+
+    <ATYPICAL_PRODUCT>
+                    <ATYPICAL_SHIPPING>0</ATYPICAL_SHIPPING>
+        
+                    <ATYPICAL_BILLING>0</ATYPICAL_BILLING>
+            </ATYPICAL_PRODUCT>
+    <CURRENCY>EUR</CURRENCY>
+
+            <VAT>0</VAT>
+                    <PRICE_VAT>130</PRICE_VAT>
+            
+    
+<PURCHASE_PRICE />
+
+<STANDARD_PRICE />
+
+
+<STOCK>
+                        <AMOUNT>0</AMOUNT>
+                            <LOCATION />
+                            <MINIMAL_AMOUNT />
+    <MAXIMAL_AMOUNT />
+</STOCK>
+
+    <AVAILABILITY_OUT_OF_STOCK>Skladom</AVAILABILITY_OUT_OF_STOCK>
+
+
+
+
+    
+    <STOCK_MIN_SUPPLY />
+
+
+    <VISIBLE>1</VISIBLE>
+
+    
+    
+    
+    
+    
+    <FIRMY_CZ>1</FIRMY_CZ>
+
+    <HEUREKA_HIDDEN>0</HEUREKA_HIDDEN>
+
+    <HEUREKA_CART_HIDDEN>0</HEUREKA_CART_HIDDEN>
+
+    <HEUREKA_CPC />
+
+    <ZBOZI_HIDDEN>0</ZBOZI_HIDDEN>
+
+    <ZBOZI_CPC />
+
+    <ZBOZI_SEARCH_CPC />
+
+    <ARUKERESO_HIDDEN>0</ARUKERESO_HIDDEN>
+
+    <ARUKERESO_MARKETPLACE_HIDDEN>0</ARUKERESO_MARKETPLACE_HIDDEN>
+
+    <DECIMAL_COUNT>0</DECIMAL_COUNT>
+
+    <NEGATIVE_AMOUNT>0</NEGATIVE_AMOUNT>
+
+            <UNIT_OF_MEASURE>
+            <PACKAGE_AMOUNT />
+            <PACKAGE_AMOUNT_UNIT />
+            <MEASURE_AMOUNT />
+            <MEASURE_AMOUNT_UNIT />
+        </UNIT_OF_MEASURE>
+    
+    
+    <PRICE_RATIO>1</PRICE_RATIO>
+
+    <MIN_PRICE_RATIO>0</MIN_PRICE_RATIO>
+
+    <ACTION_PRICE />
+
+    
+    
+    <APPLY_LOYALTY_DISCOUNT>0</APPLY_LOYALTY_DISCOUNT>
+
+    <APPLY_VOLUME_DISCOUNT>0</APPLY_VOLUME_DISCOUNT>
+
+    <APPLY_QUANTITY_DISCOUNT>0</APPLY_QUANTITY_DISCOUNT>
+
+    <APPLY_DISCOUNT_COUPON>0</APPLY_DISCOUNT_COUPON>
+
+    
+            
+                                    
+            
+    
+
+<PARAMETERS><PARAMETER><NAME>Veľkosť</NAME><VALUE>39 1/3</VALUE></PARAMETER></PARAMETERS></VARIANT><VARIANT id="5781">                                    
+
+
+<FREE_SHIPPING>0</FREE_SHIPPING>
+
+<FREE_BILLING>0</FREE_BILLING>
+
+    <UNIT>ks</UNIT>
+
+<CODE>HQ8708/43</CODE>
+
+
+<LOGISTIC>
+                        <WEIGHT>0</WEIGHT>
+        </LOGISTIC>
+
+    <ATYPICAL_PRODUCT>
+                    <ATYPICAL_SHIPPING>0</ATYPICAL_SHIPPING>
+        
+                    <ATYPICAL_BILLING>0</ATYPICAL_BILLING>
+            </ATYPICAL_PRODUCT>
+    <CURRENCY>EUR</CURRENCY>
+
+            <VAT>0</VAT>
+                    <PRICE_VAT>130</PRICE_VAT>
+            
+    
+<PURCHASE_PRICE />
+
+<STANDARD_PRICE />
+
+
+<STOCK>
+                        <AMOUNT>0</AMOUNT>
+                            <LOCATION />
+                            <MINIMAL_AMOUNT />
+    <MAXIMAL_AMOUNT />
+</STOCK>
+
+    <AVAILABILITY_OUT_OF_STOCK>Skladom</AVAILABILITY_OUT_OF_STOCK>
+
+
+
+
+    
+    <STOCK_MIN_SUPPLY />
+
+
+    <VISIBLE>1</VISIBLE>
+
+    
+    
+    
+    
+    
+    <FIRMY_CZ>1</FIRMY_CZ>
+
+    <HEUREKA_HIDDEN>0</HEUREKA_HIDDEN>
+
+    <HEUREKA_CART_HIDDEN>0</HEUREKA_CART_HIDDEN>
+
+    <HEUREKA_CPC />
+
+    <ZBOZI_HIDDEN>0</ZBOZI_HIDDEN>
+
+    <ZBOZI_CPC />
+
+    <ZBOZI_SEARCH_CPC />
+
+    <ARUKERESO_HIDDEN>0</ARUKERESO_HIDDEN>
+
+    <ARUKERESO_MARKETPLACE_HIDDEN>0</ARUKERESO_MARKETPLACE_HIDDEN>
+
+    <DECIMAL_COUNT>0</DECIMAL_COUNT>
+
+    <NEGATIVE_AMOUNT>0</NEGATIVE_AMOUNT>
+
+            <UNIT_OF_MEASURE>
+            <PACKAGE_AMOUNT />
+            <PACKAGE_AMOUNT_UNIT />
+            <MEASURE_AMOUNT />
+            <MEASURE_AMOUNT_UNIT />
+        </UNIT_OF_MEASURE>
+    
+    
+    <PRICE_RATIO>1</PRICE_RATIO>
+
+    <MIN_PRICE_RATIO>0</MIN_PRICE_RATIO>
+
+    <ACTION_PRICE />
+
+    
+    
+    <APPLY_LOYALTY_DISCOUNT>1</APPLY_LOYALTY_DISCOUNT>
+
+    <APPLY_VOLUME_DISCOUNT>1</APPLY_VOLUME_DISCOUNT>
+
+    <APPLY_QUANTITY_DISCOUNT>1</APPLY_QUANTITY_DISCOUNT>
+
+    <APPLY_DISCOUNT_COUPON>1</APPLY_DISCOUNT_COUPON>
+
+    
+            
+                                    
+            
+    
+
+<PARAMETERS><PARAMETER><NAME>Veľkosť</NAME><VALUE>43 1/3</VALUE></PARAMETER></PARAMETERS></VARIANT><VARIANT id="5784">                                    
+
+
+<FREE_SHIPPING>0</FREE_SHIPPING>
+
+<FREE_BILLING>0</FREE_BILLING>
+
+    <UNIT>ks</UNIT>
+
+<CODE>HQ8708/44</CODE>
+
+
+<LOGISTIC>
+                        <WEIGHT>0</WEIGHT>
+        </LOGISTIC>
+
+    <ATYPICAL_PRODUCT>
+                    <ATYPICAL_SHIPPING>0</ATYPICAL_SHIPPING>
+        
+                    <ATYPICAL_BILLING>0</ATYPICAL_BILLING>
+            </ATYPICAL_PRODUCT>
+    <CURRENCY>EUR</CURRENCY>
+
+            <VAT>0</VAT>
+                    <PRICE_VAT>130</PRICE_VAT>
+            
+    
+<PURCHASE_PRICE />
+
+<STANDARD_PRICE />
+
+
+<STOCK>
+                        <AMOUNT>0</AMOUNT>
+                            <LOCATION />
+                            <MINIMAL_AMOUNT />
+    <MAXIMAL_AMOUNT />
+</STOCK>
+
+    <AVAILABILITY_OUT_OF_STOCK>Skladom</AVAILABILITY_OUT_OF_STOCK>
+
+
+
+
+    
+    <STOCK_MIN_SUPPLY />
+
+
+    <VISIBLE>1</VISIBLE>
+
+    
+    
+    
+    
+    
+    <FIRMY_CZ>1</FIRMY_CZ>
+
+    <HEUREKA_HIDDEN>0</HEUREKA_HIDDEN>
+
+    <HEUREKA_CART_HIDDEN>0</HEUREKA_CART_HIDDEN>
+
+    <HEUREKA_CPC />
+
+    <ZBOZI_HIDDEN>0</ZBOZI_HIDDEN>
+
+    <ZBOZI_CPC />
+
+    <ZBOZI_SEARCH_CPC />
+
+    <ARUKERESO_HIDDEN>0</ARUKERESO_HIDDEN>
+
+    <ARUKERESO_MARKETPLACE_HIDDEN>0</ARUKERESO_MARKETPLACE_HIDDEN>
+
+    <DECIMAL_COUNT>0</DECIMAL_COUNT>
+
+    <NEGATIVE_AMOUNT>0</NEGATIVE_AMOUNT>
+
+            <UNIT_OF_MEASURE>
+            <PACKAGE_AMOUNT />
+            <PACKAGE_AMOUNT_UNIT />
+            <MEASURE_AMOUNT />
+            <MEASURE_AMOUNT_UNIT />
+        </UNIT_OF_MEASURE>
+    
+    
+    <PRICE_RATIO>1</PRICE_RATIO>
+
+    <MIN_PRICE_RATIO>0</MIN_PRICE_RATIO>
+
+    <ACTION_PRICE />
+
+    
+    
+    <APPLY_LOYALTY_DISCOUNT>1</APPLY_LOYALTY_DISCOUNT>
+
+    <APPLY_VOLUME_DISCOUNT>1</APPLY_VOLUME_DISCOUNT>
+
+    <APPLY_QUANTITY_DISCOUNT>1</APPLY_QUANTITY_DISCOUNT>
+
+    <APPLY_DISCOUNT_COUPON>1</APPLY_DISCOUNT_COUPON>
+
+    
+            
+                                    
+            
+    
+
+<PARAMETERS><PARAMETER><NAME>Veľkosť</NAME><VALUE>44</VALUE></PARAMETER></PARAMETERS></VARIANT><VARIANT id="5787">                                    
+
+
+<FREE_SHIPPING>0</FREE_SHIPPING>
+
+<FREE_BILLING>0</FREE_BILLING>
+
+    <UNIT>ks</UNIT>
+
+<CODE>HQ8708/44.</CODE>
+
+
+<LOGISTIC>
+                        <WEIGHT>0</WEIGHT>
+        </LOGISTIC>
+
+    <ATYPICAL_PRODUCT>
+                    <ATYPICAL_SHIPPING>0</ATYPICAL_SHIPPING>
+        
+                    <ATYPICAL_BILLING>0</ATYPICAL_BILLING>
+            </ATYPICAL_PRODUCT>
+    <CURRENCY>EUR</CURRENCY>
+
+            <VAT>0</VAT>
+                    <PRICE_VAT>130</PRICE_VAT>
+            
+    
+<PURCHASE_PRICE />
+
+<STANDARD_PRICE />
+
+
+<STOCK>
+                        <AMOUNT>0</AMOUNT>
+                            <LOCATION />
+                            <MINIMAL_AMOUNT />
+    <MAXIMAL_AMOUNT />
+</STOCK>
+
+    <AVAILABILITY_OUT_OF_STOCK>Skladom</AVAILABILITY_OUT_OF_STOCK>
+
+
+
+
+    
+    <STOCK_MIN_SUPPLY />
+
+
+    <VISIBLE>1</VISIBLE>
+
+    
+    
+    
+    
+    
+    <FIRMY_CZ>1</FIRMY_CZ>
+
+    <HEUREKA_HIDDEN>0</HEUREKA_HIDDEN>
+
+    <HEUREKA_CART_HIDDEN>0</HEUREKA_CART_HIDDEN>
+
+    <HEUREKA_CPC />
+
+    <ZBOZI_HIDDEN>0</ZBOZI_HIDDEN>
+
+    <ZBOZI_CPC />
+
+    <ZBOZI_SEARCH_CPC />
+
+    <ARUKERESO_HIDDEN>0</ARUKERESO_HIDDEN>
+
+    <ARUKERESO_MARKETPLACE_HIDDEN>0</ARUKERESO_MARKETPLACE_HIDDEN>
+
+    <DECIMAL_COUNT>0</DECIMAL_COUNT>
+
+    <NEGATIVE_AMOUNT>0</NEGATIVE_AMOUNT>
+
+            <UNIT_OF_MEASURE>
+            <PACKAGE_AMOUNT />
+            <PACKAGE_AMOUNT_UNIT />
+            <MEASURE_AMOUNT />
+            <MEASURE_AMOUNT_UNIT />
+        </UNIT_OF_MEASURE>
+    
+    
+    <PRICE_RATIO>1</PRICE_RATIO>
+
+    <MIN_PRICE_RATIO>0</MIN_PRICE_RATIO>
+
+    <ACTION_PRICE />
+
+    
+    
+    <APPLY_LOYALTY_DISCOUNT>1</APPLY_LOYALTY_DISCOUNT>
+
+    <APPLY_VOLUME_DISCOUNT>1</APPLY_VOLUME_DISCOUNT>
+
+    <APPLY_QUANTITY_DISCOUNT>1</APPLY_QUANTITY_DISCOUNT>
+
+    <APPLY_DISCOUNT_COUPON>1</APPLY_DISCOUNT_COUPON>
+
+    
+            
+                                    
+            
+    
+
+<PARAMETERS><PARAMETER><NAME>Veľkosť</NAME><VALUE>44 2/3</VALUE></PARAMETER></PARAMETERS></VARIANT><VARIANT id="5790">                                    
+
+
+<FREE_SHIPPING>0</FREE_SHIPPING>
+
+<FREE_BILLING>0</FREE_BILLING>
+
+    <UNIT>ks</UNIT>
+
+<CODE>HQ8708/45</CODE>
+
+
+<LOGISTIC>
+                        <WEIGHT>0</WEIGHT>
+        </LOGISTIC>
+
+    <ATYPICAL_PRODUCT>
+                    <ATYPICAL_SHIPPING>0</ATYPICAL_SHIPPING>
+        
+                    <ATYPICAL_BILLING>0</ATYPICAL_BILLING>
+            </ATYPICAL_PRODUCT>
+    <CURRENCY>EUR</CURRENCY>
+
+            <VAT>0</VAT>
+                    <PRICE_VAT>130</PRICE_VAT>
+            
+    
+<PURCHASE_PRICE />
+
+<STANDARD_PRICE />
+
+
+<STOCK>
+                        <AMOUNT>0</AMOUNT>
+                            <LOCATION />
+                            <MINIMAL_AMOUNT />
+    <MAXIMAL_AMOUNT />
+</STOCK>
+
+    <AVAILABILITY_OUT_OF_STOCK>Skladom</AVAILABILITY_OUT_OF_STOCK>
+
+
+
+
+    
+    <STOCK_MIN_SUPPLY />
+
+
+    <VISIBLE>1</VISIBLE>
+
+    
+    
+    
+    
+    
+    <FIRMY_CZ>1</FIRMY_CZ>
+
+    <HEUREKA_HIDDEN>0</HEUREKA_HIDDEN>
+
+    <HEUREKA_CART_HIDDEN>0</HEUREKA_CART_HIDDEN>
+
+    <HEUREKA_CPC />
+
+    <ZBOZI_HIDDEN>0</ZBOZI_HIDDEN>
+
+    <ZBOZI_CPC />
+
+    <ZBOZI_SEARCH_CPC />
+
+    <ARUKERESO_HIDDEN>0</ARUKERESO_HIDDEN>
+
+    <ARUKERESO_MARKETPLACE_HIDDEN>0</ARUKERESO_MARKETPLACE_HIDDEN>
+
+    <DECIMAL_COUNT>0</DECIMAL_COUNT>
+
+    <NEGATIVE_AMOUNT>0</NEGATIVE_AMOUNT>
+
+            <UNIT_OF_MEASURE>
+            <PACKAGE_AMOUNT />
+            <PACKAGE_AMOUNT_UNIT />
+            <MEASURE_AMOUNT />
+            <MEASURE_AMOUNT_UNIT />
+        </UNIT_OF_MEASURE>
+    
+    
+    <PRICE_RATIO>1</PRICE_RATIO>
+
+    <MIN_PRICE_RATIO>0</MIN_PRICE_RATIO>
+
+    <ACTION_PRICE />
+
+    
+    
+    <APPLY_LOYALTY_DISCOUNT>1</APPLY_LOYALTY_DISCOUNT>
+
+    <APPLY_VOLUME_DISCOUNT>1</APPLY_VOLUME_DISCOUNT>
+
+    <APPLY_QUANTITY_DISCOUNT>1</APPLY_QUANTITY_DISCOUNT>
+
+    <APPLY_DISCOUNT_COUPON>1</APPLY_DISCOUNT_COUPON>
+
+    
+            
+                                    
+            
+    
+
+<PARAMETERS><PARAMETER><NAME>Veľkosť</NAME><VALUE>45 1/3</VALUE></PARAMETER></PARAMETERS></VARIANT><VARIANT id="5793">                                    
+
+
+<FREE_SHIPPING>0</FREE_SHIPPING>
+
+<FREE_BILLING>0</FREE_BILLING>
+
+    <UNIT>ks</UNIT>
+
+<CODE>HQ8708/46</CODE>
+
+
+<LOGISTIC>
+                        <WEIGHT>0</WEIGHT>
+        </LOGISTIC>
+
+    <ATYPICAL_PRODUCT>
+                    <ATYPICAL_SHIPPING>0</ATYPICAL_SHIPPING>
+        
+                    <ATYPICAL_BILLING>0</ATYPICAL_BILLING>
+            </ATYPICAL_PRODUCT>
+    <CURRENCY>EUR</CURRENCY>
+
+            <VAT>0</VAT>
+                    <PRICE_VAT>130</PRICE_VAT>
+            
+    
+<PURCHASE_PRICE />
+
+<STANDARD_PRICE />
+
+
+<STOCK>
+                        <AMOUNT>0</AMOUNT>
+                            <LOCATION />
+                            <MINIMAL_AMOUNT />
+    <MAXIMAL_AMOUNT />
+</STOCK>
+
+    <AVAILABILITY_OUT_OF_STOCK>Skladom</AVAILABILITY_OUT_OF_STOCK>
+
+
+
+
+    
+    <STOCK_MIN_SUPPLY />
+
+
+    <VISIBLE>1</VISIBLE>
+
+    
+    
+    
+    
+    
+    <FIRMY_CZ>1</FIRMY_CZ>
+
+    <HEUREKA_HIDDEN>0</HEUREKA_HIDDEN>
+
+    <HEUREKA_CART_HIDDEN>0</HEUREKA_CART_HIDDEN>
+
+    <HEUREKA_CPC />
+
+    <ZBOZI_HIDDEN>0</ZBOZI_HIDDEN>
+
+    <ZBOZI_CPC />
+
+    <ZBOZI_SEARCH_CPC />
+
+    <ARUKERESO_HIDDEN>0</ARUKERESO_HIDDEN>
+
+    <ARUKERESO_MARKETPLACE_HIDDEN>0</ARUKERESO_MARKETPLACE_HIDDEN>
+
+    <DECIMAL_COUNT>0</DECIMAL_COUNT>
+
+    <NEGATIVE_AMOUNT>0</NEGATIVE_AMOUNT>
+
+            <UNIT_OF_MEASURE>
+            <PACKAGE_AMOUNT />
+            <PACKAGE_AMOUNT_UNIT />
+            <MEASURE_AMOUNT />
+            <MEASURE_AMOUNT_UNIT />
+        </UNIT_OF_MEASURE>
+    
+    
+    <PRICE_RATIO>1</PRICE_RATIO>
+
+    <MIN_PRICE_RATIO>0</MIN_PRICE_RATIO>
+
+    <ACTION_PRICE />
+
+    
+    
+    <APPLY_LOYALTY_DISCOUNT>1</APPLY_LOYALTY_DISCOUNT>
+
+    <APPLY_VOLUME_DISCOUNT>1</APPLY_VOLUME_DISCOUNT>
+
+    <APPLY_QUANTITY_DISCOUNT>1</APPLY_QUANTITY_DISCOUNT>
+
+    <APPLY_DISCOUNT_COUPON>1</APPLY_DISCOUNT_COUPON>
+
+    
+            
+                                    
+            
+    
+
+<PARAMETERS><PARAMETER><NAME>Veľkosť</NAME><VALUE>46</VALUE></PARAMETER></PARAMETERS></VARIANT><VARIANT id="5796">                                    
+
+
+<FREE_SHIPPING>0</FREE_SHIPPING>
+
+<FREE_BILLING>0</FREE_BILLING>
+
+    <UNIT>ks</UNIT>
+
+<CODE>HQ8708/46.</CODE>
+
+
+<LOGISTIC>
+                        <WEIGHT>0</WEIGHT>
+        </LOGISTIC>
+
+    <ATYPICAL_PRODUCT>
+                    <ATYPICAL_SHIPPING>0</ATYPICAL_SHIPPING>
+        
+                    <ATYPICAL_BILLING>0</ATYPICAL_BILLING>
+            </ATYPICAL_PRODUCT>
+    <CURRENCY>EUR</CURRENCY>
+
+            <VAT>0</VAT>
+                    <PRICE_VAT>130</PRICE_VAT>
+            
+    
+<PURCHASE_PRICE />
+
+<STANDARD_PRICE />
+
+
+<STOCK>
+                        <AMOUNT>0</AMOUNT>
+                            <LOCATION />
+                            <MINIMAL_AMOUNT />
+    <MAXIMAL_AMOUNT />
+</STOCK>
+
+    <AVAILABILITY_OUT_OF_STOCK>Skladom</AVAILABILITY_OUT_OF_STOCK>
+
+
+
+
+    
+    <STOCK_MIN_SUPPLY />
+
+
+    <VISIBLE>1</VISIBLE>
+
+    
+    
+    
+    
+    
+    <FIRMY_CZ>1</FIRMY_CZ>
+
+    <HEUREKA_HIDDEN>0</HEUREKA_HIDDEN>
+
+    <HEUREKA_CART_HIDDEN>0</HEUREKA_CART_HIDDEN>
+
+    <HEUREKA_CPC />
+
+    <ZBOZI_HIDDEN>0</ZBOZI_HIDDEN>
+
+    <ZBOZI_CPC />
+
+    <ZBOZI_SEARCH_CPC />
+
+    <ARUKERESO_HIDDEN>0</ARUKERESO_HIDDEN>
+
+    <ARUKERESO_MARKETPLACE_HIDDEN>0</ARUKERESO_MARKETPLACE_HIDDEN>
+
+    <DECIMAL_COUNT>0</DECIMAL_COUNT>
+
+    <NEGATIVE_AMOUNT>0</NEGATIVE_AMOUNT>
+
+            <UNIT_OF_MEASURE>
+            <PACKAGE_AMOUNT />
+            <PACKAGE_AMOUNT_UNIT />
+            <MEASURE_AMOUNT />
+            <MEASURE_AMOUNT_UNIT />
+        </UNIT_OF_MEASURE>
+    
+    
+    <PRICE_RATIO>1</PRICE_RATIO>
+
+    <MIN_PRICE_RATIO>0</MIN_PRICE_RATIO>
+
+    <ACTION_PRICE />
+
+    
+    
+    <APPLY_LOYALTY_DISCOUNT>1</APPLY_LOYALTY_DISCOUNT>
+
+    <APPLY_VOLUME_DISCOUNT>1</APPLY_VOLUME_DISCOUNT>
+
+    <APPLY_QUANTITY_DISCOUNT>1</APPLY_QUANTITY_DISCOUNT>
+
+    <APPLY_DISCOUNT_COUPON>1</APPLY_DISCOUNT_COUPON>
+
+    
+            
+                                    
+            
+    
+
+<PARAMETERS><PARAMETER><NAME>Veľkosť</NAME><VALUE>46 2/3</VALUE></PARAMETER></PARAMETERS></VARIANT></VARIANTS></SHOPITEM>
+
+
+<SHOPITEM id="715"><NAME>adidas Campus 00s Core Black True Pink</NAME><GUID>d79e428c-20bd-11ef-b423-92d9043686e6</GUID><SHORT_DESCRIPTION>&lt;ul&gt;
+&lt;li&gt;&lt;span&gt;Adidas Campus&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;limitovaná edícia tenisiek&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;pohodlná obuv&amp;nbsp;pre každú príležitosť&amp;nbsp;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Obvyklá veľkosť, ktorú bežne nosíš&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="color-options-container"&gt;
+&lt;p class="color-options-title"&gt;Ostatné farebné prevedenia:&lt;/p&gt;
+&lt;div class="color-options"&gt;&lt;a href="/adidas-campus-00s-core-black/" class="color-option" style="background-image: url('https://cdn.myshoptet.com/usr/www.airkicks.eu/user/shop/big/432_cb.jpg?65761099');"&gt;&lt;/a&gt; &lt;a href="/adidas-campus-00s-grey-white/" class="color-option" style="background-image: url('https://cdn.myshoptet.com/usr/www.airkicks.eu/user/shop/big/429-3_00s-grey.jpg?65761143');"&gt;&lt;/a&gt; &lt;a href="/adidas-campus-00s-crystal-white-core-black/" class="color-option" style="background-image: url('https://cdn.myshoptet.com/usr/www.airkicks.eu/user/shop/big/450-2_campus-whitecore.jpg?65be90e4');"&gt;&lt;/a&gt;&lt;a href="/adidas-campus-00s-lucid-fuchsia-cloud-white/" class="color-option" style="background-image: url('https://cdn.myshoptet.com/usr/www.airkicks.eu/user/shop/big/709-3_fuchsia-1.jpg?667febc4');"&gt;&lt;/a&gt; &lt;a href="/adidas-campus-00s-better-scarlet-cloud-white/" class="color-option" style="background-image: url('https://cdn.myshoptet.com/usr/www.airkicks.eu/user/shop/big/706-2_scarlet-f.jpg?667ff631');"&gt;&lt;/a&gt; &lt;a href="/adidas-campus-00s-wonder-beige/" class="color-option" style="background-image: url('https://cdn.myshoptet.com/usr/www.airkicks.eu/user/shop/big/718_adidas-campus-00s-wonder-beige.jpg?667c7c5f');"&gt;&lt;/a&gt;&lt;a href="/campus/" class="color-option" style="background-image: url('/user/documents/upload/others.jpg');"&gt;&lt;/a&gt; &lt;!-- Ďalšie možnosti farieb budú doplnené sem --&gt;&lt;/div&gt;
+&lt;/div&gt;</SHORT_DESCRIPTION><DESCRIPTION>&lt;p&gt;&lt;span&gt;Adidas Campus 00s predstavuje nezameniteľnú líniu tenisiek, ktorá vychádza z klasických dizajnov počiatkom tretieho tisícročia. S autentickým štýlom a proporciám, ktoré môžu variabilne meniť, tieto tenisky si udržiavajú svoje výsostné postavenie.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Niektoré modely Adidas Campus 00s vynikajú nielen svojím dizajnom, ale aj funkčnosťou. Odkazujú na športový duch a pohodlie a zachovávajú nostalgiu 80. rokov, inšpirovanú Y2K vzhľadmi.&lt;/p&gt;
+&lt;p&gt;Tieto tenisky sú viac než len módnym výrokom s pohodlným a moderným designom z kvalitných materiálov, ktoré ponúkajú komfort na najvyššej úrovni.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Dnes si Adidas Campus 00s získavajú srdcia širokej skupiny zákazníkov. Ich časovo odolný dizajn a pohodlie združujú generácie a zabezpečujú, že každý krok v týchto teniskách je spojením modernosti a klasiky.&lt;/span&gt;&lt;/p&gt;</DESCRIPTION><MANUFACTURER>Adidas</MANUFACTURER><ADULT>0</ADULT><ITEM_TYPE>product</ITEM_TYPE><CATEGORIES><CATEGORY id="786">Adidas &gt; Campus</CATEGORY><DEFAULT_CATEGORY id="786">Adidas &gt; Campus</DEFAULT_CATEGORY></CATEGORIES><IMAGES><IMAGE description="cmp">https://cdn.myshoptet.com/usr/www.airkicks.eu/user/shop/orig/715_cmp.png?665c3623</IMAGE><IMAGE description="cmp2">https://cdn.myshoptet.com/usr/www.airkicks.eu/user/shop/orig/715-1_cmp2.png?665c3681</IMAGE></IMAGES><TEXT_PROPERTIES><TEXT_PROPERTY><NAME>Názov</NAME><VALUE>adidas Campus 00s Core Black True Pink</VALUE><DESCRIPTION /></TEXT_PROPERTY><TEXT_PROPERTY><NAME>SKU</NAME><VALUE>ID3171</VALUE><DESCRIPTION /></TEXT_PROPERTY><TEXT_PROPERTY><NAME>Farba</NAME><VALUE>Core Black True Pink</VALUE><DESCRIPTION /></TEXT_PROPERTY></TEXT_PROPERTIES>
+    <FLAGS>
+                    <FLAG>
+                <CODE>custom2</CODE>
+                                    <ACTIVE>1</ACTIVE>
+                                                            </FLAG>
+                    <FLAG>
+                <CODE>action</CODE>
+                                    <ACTIVE>0</ACTIVE>
+                                                            </FLAG>
+                    <FLAG>
+                <CODE>tip</CODE>
+                                    <ACTIVE>0</ACTIVE>
+                                                            </FLAG>
+                    <FLAG>
+                <CODE>new</CODE>
+                                    <ACTIVE>0</ACTIVE>
+                                                            </FLAG>
+                    <FLAG>
+                <CODE>custom1</CODE>
+                                    <ACTIVE>0</ACTIVE>
+                                                            </FLAG>
+                    <FLAG>
+                <CODE>custom3</CODE>
+                                    <ACTIVE>0</ACTIVE>
+                                                            </FLAG>
+                    <FLAG>
+                <CODE>expresne-odoslanie</CODE>
+                                    <ACTIVE>0</ACTIVE>
+                                                            </FLAG>
+                    <FLAG>
+                <CODE>bestseller</CODE>
+                                    <ACTIVE>0</ACTIVE>
+                                                            </FLAG>
+            </FLAGS>
+
+        
+        
+        <VISIBILITY>visible</VISIBILITY>
+
+                
+                
+        
+        
+                    <SEO_TITLE>adidas Campus 00s Core Black True Pink - airkicks.eu</SEO_TITLE>
+        
+                    <META_DESCRIPTION>adidas Campus 00s Core Black True Pink ID3171</META_DESCRIPTION>
+        
+        <ALLOWS_IPLATBA>0</ALLOWS_IPLATBA>
+
+        <ALLOWS_PAY_ONLINE>1</ALLOWS_PAY_ONLINE>
+
+        <INTERNAL_NOTE />
+
+        
+        
+        
+        
+        
+        <HEUREKA_CATEGORY_ID />
+        <ZBOZI_CATEGORY_ID />
+        <GOOGLE_CATEGORY_ID />
+        <GLAMI_CATEGORY_ID />
+
+    
+            <VARIANTS><VARIANT id="9805">                                    
+
+
+<FREE_SHIPPING>0</FREE_SHIPPING>
+
+<FREE_BILLING>0</FREE_BILLING>
+
+    <UNIT>ks</UNIT>
+
+<CODE>ID3171/36</CODE>
+
+
+<LOGISTIC>
+                        <WEIGHT>2</WEIGHT>
+        </LOGISTIC>
+
+    <ATYPICAL_PRODUCT>
+                    <ATYPICAL_SHIPPING>0</ATYPICAL_SHIPPING>
+        
+                    <ATYPICAL_BILLING>0</ATYPICAL_BILLING>
+            </ATYPICAL_PRODUCT>
+    <CURRENCY>EUR</CURRENCY>
+
+            <VAT>0</VAT>
+                    <PRICE_VAT>160</PRICE_VAT>
+            
+    
+<PURCHASE_PRICE />
+
+<STANDARD_PRICE />
+
+
+<STOCK>
+                        <AMOUNT>0</AMOUNT>
+                            <LOCATION />
+                            <MINIMAL_AMOUNT />
+    <MAXIMAL_AMOUNT />
+</STOCK>
+
+    <AVAILABILITY_OUT_OF_STOCK>Skladom</AVAILABILITY_OUT_OF_STOCK>
+
+
+
+
+    
+    <STOCK_MIN_SUPPLY />
+
+
+    <VISIBLE>1</VISIBLE>
+
+    
+    
+    
+    
+    
+    <FIRMY_CZ>1</FIRMY_CZ>
+
+    <HEUREKA_HIDDEN>0</HEUREKA_HIDDEN>
+
+    <HEUREKA_CART_HIDDEN>0</HEUREKA_CART_HIDDEN>
+
+    <HEUREKA_CPC />
+
+    <ZBOZI_HIDDEN>0</ZBOZI_HIDDEN>
+
+    <ZBOZI_CPC />
+
+    <ZBOZI_SEARCH_CPC />
+
+    <ARUKERESO_HIDDEN>0</ARUKERESO_HIDDEN>
+
+    <ARUKERESO_MARKETPLACE_HIDDEN>0</ARUKERESO_MARKETPLACE_HIDDEN>
+
+    <DECIMAL_COUNT>0</DECIMAL_COUNT>
+
+    <NEGATIVE_AMOUNT>0</NEGATIVE_AMOUNT>
+
+            <UNIT_OF_MEASURE>
+            <PACKAGE_AMOUNT />
+            <PACKAGE_AMOUNT_UNIT />
+            <MEASURE_AMOUNT />
+            <MEASURE_AMOUNT_UNIT />
+        </UNIT_OF_MEASURE>
+    
+    
+    <PRICE_RATIO>1</PRICE_RATIO>
+
+    <MIN_PRICE_RATIO>0</MIN_PRICE_RATIO>
+
+    <ACTION_PRICE />
+
+    
+    
+    <APPLY_LOYALTY_DISCOUNT>1</APPLY_LOYALTY_DISCOUNT>
+
+    <APPLY_VOLUME_DISCOUNT>1</APPLY_VOLUME_DISCOUNT>
+
+    <APPLY_QUANTITY_DISCOUNT>1</APPLY_QUANTITY_DISCOUNT>
+
+    <APPLY_DISCOUNT_COUPON>1</APPLY_DISCOUNT_COUPON>
+
+    
+            
+                                    
+            
+    
+
+<PARAMETERS><PARAMETER><NAME>Veľkosť</NAME><VALUE>36</VALUE></PARAMETER></PARAMETERS></VARIANT><VARIANT id="9808">                                    
+
+
+<FREE_SHIPPING>0</FREE_SHIPPING>
+
+<FREE_BILLING>0</FREE_BILLING>
+
+    <UNIT>ks</UNIT>
+
+<CODE>ID3171/36.</CODE>
+
+
+<LOGISTIC>
+                        <WEIGHT>2</WEIGHT>
+        </LOGISTIC>
+
+    <ATYPICAL_PRODUCT>
+                    <ATYPICAL_SHIPPING>0</ATYPICAL_SHIPPING>
+        
+                    <ATYPICAL_BILLING>0</ATYPICAL_BILLING>
+            </ATYPICAL_PRODUCT>
+    <CURRENCY>EUR</CURRENCY>
+
+            <VAT>0</VAT>
+                    <PRICE_VAT>160</PRICE_VAT>
+            
+    
+<PURCHASE_PRICE />
+
+<STANDARD_PRICE />
+
+
+<STOCK>
+                        <AMOUNT>0</AMOUNT>
+                            <LOCATION />
+                            <MINIMAL_AMOUNT />
+    <MAXIMAL_AMOUNT />
+</STOCK>
+
+    <AVAILABILITY_OUT_OF_STOCK>Skladom</AVAILABILITY_OUT_OF_STOCK>
+
+
+
+
+    
+    <STOCK_MIN_SUPPLY />
+
+
+    <VISIBLE>1</VISIBLE>
+
+    
+    
+    
+    
+    
+    <FIRMY_CZ>1</FIRMY_CZ>
+
+    <HEUREKA_HIDDEN>0</HEUREKA_HIDDEN>
+
+    <HEUREKA_CART_HIDDEN>0</HEUREKA_CART_HIDDEN>
+
+    <HEUREKA_CPC />
+
+    <ZBOZI_HIDDEN>0</ZBOZI_HIDDEN>
+
+    <ZBOZI_CPC />
+
+    <ZBOZI_SEARCH_CPC />
+
+    <ARUKERESO_HIDDEN>0</ARUKERESO_HIDDEN>
+
+    <ARUKERESO_MARKETPLACE_HIDDEN>0</ARUKERESO_MARKETPLACE_HIDDEN>
+
+    <DECIMAL_COUNT>0</DECIMAL_COUNT>
+
+    <NEGATIVE_AMOUNT>0</NEGATIVE_AMOUNT>
+
+            <UNIT_OF_MEASURE>
+            <PACKAGE_AMOUNT />
+            <PACKAGE_AMOUNT_UNIT />
+            <MEASURE_AMOUNT />
+            <MEASURE_AMOUNT_UNIT />
+        </UNIT_OF_MEASURE>
+    
+    
+    <PRICE_RATIO>1</PRICE_RATIO>
+
+    <MIN_PRICE_RATIO>0</MIN_PRICE_RATIO>
+
+    <ACTION_PRICE />
+
+    
+    
+    <APPLY_LOYALTY_DISCOUNT>1</APPLY_LOYALTY_DISCOUNT>
+
+    <APPLY_VOLUME_DISCOUNT>1</APPLY_VOLUME_DISCOUNT>
+
+    <APPLY_QUANTITY_DISCOUNT>1</APPLY_QUANTITY_DISCOUNT>
+
+    <APPLY_DISCOUNT_COUPON>1</APPLY_DISCOUNT_COUPON>
+
+    
+            
+                                    
+            
+    
+
+<PARAMETERS><PARAMETER><NAME>Veľkosť</NAME><VALUE>36 2/3</VALUE></PARAMETER></PARAMETERS></VARIANT><VARIANT id="9811">                                    
+
+
+<FREE_SHIPPING>0</FREE_SHIPPING>
+
+<FREE_BILLING>0</FREE_BILLING>
+
+    <UNIT>ks</UNIT>
+
+<CODE>ID3171/37</CODE>
+
+
+<LOGISTIC>
+                        <WEIGHT>2</WEIGHT>
+        </LOGISTIC>
+
+    <ATYPICAL_PRODUCT>
+                    <ATYPICAL_SHIPPING>0</ATYPICAL_SHIPPING>
+        
+                    <ATYPICAL_BILLING>0</ATYPICAL_BILLING>
+            </ATYPICAL_PRODUCT>
+    <CURRENCY>EUR</CURRENCY>
+
+            <VAT>0</VAT>
+                    <PRICE_VAT>160</PRICE_VAT>
+            
+    
+<PURCHASE_PRICE />
+
+<STANDARD_PRICE />
+
+
+<STOCK>
+                        <AMOUNT>0</AMOUNT>
+                            <LOCATION />
+                            <MINIMAL_AMOUNT />
+    <MAXIMAL_AMOUNT />
+</STOCK>
+
+    <AVAILABILITY_OUT_OF_STOCK>Skladom</AVAILABILITY_OUT_OF_STOCK>
+
+
+
+
+    
+    <STOCK_MIN_SUPPLY />
+
+
+    <VISIBLE>1</VISIBLE>
+
+    
+    
+    
+    
+    
+    <FIRMY_CZ>1</FIRMY_CZ>
+
+    <HEUREKA_HIDDEN>0</HEUREKA_HIDDEN>
+
+    <HEUREKA_CART_HIDDEN>0</HEUREKA_CART_HIDDEN>
+
+    <HEUREKA_CPC />
+
+    <ZBOZI_HIDDEN>0</ZBOZI_HIDDEN>
+
+    <ZBOZI_CPC />
+
+    <ZBOZI_SEARCH_CPC />
+
+    <ARUKERESO_HIDDEN>0</ARUKERESO_HIDDEN>
+
+    <ARUKERESO_MARKETPLACE_HIDDEN>0</ARUKERESO_MARKETPLACE_HIDDEN>
+
+    <DECIMAL_COUNT>0</DECIMAL_COUNT>
+
+    <NEGATIVE_AMOUNT>0</NEGATIVE_AMOUNT>
+
+            <UNIT_OF_MEASURE>
+            <PACKAGE_AMOUNT />
+            <PACKAGE_AMOUNT_UNIT />
+            <MEASURE_AMOUNT />
+            <MEASURE_AMOUNT_UNIT />
+        </UNIT_OF_MEASURE>
+    
+    
+    <PRICE_RATIO>1</PRICE_RATIO>
+
+    <MIN_PRICE_RATIO>0</MIN_PRICE_RATIO>
+
+    <ACTION_PRICE />
+
+    
+    
+    <APPLY_LOYALTY_DISCOUNT>1</APPLY_LOYALTY_DISCOUNT>
+
+    <APPLY_VOLUME_DISCOUNT>1</APPLY_VOLUME_DISCOUNT>
+
+    <APPLY_QUANTITY_DISCOUNT>1</APPLY_QUANTITY_DISCOUNT>
+
+    <APPLY_DISCOUNT_COUPON>1</APPLY_DISCOUNT_COUPON>
+
+    
+            
+                                    
+            
+    
+
+<PARAMETERS><PARAMETER><NAME>Veľkosť</NAME><VALUE>37 1/3</VALUE></PARAMETER></PARAMETERS></VARIANT><VARIANT id="9814">                                    
+
+
+<FREE_SHIPPING>0</FREE_SHIPPING>
+
+<FREE_BILLING>0</FREE_BILLING>
+
+    <UNIT>ks</UNIT>
+
+<CODE>ID3171/38</CODE>
+
+
+<LOGISTIC>
+                        <WEIGHT>2</WEIGHT>
+        </LOGISTIC>
+
+    <ATYPICAL_PRODUCT>
+                    <ATYPICAL_SHIPPING>0</ATYPICAL_SHIPPING>
+        
+                    <ATYPICAL_BILLING>0</ATYPICAL_BILLING>
+            </ATYPICAL_PRODUCT>
+    <CURRENCY>EUR</CURRENCY>
+
+            <VAT>0</VAT>
+                    <PRICE_VAT>160</PRICE_VAT>
+            
+    
+<PURCHASE_PRICE />
+
+<STANDARD_PRICE />
+
+
+<STOCK>
+                        <AMOUNT>0</AMOUNT>
+                            <LOCATION />
+                            <MINIMAL_AMOUNT />
+    <MAXIMAL_AMOUNT />
+</STOCK>
+
+    <AVAILABILITY_OUT_OF_STOCK>Skladom</AVAILABILITY_OUT_OF_STOCK>
+
+
+
+
+    
+    <STOCK_MIN_SUPPLY />
+
+
+    <VISIBLE>1</VISIBLE>
+
+    
+    
+    
+    
+    
+    <FIRMY_CZ>1</FIRMY_CZ>
+
+    <HEUREKA_HIDDEN>0</HEUREKA_HIDDEN>
+
+    <HEUREKA_CART_HIDDEN>0</HEUREKA_CART_HIDDEN>
+
+    <HEUREKA_CPC />
+
+    <ZBOZI_HIDDEN>0</ZBOZI_HIDDEN>
+
+    <ZBOZI_CPC />
+
+    <ZBOZI_SEARCH_CPC />
+
+    <ARUKERESO_HIDDEN>0</ARUKERESO_HIDDEN>
+
+    <ARUKERESO_MARKETPLACE_HIDDEN>0</ARUKERESO_MARKETPLACE_HIDDEN>
+
+    <DECIMAL_COUNT>0</DECIMAL_COUNT>
+
+    <NEGATIVE_AMOUNT>0</NEGATIVE_AMOUNT>
+
+            <UNIT_OF_MEASURE>
+            <PACKAGE_AMOUNT />
+            <PACKAGE_AMOUNT_UNIT />
+            <MEASURE_AMOUNT />
+            <MEASURE_AMOUNT_UNIT />
+        </UNIT_OF_MEASURE>
+    
+    
+    <PRICE_RATIO>1</PRICE_RATIO>
+
+    <MIN_PRICE_RATIO>0</MIN_PRICE_RATIO>
+
+    <ACTION_PRICE />
+
+    
+    
+    <APPLY_LOYALTY_DISCOUNT>1</APPLY_LOYALTY_DISCOUNT>
+
+    <APPLY_VOLUME_DISCOUNT>1</APPLY_VOLUME_DISCOUNT>
+
+    <APPLY_QUANTITY_DISCOUNT>1</APPLY_QUANTITY_DISCOUNT>
+
+    <APPLY_DISCOUNT_COUPON>1</APPLY_DISCOUNT_COUPON>
+
+    
+            
+                                    
+            
+    
+
+<PARAMETERS><PARAMETER><NAME>Veľkosť</NAME><VALUE>38</VALUE></PARAMETER></PARAMETERS></VARIANT><VARIANT id="9817">                                    
+
+
+<FREE_SHIPPING>0</FREE_SHIPPING>
+
+<FREE_BILLING>0</FREE_BILLING>
+
+    <UNIT>ks</UNIT>
+
+<CODE>ID3171/38.</CODE>
+
+
+<LOGISTIC>
+                        <WEIGHT>2</WEIGHT>
+        </LOGISTIC>
+
+    <ATYPICAL_PRODUCT>
+                    <ATYPICAL_SHIPPING>0</ATYPICAL_SHIPPING>
+        
+                    <ATYPICAL_BILLING>0</ATYPICAL_BILLING>
+            </ATYPICAL_PRODUCT>
+    <CURRENCY>EUR</CURRENCY>
+
+            <VAT>0</VAT>
+                    <PRICE_VAT>160</PRICE_VAT>
+            
+    
+<PURCHASE_PRICE />
+
+<STANDARD_PRICE />
+
+
+<STOCK>
+                        <AMOUNT>0</AMOUNT>
+                            <LOCATION />
+                            <MINIMAL_AMOUNT />
+    <MAXIMAL_AMOUNT />
+</STOCK>
+
+    <AVAILABILITY_OUT_OF_STOCK>Skladom</AVAILABILITY_OUT_OF_STOCK>
+
+
+
+
+    
+    <STOCK_MIN_SUPPLY />
+
+
+    <VISIBLE>1</VISIBLE>
+
+    
+    
+    
+    
+    
+    <FIRMY_CZ>1</FIRMY_CZ>
+
+    <HEUREKA_HIDDEN>0</HEUREKA_HIDDEN>
+
+    <HEUREKA_CART_HIDDEN>0</HEUREKA_CART_HIDDEN>
+
+    <HEUREKA_CPC />
+
+    <ZBOZI_HIDDEN>0</ZBOZI_HIDDEN>
+
+    <ZBOZI_CPC />
+
+    <ZBOZI_SEARCH_CPC />
+
+    <ARUKERESO_HIDDEN>0</ARUKERESO_HIDDEN>
+
+    <ARUKERESO_MARKETPLACE_HIDDEN>0</ARUKERESO_MARKETPLACE_HIDDEN>
+
+    <DECIMAL_COUNT>0</DECIMAL_COUNT>
+
+    <NEGATIVE_AMOUNT>0</NEGATIVE_AMOUNT>
+
+            <UNIT_OF_MEASURE>
+            <PACKAGE_AMOUNT />
+            <PACKAGE_AMOUNT_UNIT />
+            <MEASURE_AMOUNT />
+            <MEASURE_AMOUNT_UNIT />
+        </UNIT_OF_MEASURE>
+    
+    
+    <PRICE_RATIO>1</PRICE_RATIO>
+
+    <MIN_PRICE_RATIO>0</MIN_PRICE_RATIO>
+
+    <ACTION_PRICE />
+
+    
+    
+    <APPLY_LOYALTY_DISCOUNT>1</APPLY_LOYALTY_DISCOUNT>
+
+    <APPLY_VOLUME_DISCOUNT>1</APPLY_VOLUME_DISCOUNT>
+
+    <APPLY_QUANTITY_DISCOUNT>1</APPLY_QUANTITY_DISCOUNT>
+
+    <APPLY_DISCOUNT_COUPON>1</APPLY_DISCOUNT_COUPON>
+
+    
+            
+                                    
+            
+    
+
+<PARAMETERS><PARAMETER><NAME>Veľkosť</NAME><VALUE>38 2/3</VALUE></PARAMETER></PARAMETERS></VARIANT><VARIANT id="9820">                                    
+
+
+<FREE_SHIPPING>0</FREE_SHIPPING>
+
+<FREE_BILLING>0</FREE_BILLING>
+
+    <UNIT>ks</UNIT>
+
+<CODE>ID3171/39</CODE>
+
+
+<LOGISTIC>
+                        <WEIGHT>2</WEIGHT>
+        </LOGISTIC>
+
+    <ATYPICAL_PRODUCT>
+                    <ATYPICAL_SHIPPING>0</ATYPICAL_SHIPPING>
+        
+                    <ATYPICAL_BILLING>0</ATYPICAL_BILLING>
+            </ATYPICAL_PRODUCT>
+    <CURRENCY>EUR</CURRENCY>
+
+            <VAT>0</VAT>
+                    <PRICE_VAT>160</PRICE_VAT>
+            
+    
+<PURCHASE_PRICE />
+
+<STANDARD_PRICE />
+
+
+<STOCK>
+                        <AMOUNT>0</AMOUNT>
+                            <LOCATION />
+                            <MINIMAL_AMOUNT />
+    <MAXIMAL_AMOUNT />
+</STOCK>
+
+    <AVAILABILITY_OUT_OF_STOCK>Skladom</AVAILABILITY_OUT_OF_STOCK>
+
+
+
+
+    
+    <STOCK_MIN_SUPPLY />
+
+
+    <VISIBLE>1</VISIBLE>
+
+    
+    
+    
+    
+    
+    <FIRMY_CZ>1</FIRMY_CZ>
+
+    <HEUREKA_HIDDEN>0</HEUREKA_HIDDEN>
+
+    <HEUREKA_CART_HIDDEN>0</HEUREKA_CART_HIDDEN>
+
+    <HEUREKA_CPC />
+
+    <ZBOZI_HIDDEN>0</ZBOZI_HIDDEN>
+
+    <ZBOZI_CPC />
+
+    <ZBOZI_SEARCH_CPC />
+
+    <ARUKERESO_HIDDEN>0</ARUKERESO_HIDDEN>
+
+    <ARUKERESO_MARKETPLACE_HIDDEN>0</ARUKERESO_MARKETPLACE_HIDDEN>
+
+    <DECIMAL_COUNT>0</DECIMAL_COUNT>
+
+    <NEGATIVE_AMOUNT>0</NEGATIVE_AMOUNT>
+
+            <UNIT_OF_MEASURE>
+            <PACKAGE_AMOUNT />
+            <PACKAGE_AMOUNT_UNIT />
+            <MEASURE_AMOUNT />
+            <MEASURE_AMOUNT_UNIT />
+        </UNIT_OF_MEASURE>
+    
+    
+    <PRICE_RATIO>1</PRICE_RATIO>
+
+    <MIN_PRICE_RATIO>0</MIN_PRICE_RATIO>
+
+    <ACTION_PRICE />
+
+    
+    
+    <APPLY_LOYALTY_DISCOUNT>1</APPLY_LOYALTY_DISCOUNT>
+
+    <APPLY_VOLUME_DISCOUNT>1</APPLY_VOLUME_DISCOUNT>
+
+    <APPLY_QUANTITY_DISCOUNT>1</APPLY_QUANTITY_DISCOUNT>
+
+    <APPLY_DISCOUNT_COUPON>1</APPLY_DISCOUNT_COUPON>
+
+    
+            
+                                    
+            
+    
+
+<PARAMETERS><PARAMETER><NAME>Veľkosť</NAME><VALUE>39 1/3</VALUE></PARAMETER></PARAMETERS></VARIANT><VARIANT id="9823">                                    
+
+
+<FREE_SHIPPING>0</FREE_SHIPPING>
+
+<FREE_BILLING>0</FREE_BILLING>
+
+    <UNIT>ks</UNIT>
+
+<CODE>ID3171/40</CODE>
+
+
+<LOGISTIC>
+                        <WEIGHT>2</WEIGHT>
+        </LOGISTIC>
+
+    <ATYPICAL_PRODUCT>
+                    <ATYPICAL_SHIPPING>0</ATYPICAL_SHIPPING>
+        
+                    <ATYPICAL_BILLING>0</ATYPICAL_BILLING>
+            </ATYPICAL_PRODUCT>
+    <CURRENCY>EUR</CURRENCY>
+
+            <VAT>0</VAT>
+                    <PRICE_VAT>160</PRICE_VAT>
+            
+    
+<PURCHASE_PRICE />
+
+<STANDARD_PRICE />
+
+
+<STOCK>
+                        <AMOUNT>0</AMOUNT>
+                            <LOCATION />
+                            <MINIMAL_AMOUNT />
+    <MAXIMAL_AMOUNT />
+</STOCK>
+
+    <AVAILABILITY_OUT_OF_STOCK>Skladom</AVAILABILITY_OUT_OF_STOCK>
+
+
+
+
+    
+    <STOCK_MIN_SUPPLY />
+
+
+    <VISIBLE>1</VISIBLE>
+
+    
+    
+    
+    
+    
+    <FIRMY_CZ>1</FIRMY_CZ>
+
+    <HEUREKA_HIDDEN>0</HEUREKA_HIDDEN>
+
+    <HEUREKA_CART_HIDDEN>0</HEUREKA_CART_HIDDEN>
+
+    <HEUREKA_CPC />
+
+    <ZBOZI_HIDDEN>0</ZBOZI_HIDDEN>
+
+    <ZBOZI_CPC />
+
+    <ZBOZI_SEARCH_CPC />
+
+    <ARUKERESO_HIDDEN>0</ARUKERESO_HIDDEN>
+
+    <ARUKERESO_MARKETPLACE_HIDDEN>0</ARUKERESO_MARKETPLACE_HIDDEN>
+
+    <DECIMAL_COUNT>0</DECIMAL_COUNT>
+
+    <NEGATIVE_AMOUNT>0</NEGATIVE_AMOUNT>
+
+            <UNIT_OF_MEASURE>
+            <PACKAGE_AMOUNT />
+            <PACKAGE_AMOUNT_UNIT />
+            <MEASURE_AMOUNT />
+            <MEASURE_AMOUNT_UNIT />
+        </UNIT_OF_MEASURE>
+    
+    
+    <PRICE_RATIO>1</PRICE_RATIO>
+
+    <MIN_PRICE_RATIO>0</MIN_PRICE_RATIO>
+
+    <ACTION_PRICE />
+
+    
+    
+    <APPLY_LOYALTY_DISCOUNT>1</APPLY_LOYALTY_DISCOUNT>
+
+    <APPLY_VOLUME_DISCOUNT>1</APPLY_VOLUME_DISCOUNT>
+
+    <APPLY_QUANTITY_DISCOUNT>1</APPLY_QUANTITY_DISCOUNT>
+
+    <APPLY_DISCOUNT_COUPON>1</APPLY_DISCOUNT_COUPON>
+
+    
+            
+                                    
+            
+    
+
+<PARAMETERS><PARAMETER><NAME>Veľkosť</NAME><VALUE>40</VALUE></PARAMETER></PARAMETERS></VARIANT><VARIANT id="9826">                                    
+
+
+<FREE_SHIPPING>0</FREE_SHIPPING>
+
+<FREE_BILLING>0</FREE_BILLING>
+
+    <UNIT>ks</UNIT>
+
+<CODE>ID3171/40.</CODE>
+
+
+<LOGISTIC>
+                        <WEIGHT>2</WEIGHT>
+        </LOGISTIC>
+
+    <ATYPICAL_PRODUCT>
+                    <ATYPICAL_SHIPPING>0</ATYPICAL_SHIPPING>
+        
+                    <ATYPICAL_BILLING>0</ATYPICAL_BILLING>
+            </ATYPICAL_PRODUCT>
+    <CURRENCY>EUR</CURRENCY>
+
+            <VAT>0</VAT>
+                    <PRICE_VAT>160</PRICE_VAT>
+            
+    
+<PURCHASE_PRICE />
+
+<STANDARD_PRICE />
+
+
+<STOCK>
+                        <AMOUNT>0</AMOUNT>
+                            <LOCATION />
+                            <MINIMAL_AMOUNT />
+    <MAXIMAL_AMOUNT />
+</STOCK>
+
+    <AVAILABILITY_OUT_OF_STOCK>Skladom</AVAILABILITY_OUT_OF_STOCK>
+
+
+
+
+    
+    <STOCK_MIN_SUPPLY />
+
+
+    <VISIBLE>1</VISIBLE>
+
+    
+    
+    
+    
+    
+    <FIRMY_CZ>1</FIRMY_CZ>
+
+    <HEUREKA_HIDDEN>0</HEUREKA_HIDDEN>
+
+    <HEUREKA_CART_HIDDEN>0</HEUREKA_CART_HIDDEN>
+
+    <HEUREKA_CPC />
+
+    <ZBOZI_HIDDEN>0</ZBOZI_HIDDEN>
+
+    <ZBOZI_CPC />
+
+    <ZBOZI_SEARCH_CPC />
+
+    <ARUKERESO_HIDDEN>0</ARUKERESO_HIDDEN>
+
+    <ARUKERESO_MARKETPLACE_HIDDEN>0</ARUKERESO_MARKETPLACE_HIDDEN>
+
+    <DECIMAL_COUNT>0</DECIMAL_COUNT>
+
+    <NEGATIVE_AMOUNT>0</NEGATIVE_AMOUNT>
+
+            <UNIT_OF_MEASURE>
+            <PACKAGE_AMOUNT />
+            <PACKAGE_AMOUNT_UNIT />
+            <MEASURE_AMOUNT />
+            <MEASURE_AMOUNT_UNIT />
+        </UNIT_OF_MEASURE>
+    
+    
+    <PRICE_RATIO>1</PRICE_RATIO>
+
+    <MIN_PRICE_RATIO>0</MIN_PRICE_RATIO>
+
+    <ACTION_PRICE />
+
+    
+    
+    <APPLY_LOYALTY_DISCOUNT>1</APPLY_LOYALTY_DISCOUNT>
+
+    <APPLY_VOLUME_DISCOUNT>1</APPLY_VOLUME_DISCOUNT>
+
+    <APPLY_QUANTITY_DISCOUNT>1</APPLY_QUANTITY_DISCOUNT>
+
+    <APPLY_DISCOUNT_COUPON>1</APPLY_DISCOUNT_COUPON>
+
+    
+            
+                                    
+            
+    
+
+<PARAMETERS><PARAMETER><NAME>Veľkosť</NAME><VALUE>40 2/3</VALUE></PARAMETER></PARAMETERS></VARIANT><VARIANT id="9829">                                    
+
+
+<FREE_SHIPPING>0</FREE_SHIPPING>
+
+<FREE_BILLING>0</FREE_BILLING>
+
+    <UNIT>ks</UNIT>
+
+<CODE>ID3171/41</CODE>
+
+
+<LOGISTIC>
+                        <WEIGHT>2</WEIGHT>
+        </LOGISTIC>
+
+    <ATYPICAL_PRODUCT>
+                    <ATYPICAL_SHIPPING>0</ATYPICAL_SHIPPING>
+        
+                    <ATYPICAL_BILLING>0</ATYPICAL_BILLING>
+            </ATYPICAL_PRODUCT>
+    <CURRENCY>EUR</CURRENCY>
+
+            <VAT>0</VAT>
+                    <PRICE_VAT>160</PRICE_VAT>
+            
+    
+<PURCHASE_PRICE />
+
+<STANDARD_PRICE />
+
+
+<STOCK>
+                        <AMOUNT>0</AMOUNT>
+                            <LOCATION />
+                            <MINIMAL_AMOUNT />
+    <MAXIMAL_AMOUNT />
+</STOCK>
+
+    <AVAILABILITY_OUT_OF_STOCK>Skladom</AVAILABILITY_OUT_OF_STOCK>
+
+
+
+
+    
+    <STOCK_MIN_SUPPLY />
+
+
+    <VISIBLE>1</VISIBLE>
+
+    
+    
+    
+    
+    
+    <FIRMY_CZ>1</FIRMY_CZ>
+
+    <HEUREKA_HIDDEN>0</HEUREKA_HIDDEN>
+
+    <HEUREKA_CART_HIDDEN>0</HEUREKA_CART_HIDDEN>
+
+    <HEUREKA_CPC />
+
+    <ZBOZI_HIDDEN>0</ZBOZI_HIDDEN>
+
+    <ZBOZI_CPC />
+
+    <ZBOZI_SEARCH_CPC />
+
+    <ARUKERESO_HIDDEN>0</ARUKERESO_HIDDEN>
+
+    <ARUKERESO_MARKETPLACE_HIDDEN>0</ARUKERESO_MARKETPLACE_HIDDEN>
+
+    <DECIMAL_COUNT>0</DECIMAL_COUNT>
+
+    <NEGATIVE_AMOUNT>0</NEGATIVE_AMOUNT>
+
+            <UNIT_OF_MEASURE>
+            <PACKAGE_AMOUNT />
+            <PACKAGE_AMOUNT_UNIT />
+            <MEASURE_AMOUNT />
+            <MEASURE_AMOUNT_UNIT />
+        </UNIT_OF_MEASURE>
+    
+    
+    <PRICE_RATIO>1</PRICE_RATIO>
+
+    <MIN_PRICE_RATIO>0</MIN_PRICE_RATIO>
+
+    <ACTION_PRICE />
+
+    
+    
+    <APPLY_LOYALTY_DISCOUNT>1</APPLY_LOYALTY_DISCOUNT>
+
+    <APPLY_VOLUME_DISCOUNT>1</APPLY_VOLUME_DISCOUNT>
+
+    <APPLY_QUANTITY_DISCOUNT>1</APPLY_QUANTITY_DISCOUNT>
+
+    <APPLY_DISCOUNT_COUPON>1</APPLY_DISCOUNT_COUPON>
+
+    
+            
+                                    
+            
+    
+
+<PARAMETERS><PARAMETER><NAME>Veľkosť</NAME><VALUE>41 1/3</VALUE></PARAMETER></PARAMETERS></VARIANT><VARIANT id="9832">                                    
+
+
+<FREE_SHIPPING>0</FREE_SHIPPING>
+
+<FREE_BILLING>0</FREE_BILLING>
+
+    <UNIT>ks</UNIT>
+
+<CODE>ID3171/42</CODE>
+
+
+<LOGISTIC>
+                        <WEIGHT>2</WEIGHT>
+        </LOGISTIC>
+
+    <ATYPICAL_PRODUCT>
+                    <ATYPICAL_SHIPPING>0</ATYPICAL_SHIPPING>
+        
+                    <ATYPICAL_BILLING>0</ATYPICAL_BILLING>
+            </ATYPICAL_PRODUCT>
+    <CURRENCY>EUR</CURRENCY>
+
+            <VAT>0</VAT>
+                    <PRICE_VAT>160</PRICE_VAT>
+            
+    
+<PURCHASE_PRICE />
+
+<STANDARD_PRICE />
+
+
+<STOCK>
+                        <AMOUNT>0</AMOUNT>
+                            <LOCATION />
+                            <MINIMAL_AMOUNT />
+    <MAXIMAL_AMOUNT />
+</STOCK>
+
+    <AVAILABILITY_OUT_OF_STOCK>Skladom</AVAILABILITY_OUT_OF_STOCK>
+
+
+
+
+    
+    <STOCK_MIN_SUPPLY />
+
+
+    <VISIBLE>1</VISIBLE>
+
+    
+    
+    
+    
+    
+    <FIRMY_CZ>1</FIRMY_CZ>
+
+    <HEUREKA_HIDDEN>0</HEUREKA_HIDDEN>
+
+    <HEUREKA_CART_HIDDEN>0</HEUREKA_CART_HIDDEN>
+
+    <HEUREKA_CPC />
+
+    <ZBOZI_HIDDEN>0</ZBOZI_HIDDEN>
+
+    <ZBOZI_CPC />
+
+    <ZBOZI_SEARCH_CPC />
+
+    <ARUKERESO_HIDDEN>0</ARUKERESO_HIDDEN>
+
+    <ARUKERESO_MARKETPLACE_HIDDEN>0</ARUKERESO_MARKETPLACE_HIDDEN>
+
+    <DECIMAL_COUNT>0</DECIMAL_COUNT>
+
+    <NEGATIVE_AMOUNT>0</NEGATIVE_AMOUNT>
+
+            <UNIT_OF_MEASURE>
+            <PACKAGE_AMOUNT />
+            <PACKAGE_AMOUNT_UNIT />
+            <MEASURE_AMOUNT />
+            <MEASURE_AMOUNT_UNIT />
+        </UNIT_OF_MEASURE>
+    
+    
+    <PRICE_RATIO>1</PRICE_RATIO>
+
+    <MIN_PRICE_RATIO>0</MIN_PRICE_RATIO>
+
+    <ACTION_PRICE />
+
+    
+    
+    <APPLY_LOYALTY_DISCOUNT>1</APPLY_LOYALTY_DISCOUNT>
+
+    <APPLY_VOLUME_DISCOUNT>1</APPLY_VOLUME_DISCOUNT>
+
+    <APPLY_QUANTITY_DISCOUNT>1</APPLY_QUANTITY_DISCOUNT>
+
+    <APPLY_DISCOUNT_COUPON>1</APPLY_DISCOUNT_COUPON>
+
+    
+            
+                                    
+            
+    
+
+<PARAMETERS><PARAMETER><NAME>Veľkosť</NAME><VALUE>42</VALUE></PARAMETER></PARAMETERS></VARIANT><VARIANT id="9835">                                    
+
+
+<FREE_SHIPPING>0</FREE_SHIPPING>
+
+<FREE_BILLING>0</FREE_BILLING>
+
+    <UNIT>ks</UNIT>
+
+<CODE>ID3171/42.</CODE>
+
+
+<LOGISTIC>
+                        <WEIGHT>2</WEIGHT>
+        </LOGISTIC>
+
+    <ATYPICAL_PRODUCT>
+                    <ATYPICAL_SHIPPING>0</ATYPICAL_SHIPPING>
+        
+                    <ATYPICAL_BILLING>0</ATYPICAL_BILLING>
+            </ATYPICAL_PRODUCT>
+    <CURRENCY>EUR</CURRENCY>
+
+            <VAT>0</VAT>
+                    <PRICE_VAT>160</PRICE_VAT>
+            
+    
+<PURCHASE_PRICE />
+
+<STANDARD_PRICE />
+
+
+<STOCK>
+                        <AMOUNT>0</AMOUNT>
+                            <LOCATION />
+                            <MINIMAL_AMOUNT />
+    <MAXIMAL_AMOUNT />
+</STOCK>
+
+    <AVAILABILITY_OUT_OF_STOCK>Skladom</AVAILABILITY_OUT_OF_STOCK>
+
+
+
+
+    
+    <STOCK_MIN_SUPPLY />
+
+
+    <VISIBLE>1</VISIBLE>
+
+    
+    
+    
+    
+    
+    <FIRMY_CZ>1</FIRMY_CZ>
+
+    <HEUREKA_HIDDEN>0</HEUREKA_HIDDEN>
+
+    <HEUREKA_CART_HIDDEN>0</HEUREKA_CART_HIDDEN>
+
+    <HEUREKA_CPC />
+
+    <ZBOZI_HIDDEN>0</ZBOZI_HIDDEN>
+
+    <ZBOZI_CPC />
+
+    <ZBOZI_SEARCH_CPC />
+
+    <ARUKERESO_HIDDEN>0</ARUKERESO_HIDDEN>
+
+    <ARUKERESO_MARKETPLACE_HIDDEN>0</ARUKERESO_MARKETPLACE_HIDDEN>
+
+    <DECIMAL_COUNT>0</DECIMAL_COUNT>
+
+    <NEGATIVE_AMOUNT>0</NEGATIVE_AMOUNT>
+
+            <UNIT_OF_MEASURE>
+            <PACKAGE_AMOUNT />
+            <PACKAGE_AMOUNT_UNIT />
+            <MEASURE_AMOUNT />
+            <MEASURE_AMOUNT_UNIT />
+        </UNIT_OF_MEASURE>
+    
+    
+    <PRICE_RATIO>1</PRICE_RATIO>
+
+    <MIN_PRICE_RATIO>0</MIN_PRICE_RATIO>
+
+    <ACTION_PRICE />
+
+    
+    
+    <APPLY_LOYALTY_DISCOUNT>1</APPLY_LOYALTY_DISCOUNT>
+
+    <APPLY_VOLUME_DISCOUNT>1</APPLY_VOLUME_DISCOUNT>
+
+    <APPLY_QUANTITY_DISCOUNT>1</APPLY_QUANTITY_DISCOUNT>
+
+    <APPLY_DISCOUNT_COUPON>1</APPLY_DISCOUNT_COUPON>
+
+    
+            
+                                    
+            
+    
+
+<PARAMETERS><PARAMETER><NAME>Veľkosť</NAME><VALUE>42 2/3</VALUE></PARAMETER></PARAMETERS></VARIANT></VARIANTS></SHOPITEM>
+
+
+<SHOPITEM id="450"><NAME>adidas Campus 00s Crystal White Core Black</NAME><GUID>6797a4c8-63ae-11ee-ad03-3e5eb9a3f9dd</GUID><SHORT_DESCRIPTION>&lt;ul&gt;
+&lt;li&gt;&lt;span&gt;Adidas Campus&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;limitovaná edícia tenisiek&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;pohodlná obuv&amp;nbsp;pre každú príležitosť&amp;nbsp;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span&gt;Obvyklá veľkosť, ktorú bežne nosíš&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="color-options-container"&gt;
+&lt;p class="color-options-title"&gt;Ostatné farebné prevedenia:&lt;/p&gt;
+&lt;div class="color-options"&gt;&lt;a href="/adidas-campus-00s-core-black/" class="color-option" style="background-image: url('https://cdn.myshoptet.com/usr/www.airkicks.eu/user/shop/big/432_cb.jpg?65761099');"&gt;&lt;/a&gt; &lt;a href="/adidas-campus-00s-grey-white/" class="color-option" style="background-image: url('https://cdn.myshoptet.com/usr/www.airkicks.eu/user/shop/big/429-3_00s-grey.jpg?65761143');"&gt;&lt;/a&gt; &lt;a href="/adidas-campus-00s-crystal-white-core-black/" class="color-option" style="background-image: url('https://cdn.myshoptet.com/usr/www.airkicks.eu/user/shop/big/450-2_campus-whitecore.jpg?65be90e4');"&gt;&lt;/a&gt;&lt;a href="/adidas-campus-00s-lucid-fuchsia-cloud-white/" class="color-option" style="background-image: url('https://cdn.myshoptet.com/usr/www.airkicks.eu/user/shop/big/709-3_fuchsia-1.jpg?667febc4');"&gt;&lt;/a&gt; &lt;a href="/adidas-campus-00s-better-scarlet-cloud-white/" class="color-option" style="background-image: url('https://cdn.myshoptet.com/usr/www.airkicks.eu/user/shop/big/706-2_scarlet-f.jpg?667ff631');"&gt;&lt;/a&gt; &lt;a href="/adidas-campus-00s-wonder-beige/" class="color-option" style="background-image: url('https://cdn.myshoptet.com/usr/www.airkicks.eu/user/shop/big/718_adidas-campus-00s-wonder-beige.jpg?667c7c5f');"&gt;&lt;/a&gt;&lt;a href="/campus/" class="color-option" style="background-image: url('/user/documents/upload/others.jpg');"&gt;&lt;/a&gt; &lt;!-- Ďalšie možnosti farieb budú doplnené sem --&gt;&lt;/div&gt;
+&lt;/div&gt;</SHORT_DESCRIPTION><DESCRIPTION>&lt;p&gt;&lt;span&gt;Adidas Campus 00s predstavuje nezameniteľnú líniu tenisiek, ktorá vychádza z klasických dizajnov počiatkom tretieho tisícročia. S autentickým štýlom a proporciám, ktoré môžu variabilne meniť, tieto tenisky si udržiavajú svoje výsostné postavenie.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Niektoré modely Adidas Campus 00s vynikajú nielen svojím dizajnom, ale aj funkčnosťou. Odkazujú na športový duch a pohodlie a zachovávajú nostalgiu 80. rokov, inšpirovanú Y2K vzhľadmi.&lt;/p&gt;
+&lt;p&gt;Tieto tenisky sú viac než len módnym výrokom s pohodlným a moderným designom z kvalitných materiálov, ktoré ponúkajú komfort na najvyššej úrovni.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Dnes si Adidas Campus 00s získavajú srdcia širokej skupiny zákazníkov. Ich časovo odolný dizajn a pohodlie združujú generácie a zabezpečujú, že každý krok v týchto teniskách je spojením modernosti a klasiky.&lt;/span&gt;&lt;/p&gt;</DESCRIPTION><MANUFACTURER>Adidas</MANUFACTURER><ADULT>0</ADULT><ITEM_TYPE>product</ITEM_TYPE><CATEGORIES><CATEGORY id="786">Adidas &gt; Campus</CATEGORY><DEFAULT_CATEGORY id="786">Adidas &gt; Campus</DEFAULT_CATEGORY></CATEGORIES><IMAGES><IMAGE description="campus whitecore">https://cdn.myshoptet.com/usr/www.airkicks.eu/user/shop/orig/450-2_campus-whitecore.jpg?65be90e4</IMAGE><IMAGE description="campus wc2">https://cdn.myshoptet.com/usr/www.airkicks.eu/user/shop/orig/450-1_campus-wc2.jpg?65be90e3</IMAGE><IMAGE description="campus wc">https://cdn.myshoptet.com/usr/www.airkicks.eu/user/shop/orig/450_campus-wc.jpg?65be90e2</IMAGE><IMAGE description="campus whitecore2">https://cdn.myshoptet.com/usr/www.airkicks.eu/user/shop/orig/450-3_campus-whitecore2.jpg?65be90e5</IMAGE></IMAGES><TEXT_PROPERTIES><TEXT_PROPERTY><NAME>Názov</NAME><VALUE>adidas Campus 00s Crystal White Core Black</VALUE><DESCRIPTION /></TEXT_PROPERTY><TEXT_PROPERTY><NAME>SKU</NAME><VALUE>GY0042</VALUE><DESCRIPTION /></TEXT_PROPERTY><TEXT_PROPERTY><NAME>Farba</NAME><VALUE>Crystal White Core Black</VALUE><DESCRIPTION /></TEXT_PROPERTY></TEXT_PROPERTIES>
+    <FLAGS>
+                    <FLAG>
+                <CODE>bestseller</CODE>
+                                    <ACTIVE>1</ACTIVE>
+                                                            </FLAG>
+                    <FLAG>
+                <CODE>action</CODE>
+                                    <ACTIVE>0</ACTIVE>
+                                                            </FLAG>
+                    <FLAG>
+                <CODE>tip</CODE>
+                                    <ACTIVE>0</ACTIVE>
+                                                            </FLAG>
+                    <FLAG>
+                <CODE>new</CODE>
+                                    <ACTIVE>0</ACTIVE>
+                                                            </FLAG>
+                    <FLAG>
+                <CODE>custom1</CODE>
+                                    <ACTIVE>0</ACTIVE>
+                                                            </FLAG>
+                    <FLAG>
+                <CODE>custom2</CODE>
+                                    <ACTIVE>0</ACTIVE>
+                                                            </FLAG>
+                    <FLAG>
+                <CODE>custom3</CODE>
+                                    <ACTIVE>0</ACTIVE>
+                                                            </FLAG>
+                    <FLAG>
+                <CODE>expresne-odoslanie</CODE>
+                                    <ACTIVE>0</ACTIVE>
+                                                            </FLAG>
+            </FLAGS>
+
+        
+        
+        <VISIBILITY>visible</VISIBILITY>
+
+                
+                
+        
+        
+                    <SEO_TITLE>adidas Campus 00s Crystal White Core Black - airkicks.eu</SEO_TITLE>
+        
+                    <META_DESCRIPTION>adidas Campus 00s Crystal White Core Black GY0042 sú ikonické tenisky inšpirované 80. rokmi. S ich kultovým dizajnom sú ideálnou voľbou pre každú príležitosť.</META_DESCRIPTION>
+        
+        <ALLOWS_IPLATBA>0</ALLOWS_IPLATBA>
+
+        <ALLOWS_PAY_ONLINE>1</ALLOWS_PAY_ONLINE>
+
+        <INTERNAL_NOTE />
+
+        
+        
+        
+        
+        
+        <HEUREKA_CATEGORY_ID />
+        <ZBOZI_CATEGORY_ID />
+        <GOOGLE_CATEGORY_ID />
+        <GLAMI_CATEGORY_ID />
+
+    
+            <VARIANTS><VARIANT id="6012">                                    
+
+
+<FREE_SHIPPING>0</FREE_SHIPPING>
+
+<FREE_BILLING>0</FREE_BILLING>
+
+    <UNIT>ks</UNIT>
+
+<CODE>GY0042/36</CODE>
+
+
+<LOGISTIC>
+                        <WEIGHT>0</WEIGHT>
+        </LOGISTIC>
+
+    <ATYPICAL_PRODUCT>
+                    <ATYPICAL_SHIPPING>0</ATYPICAL_SHIPPING>
+        
+                    <ATYPICAL_BILLING>0</ATYPICAL_BILLING>
+            </ATYPICAL_PRODUCT>
+    <CURRENCY>EUR</CURRENCY>
+
+            <VAT>0</VAT>
+                    <PRICE_VAT>130</PRICE_VAT>
+            
+    
+<PURCHASE_PRICE />
+
+<STANDARD_PRICE />
+
+
+<STOCK>
+                        <AMOUNT>0</AMOUNT>
+                            <LOCATION />
+                            <MINIMAL_AMOUNT />
+    <MAXIMAL_AMOUNT />
+</STOCK>
+
+    <AVAILABILITY_OUT_OF_STOCK>Skladom</AVAILABILITY_OUT_OF_STOCK>
+
+
+
+
+    
+    <STOCK_MIN_SUPPLY />
+
+
+    <VISIBLE>1</VISIBLE>
+
+    
+    
+    
+    
+    
+    <FIRMY_CZ>1</FIRMY_CZ>
+
+    <HEUREKA_HIDDEN>0</HEUREKA_HIDDEN>
+
+    <HEUREKA_CART_HIDDEN>0</HEUREKA_CART_HIDDEN>
+
+    <HEUREKA_CPC />
+
+    <ZBOZI_HIDDEN>0</ZBOZI_HIDDEN>
+
+    <ZBOZI_CPC />
+
+    <ZBOZI_SEARCH_CPC />
+
+    <ARUKERESO_HIDDEN>0</ARUKERESO_HIDDEN>
+
+    <ARUKERESO_MARKETPLACE_HIDDEN>0</ARUKERESO_MARKETPLACE_HIDDEN>
+
+    <DECIMAL_COUNT>0</DECIMAL_COUNT>
+
+    <NEGATIVE_AMOUNT>0</NEGATIVE_AMOUNT>
+
+            <UNIT_OF_MEASURE>
+            <PACKAGE_AMOUNT />
+            <PACKAGE_AMOUNT_UNIT />
+            <MEASURE_AMOUNT />
+            <MEASURE_AMOUNT_UNIT />
+        </UNIT_OF_MEASURE>
+    
+    
+    <PRICE_RATIO>1</PRICE_RATIO>
+
+    <MIN_PRICE_RATIO>0</MIN_PRICE_RATIO>
+
+    <ACTION_PRICE />
+
+    
+    
+    <APPLY_LOYALTY_DISCOUNT>1</APPLY_LOYALTY_DISCOUNT>
+
+    <APPLY_VOLUME_DISCOUNT>1</APPLY_VOLUME_DISCOUNT>
+
+    <APPLY_QUANTITY_DISCOUNT>1</APPLY_QUANTITY_DISCOUNT>
+
+    <APPLY_DISCOUNT_COUPON>1</APPLY_DISCOUNT_COUPON>
+
+    
+            
+                                    
+            
+    
+
+<PARAMETERS><PARAMETER><NAME>Veľkosť</NAME><VALUE>36</VALUE></PARAMETER></PARAMETERS></VARIANT><VARIANT id="6015">                                    
+
+
+<FREE_SHIPPING>0</FREE_SHIPPING>
+
+<FREE_BILLING>0</FREE_BILLING>
+
+    <UNIT>ks</UNIT>
+
+<CODE>GY0042/36.</CODE>
+
+
+<LOGISTIC>
+                        <WEIGHT>0</WEIGHT>
+        </LOGISTIC>
+
+    <ATYPICAL_PRODUCT>
+                    <ATYPICAL_SHIPPING>0</ATYPICAL_SHIPPING>
+        
+                    <ATYPICAL_BILLING>0</ATYPICAL_BILLING>
+            </ATYPICAL_PRODUCT>
+    <CURRENCY>EUR</CURRENCY>
+
+            <VAT>0</VAT>
+                    <PRICE_VAT>130</PRICE_VAT>
+            
+    
+<PURCHASE_PRICE />
+
+<STANDARD_PRICE />
+
+
+<STOCK>
+                        <AMOUNT>0</AMOUNT>
+                            <LOCATION />
+                            <MINIMAL_AMOUNT />
+    <MAXIMAL_AMOUNT />
+</STOCK>
+
+    <AVAILABILITY_OUT_OF_STOCK>Skladom</AVAILABILITY_OUT_OF_STOCK>
+
+
+
+
+    
+    <STOCK_MIN_SUPPLY />
+
+
+    <VISIBLE>1</VISIBLE>
+
+    
+    
+    
+    
+    
+    <FIRMY_CZ>1</FIRMY_CZ>
+
+    <HEUREKA_HIDDEN>0</HEUREKA_HIDDEN>
+
+    <HEUREKA_CART_HIDDEN>0</HEUREKA_CART_HIDDEN>
+
+    <HEUREKA_CPC />
+
+    <ZBOZI_HIDDEN>0</ZBOZI_HIDDEN>
+
+    <ZBOZI_CPC />
+
+    <ZBOZI_SEARCH_CPC />
+
+    <ARUKERESO_HIDDEN>0</ARUKERESO_HIDDEN>
+
+    <ARUKERESO_MARKETPLACE_HIDDEN>0</ARUKERESO_MARKETPLACE_HIDDEN>
+
+    <DECIMAL_COUNT>0</DECIMAL_COUNT>
+
+    <NEGATIVE_AMOUNT>0</NEGATIVE_AMOUNT>
+
+            <UNIT_OF_MEASURE>
+            <PACKAGE_AMOUNT />
+            <PACKAGE_AMOUNT_UNIT />
+            <MEASURE_AMOUNT />
+            <MEASURE_AMOUNT_UNIT />
+        </UNIT_OF_MEASURE>
+    
+    
+    <PRICE_RATIO>1</PRICE_RATIO>
+
+    <MIN_PRICE_RATIO>0</MIN_PRICE_RATIO>
+
+    <ACTION_PRICE />
+
+    
+    
+    <APPLY_LOYALTY_DISCOUNT>1</APPLY_LOYALTY_DISCOUNT>
+
+    <APPLY_VOLUME_DISCOUNT>1</APPLY_VOLUME_DISCOUNT>
+
+    <APPLY_QUANTITY_DISCOUNT>1</APPLY_QUANTITY_DISCOUNT>
+
+    <APPLY_DISCOUNT_COUPON>1</APPLY_DISCOUNT_COUPON>
+
+    
+            
+                                    
+            
+    
+
+<PARAMETERS><PARAMETER><NAME>Veľkosť</NAME><VALUE>36 2/3</VALUE></PARAMETER></PARAMETERS></VARIANT><VARIANT id="6018">                                    
+
+
+<FREE_SHIPPING>0</FREE_SHIPPING>
+
+<FREE_BILLING>0</FREE_BILLING>
+
+    <UNIT>ks</UNIT>
+
+<CODE>GY0042/37</CODE>
+
+
+<LOGISTIC>
+                        <WEIGHT>0</WEIGHT>
+        </LOGISTIC>
+
+    <ATYPICAL_PRODUCT>
+                    <ATYPICAL_SHIPPING>0</ATYPICAL_SHIPPING>
+        
+                    <ATYPICAL_BILLING>0</ATYPICAL_BILLING>
+            </ATYPICAL_PRODUCT>
+    <CURRENCY>EUR</CURRENCY>
+
+            <VAT>0</VAT>
+                    <PRICE_VAT>130</PRICE_VAT>
+            
+    
+<PURCHASE_PRICE />
+
+<STANDARD_PRICE />
+
+
+<STOCK>
+                        <AMOUNT>0</AMOUNT>
+                            <LOCATION />
+                            <MINIMAL_AMOUNT />
+    <MAXIMAL_AMOUNT />
+</STOCK>
+
+    <AVAILABILITY_OUT_OF_STOCK>Skladom</AVAILABILITY_OUT_OF_STOCK>
+
+
+
+
+    
+    <STOCK_MIN_SUPPLY />
+
+
+    <VISIBLE>1</VISIBLE>
+
+    
+    
+    
+    
+    
+    <FIRMY_CZ>1</FIRMY_CZ>
+
+    <HEUREKA_HIDDEN>0</HEUREKA_HIDDEN>
+
+    <HEUREKA_CART_HIDDEN>0</HEUREKA_CART_HIDDEN>
+
+    <HEUREKA_CPC />
+
+    <ZBOZI_HIDDEN>0</ZBOZI_HIDDEN>
+
+    <ZBOZI_CPC />
+
+    <ZBOZI_SEARCH_CPC />
+
+    <ARUKERESO_HIDDEN>0</ARUKERESO_HIDDEN>
+
+    <ARUKERESO_MARKETPLACE_HIDDEN>0</ARUKERESO_MARKETPLACE_HIDDEN>
+
+    <DECIMAL_COUNT>0</DECIMAL_COUNT>
+
+    <NEGATIVE_AMOUNT>0</NEGATIVE_AMOUNT>
+
+            <UNIT_OF_MEASURE>
+            <PACKAGE_AMOUNT />
+            <PACKAGE_AMOUNT_UNIT />
+            <MEASURE_AMOUNT />
+            <MEASURE_AMOUNT_UNIT />
+        </UNIT_OF_MEASURE>
+    
+    
+    <PRICE_RATIO>1</PRICE_RATIO>
+
+    <MIN_PRICE_RATIO>0</MIN_PRICE_RATIO>
+
+    <ACTION_PRICE />
+
+    
+    
+    <APPLY_LOYALTY_DISCOUNT>1</APPLY_LOYALTY_DISCOUNT>
+
+    <APPLY_VOLUME_DISCOUNT>1</APPLY_VOLUME_DISCOUNT>
+
+    <APPLY_QUANTITY_DISCOUNT>1</APPLY_QUANTITY_DISCOUNT>
+
+    <APPLY_DISCOUNT_COUPON>1</APPLY_DISCOUNT_COUPON>
+
+    
+            
+                                    
+            
+    
+
+<PARAMETERS><PARAMETER><NAME>Veľkosť</NAME><VALUE>37 1/3</VALUE></PARAMETER></PARAMETERS></VARIANT><VARIANT id="6021">                                    
+
+
+<FREE_SHIPPING>0</FREE_SHIPPING>
+
+<FREE_BILLING>0</FREE_BILLING>
+
+    <UNIT>ks</UNIT>
+
+<CODE>GY0042/38</CODE>
+
+
+<LOGISTIC>
+                        <WEIGHT>0</WEIGHT>
+        </LOGISTIC>
+
+    <ATYPICAL_PRODUCT>
+                    <ATYPICAL_SHIPPING>0</ATYPICAL_SHIPPING>
+        
+                    <ATYPICAL_BILLING>0</ATYPICAL_BILLING>
+            </ATYPICAL_PRODUCT>
+    <CURRENCY>EUR</CURRENCY>
+
+            <VAT>0</VAT>
+                    <PRICE_VAT>130</PRICE_VAT>
+            
+    
+<PURCHASE_PRICE />
+
+<STANDARD_PRICE />
+
+
+<STOCK>
+                        <AMOUNT>0</AMOUNT>
+                            <LOCATION />
+                            <MINIMAL_AMOUNT />
+    <MAXIMAL_AMOUNT />
+</STOCK>
+
+    <AVAILABILITY_OUT_OF_STOCK>Skladom</AVAILABILITY_OUT_OF_STOCK>
+
+
+
+
+    
+    <STOCK_MIN_SUPPLY />
+
+
+    <VISIBLE>1</VISIBLE>
+
+    
+    
+    
+    
+    
+    <FIRMY_CZ>1</FIRMY_CZ>
+
+    <HEUREKA_HIDDEN>0</HEUREKA_HIDDEN>
+
+    <HEUREKA_CART_HIDDEN>0</HEUREKA_CART_HIDDEN>
+
+    <HEUREKA_CPC />
+
+    <ZBOZI_HIDDEN>0</ZBOZI_HIDDEN>
+
+    <ZBOZI_CPC />
+
+    <ZBOZI_SEARCH_CPC />
+
+    <ARUKERESO_HIDDEN>0</ARUKERESO_HIDDEN>
+
+    <ARUKERESO_MARKETPLACE_HIDDEN>0</ARUKERESO_MARKETPLACE_HIDDEN>
+
+    <DECIMAL_COUNT>0</DECIMAL_COUNT>
+
+    <NEGATIVE_AMOUNT>0</NEGATIVE_AMOUNT>
+
+            <UNIT_OF_MEASURE>
+            <PACKAGE_AMOUNT />
+            <PACKAGE_AMOUNT_UNIT />
+            <MEASURE_AMOUNT />
+            <MEASURE_AMOUNT_UNIT />
+        </UNIT_OF_MEASURE>
+    
+    
+    <PRICE_RATIO>1</PRICE_RATIO>
+
+    <MIN_PRICE_RATIO>0</MIN_PRICE_RATIO>
+
+    <ACTION_PRICE />
+
+    
+    
+    <APPLY_LOYALTY_DISCOUNT>1</APPLY_LOYALTY_DISCOUNT>
+
+    <APPLY_VOLUME_DISCOUNT>1</APPLY_VOLUME_DISCOUNT>
+
+    <APPLY_QUANTITY_DISCOUNT>1</APPLY_QUANTITY_DISCOUNT>
+
+    <APPLY_DISCOUNT_COUPON>1</APPLY_DISCOUNT_COUPON>
+
+    
+            
+                                    
+            
+    
+
+<PARAMETERS><PARAMETER><NAME>Veľkosť</NAME><VALUE>38</VALUE></PARAMETER></PARAMETERS></VARIANT><VARIANT id="6024">                                    
+
+
+<FREE_SHIPPING>0</FREE_SHIPPING>
+
+<FREE_BILLING>0</FREE_BILLING>
+
+    <UNIT>ks</UNIT>
+
+<CODE>GY0042/38.</CODE>
+
+
+<LOGISTIC>
+                        <WEIGHT>0</WEIGHT>
+        </LOGISTIC>
+
+    <ATYPICAL_PRODUCT>
+                    <ATYPICAL_SHIPPING>0</ATYPICAL_SHIPPING>
+        
+                    <ATYPICAL_BILLING>0</ATYPICAL_BILLING>
+            </ATYPICAL_PRODUCT>
+    <CURRENCY>EUR</CURRENCY>
+
+            <VAT>0</VAT>
+                    <PRICE_VAT>130</PRICE_VAT>
+            
+    
+<PURCHASE_PRICE />
+
+<STANDARD_PRICE />
+
+
+<STOCK>
+                        <AMOUNT>0</AMOUNT>
+                            <LOCATION />
+                            <MINIMAL_AMOUNT />
+    <MAXIMAL_AMOUNT />
+</STOCK>
+
+    <AVAILABILITY_OUT_OF_STOCK>Skladom</AVAILABILITY_OUT_OF_STOCK>
+
+
+
+
+    
+    <STOCK_MIN_SUPPLY />
+
+
+    <VISIBLE>1</VISIBLE>
+
+    
+    
+    
+    
+    
+    <FIRMY_CZ>1</FIRMY_CZ>
+
+    <HEUREKA_HIDDEN>0</HEUREKA_HIDDEN>
+
+    <HEUREKA_CART_HIDDEN>0</HEUREKA_CART_HIDDEN>
+
+    <HEUREKA_CPC />
+
+    <ZBOZI_HIDDEN>0</ZBOZI_HIDDEN>
+
+    <ZBOZI_CPC />
+
+    <ZBOZI_SEARCH_CPC />
+
+    <ARUKERESO_HIDDEN>0</ARUKERESO_HIDDEN>
+
+    <ARUKERESO_MARKETPLACE_HIDDEN>0</ARUKERESO_MARKETPLACE_HIDDEN>
+
+    <DECIMAL_COUNT>0</DECIMAL_COUNT>
+
+    <NEGATIVE_AMOUNT>0</NEGATIVE_AMOUNT>
+
+            <UNIT_OF_MEASURE>
+            <PACKAGE_AMOUNT />
+            <PACKAGE_AMOUNT_UNIT />
+            <MEASURE_AMOUNT />
+            <MEASURE_AMOUNT_UNIT />
+        </UNIT_OF_MEASURE>
+    
+    
+    <PRICE_RATIO>1</PRICE_RATIO>
+
+    <MIN_PRICE_RATIO>0</MIN_PRICE_RATIO>
+
+    <ACTION_PRICE />
+
+    
+    
+    <APPLY_LOYALTY_DISCOUNT>1</APPLY_LOYALTY_DISCOUNT>
+
+    <APPLY_VOLUME_DISCOUNT>1</APPLY_VOLUME_DISCOUNT>
+
+    <APPLY_QUANTITY_DISCOUNT>1</APPLY_QUANTITY_DISCOUNT>
+
+    <APPLY_DISCOUNT_COUPON>1</APPLY_DISCOUNT_COUPON>
+
+    
+            
+                                    
+            
+    
+
+<PARAMETERS><PARAMETER><NAME>Veľkosť</NAME><VALUE>38 2/3</VALUE></PARAMETER></PARAMETERS></VARIANT><VARIANT id="6027">                                    
+
+
+<FREE_SHIPPING>0</FREE_SHIPPING>
+
+<FREE_BILLING>0</FREE_BILLING>
+
+    <UNIT>ks</UNIT>
+
+<CODE>GY0042/39</CODE>
+
+
+<LOGISTIC>
+                        <WEIGHT>0</WEIGHT>
+        </LOGISTIC>
+
+    <ATYPICAL_PRODUCT>
+                    <ATYPICAL_SHIPPING>0</ATYPICAL_SHIPPING>
+        
+                    <ATYPICAL_BILLING>0</ATYPICAL_BILLING>
+            </ATYPICAL_PRODUCT>
+    <CURRENCY>EUR</CURRENCY>
+
+            <VAT>0</VAT>
+                    <PRICE_VAT>130</PRICE_VAT>
+            
+    
+<PURCHASE_PRICE />
+
+<STANDARD_PRICE />
+
+
+<STOCK>
+                        <AMOUNT>0</AMOUNT>
+                            <LOCATION />
+                            <MINIMAL_AMOUNT />
+    <MAXIMAL_AMOUNT />
+</STOCK>
+
+    <AVAILABILITY_OUT_OF_STOCK>Skladom</AVAILABILITY_OUT_OF_STOCK>
+
+
+
+
+    
+    <STOCK_MIN_SUPPLY />
+
+
+    <VISIBLE>1</VISIBLE>
+
+    
+    
+    
+    
+    
+    <FIRMY_CZ>1</FIRMY_CZ>
+
+    <HEUREKA_HIDDEN>0</HEUREKA_HIDDEN>
+
+    <HEUREKA_CART_HIDDEN>0</HEUREKA_CART_HIDDEN>
+
+    <HEUREKA_CPC />
+
+    <ZBOZI_HIDDEN>0</ZBOZI_HIDDEN>
+
+    <ZBOZI_CPC />
+
+    <ZBOZI_SEARCH_CPC />
+
+    <ARUKERESO_HIDDEN>0</ARUKERESO_HIDDEN>
+
+    <ARUKERESO_MARKETPLACE_HIDDEN>0</ARUKERESO_MARKETPLACE_HIDDEN>
+
+    <DECIMAL_COUNT>0</DECIMAL_COUNT>
+
+    <NEGATIVE_AMOUNT>0</NEGATIVE_AMOUNT>
+
+            <UNIT_OF_MEASURE>
+            <PACKAGE_AMOUNT />
+            <PACKAGE_AMOUNT_UNIT />
+            <MEASURE_AMOUNT />
+            <MEASURE_AMOUNT_UNIT />
+        </UNIT_OF_MEASURE>
+    
+    
+    <PRICE_RATIO>1</PRICE_RATIO>
+
+    <MIN_PRICE_RATIO>0</MIN_PRICE_RATIO>
+
+    <ACTION_PRICE />
+
+    
+    
+    <APPLY_LOYALTY_DISCOUNT>0</APPLY_LOYALTY_DISCOUNT>
+
+    <APPLY_VOLUME_DISCOUNT>0</APPLY_VOLUME_DISCOUNT>
+
+    <APPLY_QUANTITY_DISCOUNT>0</APPLY_QUANTITY_DISCOUNT>
+
+    <APPLY_DISCOUNT_COUPON>0</APPLY_DISCOUNT_COUPON>
+
+    
+            
+                                    
+            
+    
+
+<PARAMETERS><PARAMETER><NAME>Veľkosť</NAME><VALUE>39 1/3</VALUE></PARAMETER></PARAMETERS></VARIANT><VARIANT id="6030">                                    
+
+
+<FREE_SHIPPING>0</FREE_SHIPPING>
+
+<FREE_BILLING>0</FREE_BILLING>
+
+    <UNIT>ks</UNIT>
+
+<CODE>GY0042/40</CODE>
+
+
+<LOGISTIC>
+                        <WEIGHT>0</WEIGHT>
+        </LOGISTIC>
+
+    <ATYPICAL_PRODUCT>
+                    <ATYPICAL_SHIPPING>0</ATYPICAL_SHIPPING>
+        
+                    <ATYPICAL_BILLING>0</ATYPICAL_BILLING>
+            </ATYPICAL_PRODUCT>
+    <CURRENCY>EUR</CURRENCY>
+
+            <VAT>0</VAT>
+                    <PRICE_VAT>130</PRICE_VAT>
+            
+    
+<PURCHASE_PRICE />
+
+<STANDARD_PRICE />
+
+
+<STOCK>
+                        <AMOUNT>0</AMOUNT>
+                            <LOCATION />
+                            <MINIMAL_AMOUNT />
+    <MAXIMAL_AMOUNT />
+</STOCK>
+
+    <AVAILABILITY_OUT_OF_STOCK>Skladom</AVAILABILITY_OUT_OF_STOCK>
+
+
+
+
+    
+    <STOCK_MIN_SUPPLY />
+
+
+    <VISIBLE>1</VISIBLE>
+
+    
+    
+    
+    
+    
+    <FIRMY_CZ>1</FIRMY_CZ>
+
+    <HEUREKA_HIDDEN>0</HEUREKA_HIDDEN>
+
+    <HEUREKA_CART_HIDDEN>0</HEUREKA_CART_HIDDEN>
+
+    <HEUREKA_CPC />
+
+    <ZBOZI_HIDDEN>0</ZBOZI_HIDDEN>
+
+    <ZBOZI_CPC />
+
+    <ZBOZI_SEARCH_CPC />
+
+    <ARUKERESO_HIDDEN>0</ARUKERESO_HIDDEN>
+
+    <ARUKERESO_MARKETPLACE_HIDDEN>0</ARUKERESO_MARKETPLACE_HIDDEN>
+
+    <DECIMAL_COUNT>0</DECIMAL_COUNT>
+
+    <NEGATIVE_AMOUNT>0</NEGATIVE_AMOUNT>
+
+            <UNIT_OF_MEASURE>
+            <PACKAGE_AMOUNT />
+            <PACKAGE_AMOUNT_UNIT />
+            <MEASURE_AMOUNT />
+            <MEASURE_AMOUNT_UNIT />
+        </UNIT_OF_MEASURE>
+    
+    
+    <PRICE_RATIO>1</PRICE_RATIO>
+
+    <MIN_PRICE_RATIO>0</MIN_PRICE_RATIO>
+
+    <ACTION_PRICE />
+
+    
+    
+    <APPLY_LOYALTY_DISCOUNT>1</APPLY_LOYALTY_DISCOUNT>
+
+    <APPLY_VOLUME_DISCOUNT>1</APPLY_VOLUME_DISCOUNT>
+
+    <APPLY_QUANTITY_DISCOUNT>1</APPLY_QUANTITY_DISCOUNT>
+
+    <APPLY_DISCOUNT_COUPON>1</APPLY_DISCOUNT_COUPON>
+
+    
+            
+                                    
+            
+    
+
+<PARAMETERS><PARAMETER><NAME>Veľkosť</NAME><VALUE>40</VALUE></PARAMETER></PARAMETERS></VARIANT><VARIANT id="6033">                                    
+
+
+<FREE_SHIPPING>0</FREE_SHIPPING>
+
+<FREE_BILLING>0</FREE_BILLING>
+
+    <UNIT>ks</UNIT>
+
+<CODE>GY0042/40.</CODE>
+
+
+<LOGISTIC>
+                        <WEIGHT>0</WEIGHT>
+        </LOGISTIC>
+
+    <ATYPICAL_PRODUCT>
+                    <ATYPICAL_SHIPPING>0</ATYPICAL_SHIPPING>
+        
+                    <ATYPICAL_BILLING>0</ATYPICAL_BILLING>
+            </ATYPICAL_PRODUCT>
+    <CURRENCY>EUR</CURRENCY>
+
+            <VAT>0</VAT>
+                    <PRICE_VAT>130</PRICE_VAT>
+            
+    
+<PURCHASE_PRICE />
+
+<STANDARD_PRICE />
+
+
+<STOCK>
+                        <AMOUNT>0</AMOUNT>
+                            <LOCATION />
+                            <MINIMAL_AMOUNT />
+    <MAXIMAL_AMOUNT />
+</STOCK>
+
+    <AVAILABILITY_OUT_OF_STOCK>Skladom</AVAILABILITY_OUT_OF_STOCK>
+
+
+
+
+    
+    <STOCK_MIN_SUPPLY />
+
+
+    <VISIBLE>1</VISIBLE>
+
+    
+    
+    
+    
+    
+    <FIRMY_CZ>1</FIRMY_CZ>
+
+    <HEUREKA_HIDDEN>0</HEUREKA_HIDDEN>
+
+    <HEUREKA_CART_HIDDEN>0</HEUREKA_CART_HIDDEN>
+
+    <HEUREKA_CPC />
+
+    <ZBOZI_HIDDEN>0</ZBOZI_HIDDEN>
+
+    <ZBOZI_CPC />
+
+    <ZBOZI_SEARCH_CPC />
+
+    <ARUKERESO_HIDDEN>0</ARUKERESO_HIDDEN>
+
+    <ARUKERESO_MARKETPLACE_HIDDEN>0</ARUKERESO_MARKETPLACE_HIDDEN>
+
+    <DECIMAL_COUNT>0</DECIMAL_COUNT>
+
+    <NEGATIVE_AMOUNT>0</NEGATIVE_AMOUNT>
+
+            <UNIT_OF_MEASURE>
+            <PACKAGE_AMOUNT />
+            <PACKAGE_AMOUNT_UNIT />
+            <MEASURE_AMOUNT />
+            <MEASURE_AMOUNT_UNIT />
+        </UNIT_OF_MEASURE>
+    
+    
+    <PRICE_RATIO>1</PRICE_RATIO>
+
+    <MIN_PRICE_RATIO>0</MIN_PRICE_RATIO>
+
+    <ACTION_PRICE />
+
+    
+    
+    <APPLY_LOYALTY_DISCOUNT>1</APPLY_LOYALTY_DISCOUNT>
+
+    <APPLY_VOLUME_DISCOUNT>1</APPLY_VOLUME_DISCOUNT>
+
+    <APPLY_QUANTITY_DISCOUNT>1</APPLY_QUANTITY_DISCOUNT>
+
+    <APPLY_DISCOUNT_COUPON>1</APPLY_DISCOUNT_COUPON>
+
+    
+            
+                                    
+            
+    
+
+<PARAMETERS><PARAMETER><NAME>Veľkosť</NAME><VALUE>40 2/3</VALUE></PARAMETER></PARAMETERS></VARIANT><VARIANT id="6036">                                    
+
+
+<FREE_SHIPPING>0</FREE_SHIPPING>
+
+<FREE_BILLING>0</FREE_BILLING>
+
+    <UNIT>ks</UNIT>
+
+<CODE>GY0042/41</CODE>
+
+
+<LOGISTIC>
+                        <WEIGHT>0</WEIGHT>
+        </LOGISTIC>
+
+    <ATYPICAL_PRODUCT>
+                    <ATYPICAL_SHIPPING>0</ATYPICAL_SHIPPING>
+        
+                    <ATYPICAL_BILLING>0</ATYPICAL_BILLING>
+            </ATYPICAL_PRODUCT>
+    <CURRENCY>EUR</CURRENCY>
+
+            <VAT>0</VAT>
+                    <PRICE_VAT>130</PRICE_VAT>
+            
+    
+<PURCHASE_PRICE />
+
+<STANDARD_PRICE />
+
+
+<STOCK>
+                        <AMOUNT>0</AMOUNT>
+                            <LOCATION />
+                            <MINIMAL_AMOUNT />
+    <MAXIMAL_AMOUNT />
+</STOCK>
+
+    <AVAILABILITY_OUT_OF_STOCK>Skladom</AVAILABILITY_OUT_OF_STOCK>
+
+
+
+
+    
+    <STOCK_MIN_SUPPLY />
+
+
+    <VISIBLE>1</VISIBLE>
+
+    
+    
+    
+    
+    
+    <FIRMY_CZ>1</FIRMY_CZ>
+
+    <HEUREKA_HIDDEN>0</HEUREKA_HIDDEN>
+
+    <HEUREKA_CART_HIDDEN>0</HEUREKA_CART_HIDDEN>
+
+    <HEUREKA_CPC />
+
+    <ZBOZI_HIDDEN>0</ZBOZI_HIDDEN>
+
+    <ZBOZI_CPC />
+
+    <ZBOZI_SEARCH_CPC />
+
+    <ARUKERESO_HIDDEN>0</ARUKERESO_HIDDEN>
+
+    <ARUKERESO_MARKETPLACE_HIDDEN>0</ARUKERESO_MARKETPLACE_HIDDEN>
+
+    <DECIMAL_COUNT>0</DECIMAL_COUNT>
+
+    <NEGATIVE_AMOUNT>0</NEGATIVE_AMOUNT>
+
+            <UNIT_OF_MEASURE>
+            <PACKAGE_AMOUNT />
+            <PACKAGE_AMOUNT_UNIT />
+            <MEASURE_AMOUNT />
+            <MEASURE_AMOUNT_UNIT />
+        </UNIT_OF_MEASURE>
+    
+    
+    <PRICE_RATIO>1</PRICE_RATIO>
+
+    <MIN_PRICE_RATIO>0</MIN_PRICE_RATIO>
+
+    <ACTION_PRICE />
+
+    
+    
+    <APPLY_LOYALTY_DISCOUNT>0</APPLY_LOYALTY_DISCOUNT>
+
+    <APPLY_VOLUME_DISCOUNT>0</APPLY_VOLUME_DISCOUNT>
+
+    <APPLY_QUANTITY_DISCOUNT>0</APPLY_QUANTITY_DISCOUNT>
+
+    <APPLY_DISCOUNT_COUPON>0</APPLY_DISCOUNT_COUPON>
+
+    
+            
+                                    
+            
+    
+
+<PARAMETERS><PARAMETER><NAME>Veľkosť</NAME><VALUE>41 1/3</VALUE></PARAMETER></PARAMETERS></VARIANT><VARIANT id="6039">                                    
+
+
+<FREE_SHIPPING>0</FREE_SHIPPING>
+
+<FREE_BILLING>0</FREE_BILLING>
+
+    <UNIT>ks</UNIT>
+
+<CODE>GY0042/42</CODE>
+
+
+<LOGISTIC>
+                        <WEIGHT>0</WEIGHT>
+        </LOGISTIC>
+
+    <ATYPICAL_PRODUCT>
+                    <ATYPICAL_SHIPPING>0</ATYPICAL_SHIPPING>
+        
+                    <ATYPICAL_BILLING>0</ATYPICAL_BILLING>
+            </ATYPICAL_PRODUCT>
+    <CURRENCY>EUR</CURRENCY>
+
+            <VAT>0</VAT>
+                    <PRICE_VAT>130</PRICE_VAT>
+            
+    
+<PURCHASE_PRICE />
+
+<STANDARD_PRICE />
+
+
+<STOCK>
+                        <AMOUNT>0</AMOUNT>
+                            <LOCATION />
+                            <MINIMAL_AMOUNT />
+    <MAXIMAL_AMOUNT />
+</STOCK>
+
+    <AVAILABILITY_OUT_OF_STOCK>Skladom</AVAILABILITY_OUT_OF_STOCK>
+
+
+
+
+    
+    <STOCK_MIN_SUPPLY />
+
+
+    <VISIBLE>1</VISIBLE>
+
+    
+    
+    
+    
+    
+    <FIRMY_CZ>1</FIRMY_CZ>
+
+    <HEUREKA_HIDDEN>0</HEUREKA_HIDDEN>
+
+    <HEUREKA_CART_HIDDEN>0</HEUREKA_CART_HIDDEN>
+
+    <HEUREKA_CPC />
+
+    <ZBOZI_HIDDEN>0</ZBOZI_HIDDEN>
+
+    <ZBOZI_CPC />
+
+    <ZBOZI_SEARCH_CPC />
+
+    <ARUKERESO_HIDDEN>0</ARUKERESO_HIDDEN>
+
+    <ARUKERESO_MARKETPLACE_HIDDEN>0</ARUKERESO_MARKETPLACE_HIDDEN>
+
+    <DECIMAL_COUNT>0</DECIMAL_COUNT>
+
+    <NEGATIVE_AMOUNT>0</NEGATIVE_AMOUNT>
+
+            <UNIT_OF_MEASURE>
+            <PACKAGE_AMOUNT />
+            <PACKAGE_AMOUNT_UNIT />
+            <MEASURE_AMOUNT />
+            <MEASURE_AMOUNT_UNIT />
+        </UNIT_OF_MEASURE>
+    
+    
+    <PRICE_RATIO>1</PRICE_RATIO>
+
+    <MIN_PRICE_RATIO>0</MIN_PRICE_RATIO>
+
+    <ACTION_PRICE />
+
+    
+    
+    <APPLY_LOYALTY_DISCOUNT>1</APPLY_LOYALTY_DISCOUNT>
+
+    <APPLY_VOLUME_DISCOUNT>1</APPLY_VOLUME_DISCOUNT>
+
+    <APPLY_QUANTITY_DISCOUNT>1</APPLY_QUANTITY_DISCOUNT>
+
+    <APPLY_DISCOUNT_COUPON>1</APPLY_DISCOUNT_COUPON>
+
+    
+            
+                                    
+            
+    
+
+<PARAMETERS><PARAMETER><NAME>Veľkosť</NAME><VALUE>42</VALUE></PARAMETER></PARAMETERS></VARIANT><VARIANT id="6042">                                    
+
+
+<FREE_SHIPPING>0</FREE_SHIPPING>
+
+<FREE_BILLING>0</FREE_BILLING>
+
+    <UNIT>ks</UNIT>
+
+<CODE>GY0042/42.</CODE>
+
+
+<LOGISTIC>
+                        <WEIGHT>0</WEIGHT>
+        </LOGISTIC>
+
+    <ATYPICAL_PRODUCT>
+                    <ATYPICAL_SHIPPING>0</ATYPICAL_SHIPPING>
+        
+                    <ATYPICAL_BILLING>0</ATYPICAL_BILLING>
+            </ATYPICAL_PRODUCT>
+    <CURRENCY>EUR</CURRENCY>
+
+            <VAT>0</VAT>
+                    <PRICE_VAT>130</PRICE_VAT>
+            
+    
+<PURCHASE_PRICE />
+
+<STANDARD_PRICE />
+
+
+<STOCK>
+                        <AMOUNT>0</AMOUNT>
+                            <LOCATION />
+                            <MINIMAL_AMOUNT />
+    <MAXIMAL_AMOUNT />
+</STOCK>
+
+    <AVAILABILITY_OUT_OF_STOCK>Skladom</AVAILABILITY_OUT_OF_STOCK>
+
+
+
+
+    
+    <STOCK_MIN_SUPPLY />
+
+
+    <VISIBLE>1</VISIBLE>
+
+    
+    
+    
+    
+    
+    <FIRMY_CZ>1</FIRMY_CZ>
+
+    <HEUREKA_HIDDEN>0</HEUREKA_HIDDEN>
+
+    <HEUREKA_CART_HIDDEN>0</HEUREKA_CART_HIDDEN>
+
+    <HEUREKA_CPC />
+
+    <ZBOZI_HIDDEN>0</ZBOZI_HIDDEN>
+
+    <ZBOZI_CPC />
+
+    <ZBOZI_SEARCH_CPC />
+
+    <ARUKERESO_HIDDEN>0</ARUKERESO_HIDDEN>
+
+    <ARUKERESO_MARKETPLACE_HIDDEN>0</ARUKERESO_MARKETPLACE_HIDDEN>
+
+    <DECIMAL_COUNT>0</DECIMAL_COUNT>
+
+    <NEGATIVE_AMOUNT>0</NEGATIVE_AMOUNT>
+
+            <UNIT_OF_MEASURE>
+            <PACKAGE_AMOUNT />
+            <PACKAGE_AMOUNT_UNIT />
+            <MEASURE_AMOUNT />
+            <MEASURE_AMOUNT_UNIT />
+        </UNIT_OF_MEASURE>
+    
+    
+    <PRICE_RATIO>1</PRICE_RATIO>
+
+    <MIN_PRICE_RATIO>0</MIN_PRICE_RATIO>
+
+    <ACTION_PRICE />
+
+    
+    
+    <APPLY_LOYALTY_DISCOUNT>1</APPLY_LOYALTY_DISCOUNT>
+
+    <APPLY_VOLUME_DISCOUNT>1</APPLY_VOLUME_DISCOUNT>
+
+    <APPLY_QUANTITY_DISCOUNT>1</APPLY_QUANTITY_DISCOUNT>
+
+    <APPLY_DISCOUNT_COUPON>1</APPLY_DISCOUNT_COUPON>
+
+    
+            
+                                    
+            
+    
+
+<PARAMETERS><PARAMETER><NAME>Veľkosť</NAME><VALUE>42 2/3</VALUE></PARAMETER></PARAMETERS></VARIANT><VARIANT id="6045">                                    
+
+
+<FREE_SHIPPING>0</FREE_SHIPPING>
+
+<FREE_BILLING>0</FREE_BILLING>
+
+    <UNIT>ks</UNIT>
+
+<CODE>GY0042/43</CODE>
+
+
+<LOGISTIC>
+                        <WEIGHT>0</WEIGHT>
+        </LOGISTIC>
+
+    <ATYPICAL_PRODUCT>
+                    <ATYPICAL_SHIPPING>0</ATYPICAL_SHIPPING>
+        
+                    <ATYPICAL_BILLING>0</ATYPICAL_BILLING>
+            </ATYPICAL_PRODUCT>
+    <CURRENCY>EUR</CURRENCY>
+
+            <VAT>0</VAT>
+                    <PRICE_VAT>130</PRICE_VAT>
+            
+    
+<PURCHASE_PRICE />
+
+<STANDARD_PRICE />
+
+
+<STOCK>
+                        <AMOUNT>0</AMOUNT>
+                            <LOCATION />
+                            <MINIMAL_AMOUNT />
+    <MAXIMAL_AMOUNT />
+</STOCK>
+
+    <AVAILABILITY_OUT_OF_STOCK>Skladom</AVAILABILITY_OUT_OF_STOCK>
+
+
+
+
+    
+    <STOCK_MIN_SUPPLY />
+
+
+    <VISIBLE>1</VISIBLE>
+
+    
+    
+    
+    
+    
+    <FIRMY_CZ>1</FIRMY_CZ>
+
+    <HEUREKA_HIDDEN>0</HEUREKA_HIDDEN>
+
+    <HEUREKA_CART_HIDDEN>0</HEUREKA_CART_HIDDEN>
+
+    <HEUREKA_CPC />
+
+    <ZBOZI_HIDDEN>0</ZBOZI_HIDDEN>
+
+    <ZBOZI_CPC />
+
+    <ZBOZI_SEARCH_CPC />
+
+    <ARUKERESO_HIDDEN>0</ARUKERESO_HIDDEN>
+
+    <ARUKERESO_MARKETPLACE_HIDDEN>0</ARUKERESO_MARKETPLACE_HIDDEN>
+
+    <DECIMAL_COUNT>0</DECIMAL_COUNT>
+
+    <NEGATIVE_AMOUNT>0</NEGATIVE_AMOUNT>
+
+            <UNIT_OF_MEASURE>
+            <PACKAGE_AMOUNT />
+            <PACKAGE_AMOUNT_UNIT />
+            <MEASURE_AMOUNT />
+            <MEASURE_AMOUNT_UNIT />
+        </UNIT_OF_MEASURE>
+    
+    
+    <PRICE_RATIO>1</PRICE_RATIO>
+
+    <MIN_PRICE_RATIO>0</MIN_PRICE_RATIO>
+
+    <ACTION_PRICE />
+
+    
+    
+    <APPLY_LOYALTY_DISCOUNT>1</APPLY_LOYALTY_DISCOUNT>
+
+    <APPLY_VOLUME_DISCOUNT>1</APPLY_VOLUME_DISCOUNT>
+
+    <APPLY_QUANTITY_DISCOUNT>1</APPLY_QUANTITY_DISCOUNT>
+
+    <APPLY_DISCOUNT_COUPON>1</APPLY_DISCOUNT_COUPON>
+
+    
+            
+                                    
+            
+    
+
+<PARAMETERS><PARAMETER><NAME>Veľkosť</NAME><VALUE>43 1/3</VALUE></PARAMETER></PARAMETERS></VARIANT></VARIANTS></SHOPITEM>
+
+
 </SHOP>
