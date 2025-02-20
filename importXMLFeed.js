@@ -34,7 +34,7 @@ async function fetchAndProcessXML() {
         for (const item of items) {
             const productId = item.$.id;
             const name = item.NAME?.[0] || "Unknown";
-            const imageUrl = item.IMAGES?.[0]?.IMAGE?.[0] || null;
+            const imageUrl = item.IMAGES?.[0]?.IMAGE?.[0]?._ || null;
 
             if (!existingProductIds.has(productId)) {
                 console.log(`🆕 Adding new product: ${name} (${productId})`);
