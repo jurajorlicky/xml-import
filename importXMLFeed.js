@@ -1,6 +1,6 @@
 const { createClient } = require('@supabase/supabase-js');
 const fetch = require('node-fetch');
-const { parseStringPromise, Builder } = require('xml2js');
+const { parseStringPromise } = require('xml2js');
 const fs = require('fs');
 
 const supabase = createClient(process.env.SUPABASE_URL, process.env.SUPABASE_KEY);
@@ -53,12 +53,12 @@ async function fetchAndProcessXML() {
             for (const variant of item.VARIANTS[0].VARIANT) {
                 const size = variant.PARAMETERS?.[0]?.PARAMETER?.[0]?.VALUE?.[0] || "Unknown";
                 const priceVat = parseFloat(variant.PRICE_VAT?.[0]) || null;
-                const stockStatus = variant.AVAILABILITY_OUT_OF_STOCK?.[0] || "Unknown";
+                const status = variant.AVAILABILITY_OUT_OF_STOCK?.[0] || "Unknown";  // OPRAVENÉ
 
                 // Načítanie `product_sizes`
                 const { data: existingSize, error: sizeError } = await supabase
                     .from('product_sizes')
-                    .select('product_id, size, price, stock_status, original_price')
+                    .select('product_id, size, price, status, original_price')
                     .eq('product_id', productId)
                     .eq('size', size)
                     .single();
@@ -74,8 +74,8 @@ async function fetchAndProcessXML() {
                         product_id: productId, 
                         size, 
                         price: priceVat, 
-                        stock_status: stockStatus, 
-                        original_price: priceVat 
+                        status: status,  // OPRAVENÉ
+                        original_price: priceVat  
                     });
                 } else {
                     let updateData = {};
@@ -83,12 +83,12 @@ async function fetchAndProcessXML() {
                         console.log(`🔄 Updating price for ${productId} - ${size}: ${existingSize.price} → ${priceVat}`);
                         updateData.price = priceVat;
                     }
-                    if (existingSize.stock_status !== stockStatus) {
-                        console.log(`🔄 Updating stock status for ${productId} - ${size}: ${existingSize.stock_status} → ${stockStatus}`);
-                        updateData.stock_status = stockStatus;
+                    if (existingSize.status !== status) {  // OPRAVENÉ
+                        console.log(`🔄 Updating status for ${productId} - ${size}: ${existingSize.status} → ${status}`);
+                        updateData.status = status;  // OPRAVENÉ
                     }
                     if (Object.keys(updateData).length > 0) {
-                        updateData.product_id = existingSize.product_id;  // Používame product_id namiesto id!
+                        updateData.product_id = existingSize.product_id;  
                         updateData.size = existingSize.size;
                         updates.push(updateData);
                     }
