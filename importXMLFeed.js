@@ -4,7 +4,7 @@ const { parseStringPromise, Builder } = require('xml2js');
 const fs = require('fs');
 
 const supabase = createClient(process.env.SUPABASE_URL, process.env.SUPABASE_KEY);
-const xmlFilePath = './feed.xml';  
+const xmlFilePath = './feed.xml';
 const xmlUrl = "https://raw.githubusercontent.com/jurajorlicky/xml-import/main/feed.xml";
 
 async function fetchAndProcessXML() {
@@ -55,10 +55,10 @@ async function fetchAndProcessXML() {
                 const priceVat = parseFloat(variant.PRICE_VAT?.[0]) || null;
                 const stockStatus = variant.AVAILABILITY_OUT_OF_STOCK?.[0] || "Unknown";
 
-                // Načítanie `product_sizes`, aby sme vedeli aktualizovať status
+                // Načítanie `product_sizes`
                 const { data: existingSize, error: sizeError } = await supabase
                     .from('product_sizes')
-                    .select('id, price, stock_status, original_price')
+                    .select('product_id, size, price, stock_status, original_price')
                     .eq('product_id', productId)
                     .eq('size', size)
                     .single();
@@ -68,7 +68,6 @@ async function fetchAndProcessXML() {
                     continue;
                 }
 
-                // Ak varianta ešte neexistuje, pridáme ju a original_price uložíme do `product_sizes`
                 if (!existingSize) {
                     console.log(`🆕 Adding new size: ${size} for product ${productId}`);
                     newSizes.push({ 
@@ -76,10 +75,9 @@ async function fetchAndProcessXML() {
                         size, 
                         price: priceVat, 
                         stock_status: stockStatus, 
-                        original_price: priceVat  // Originálna cena sa ukladá sem!
+                        original_price: priceVat 
                     });
                 } else {
-                    // Ak varianta existuje, porovnáme a aktualizujeme len ak sa zmenili hodnoty
                     let updateData = {};
                     if (existingSize.price !== priceVat) {
                         console.log(`🔄 Updating price for ${productId} - ${size}: ${existingSize.price} → ${priceVat}`);
@@ -90,33 +88,32 @@ async function fetchAndProcessXML() {
                         updateData.stock_status = stockStatus;
                     }
                     if (Object.keys(updateData).length > 0) {
-                        updateData.id = existingSize.id;
+                        updateData.product_id = existingSize.product_id;  // Používame product_id namiesto id!
+                        updateData.size = existingSize.size;
                         updates.push(updateData);
                     }
                 }
             }
         }
 
-        // Hromadné pridanie nových produktov
         if (newProducts.length > 0) {
             const { error: insertError } = await supabase.from('products').insert(newProducts);
             if (insertError) console.error("❌ Error inserting products:", insertError);
             else console.log(`✅ Inserted ${newProducts.length} new products.`);
         }
 
-        // Hromadné pridanie nových veľkostí
         if (newSizes.length > 0) {
             const { error: insertSizeError } = await supabase.from('product_sizes').insert(newSizes);
             if (insertSizeError) console.error("❌ Error inserting sizes:", insertSizeError);
             else console.log(`✅ Inserted ${newSizes.length} new sizes.`);
         }
 
-        // Hromadná aktualizácia existujúcich veľkostí
         for (const update of updates) {
             const { error: updateError } = await supabase
                 .from('product_sizes')
                 .update(update)
-                .eq('id', update.id);
+                .eq('product_id', update.product_id)
+                .eq('size', update.size);
 
             if (updateError) console.error("❌ Error updating product size:", updateError);
         }
@@ -128,5 +125,4 @@ async function fetchAndProcessXML() {
     }
 }
 
-// 🚀 Spustenie skriptu
 fetchAndProcessXML();
