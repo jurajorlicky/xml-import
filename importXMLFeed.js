@@ -9,8 +9,8 @@ const xmlUrl = "https://raw.githubusercontent.com/jurajorlicky/xml-import/main/f
 
 async function updateXMLPrices() {
     try {
-        console.log("🚀 Fetching XML feed...");
-        const response = await fetch(xmlUrl);
+        console.log("🚀 Fetching latest XML feed...");
+        const response = await fetch(xmlUrl, { headers: { 'Cache-Control': 'no-cache' } });
         if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
         const xmlContent = await response.text();
 
@@ -19,7 +19,7 @@ async function updateXMLPrices() {
         const items = parsedData.SHOP.SHOPITEM || [];
 
         console.log("📡 Fetching updated product prices from Supabase...");
-        // Získanie upravených cien a statusov pre produkty v `user_products`
+        // Hromadný dotaz na všetky produkty naraz (rýchlejšie ako iterácia)
         const { data: updatedProducts, error: fetchError } = await supabase
             .from('product_price_view')
             .select('product_id, size, final_price, final_status');
@@ -29,12 +29,9 @@ async function updateXMLPrices() {
             return;
         }
 
-        // Vytvorenie mapy (product_id-size) -> { price, status }
+        // Vytvorenie mapy pre rýchlejšie vyhľadávanie
         const priceMap = new Map(
-            updatedProducts.map(p => [
-                `${p.product_id}-${p.size}`,
-                { price: p.final_price, status: p.final_status }
-            ])
+            updatedProducts.map(p => [`${p.product_id}-${p.size}`, { price: p.final_price, status: p.final_status }])
         );
 
         console.log("🛠 Updating XML prices and stock status...");
@@ -56,24 +53,23 @@ async function updateXMLPrices() {
 
                 if (!priceData) continue; // Ak neexistuje update, preskočíme
 
-                console.log(`🔄 Updating ${item.$.id} - ${size} → Cena: ${priceData.price}, Status: ${priceData.status}`);
+                let updated = false;
 
                 // Aktualizácia ceny, ak sa líši
-                if (priceData.price !== null) {
-                    const newPriceString = priceData.price.toString();
-                    if (variant.PRICE_VAT && variant.PRICE_VAT[0] !== newPriceString) {
-                        variant.PRICE_VAT[0] = newPriceString;
-                        changesMade = true;
-                    }
+                if (priceData.price !== null && variant.PRICE_VAT?.[0] !== priceData.price.toString()) {
+                    console.log(`🔄 Updating price for ${item.$.id} - ${size}: ${variant.PRICE_VAT?.[0]} → ${priceData.price}`);
+                    variant.PRICE_VAT[0] = priceData.price.toString();
+                    updated = true;
                 }
 
                 // Aktualizácia skladovej dostupnosti, ak sa líši
-                if (priceData.status !== null) {
-                    if (variant.AVAILABILITY_OUT_OF_STOCK && variant.AVAILABILITY_OUT_OF_STOCK[0] !== priceData.status) {
-                        variant.AVAILABILITY_OUT_OF_STOCK[0] = priceData.status;
-                        changesMade = true;
-                    }
+                if (priceData.status !== null && variant.AVAILABILITY_OUT_OF_STOCK?.[0] !== priceData.status) {
+                    console.log(`🔄 Updating stock status for ${item.$.id} - ${size}: ${variant.AVAILABILITY_OUT_OF_STOCK?.[0]} → ${priceData.status}`);
+                    variant.AVAILABILITY_OUT_OF_STOCK[0] = priceData.status;
+                    updated = true;
                 }
+
+                if (updated) changesMade = true;
             }
         }
 
