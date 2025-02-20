@@ -16,7 +16,7 @@ async function fetchAndProcessXML() {
         const parsedData = await parseStringPromise(xmlContent, { explicitArray: true });
         const items = parsedData.SHOP.SHOPITEM || [];
 
-        console.log("📡 Fetching existing products and prices from Supabase...");
+        console.log("📡 Fetching existing products from Supabase...");
         const { data: existingProducts, error: fetchError } = await supabase
             .from('products')
             .select('id');
@@ -26,20 +26,7 @@ async function fetchAndProcessXML() {
             return;
         }
 
-        const { data: existingSizes, error: fetchSizesError } = await supabase
-            .from('product_sizes')
-            .select('product_id, size, price');
-
-        if (fetchSizesError) {
-            console.error("❌ Error fetching existing sizes:", fetchSizesError);
-            return;
-        }
-
-        const existingProductIds = new Set(existingProducts.map(p => p.id));
-        const existingSizeMap = new Map(
-            existingSizes.map(s => [`${s.product_id}-${s.size}`, s.price])
-        );
-
+        let existingProductIds = new Set(existingProducts.map(p => p.id));
         let newProducts = [];
         let newSizes = [];
         let priceUpdates = [];
@@ -51,10 +38,57 @@ async function fetchAndProcessXML() {
 
             if (!item.VARIANTS || !item.VARIANTS[0].VARIANT) continue;
 
-            let productExists = existingProductIds.has(productId);
-            if (!productExists) {
+            if (!existingProductIds.has(productId)) {
                 console.log(`🆕 Adding new product: ${name} (${productId})`);
                 newProducts.push({ id: productId, name });
+            }
+        }
+
+        // 🛠 Najprv pridáme iba nové produkty
+        if (newProducts.length > 0) {
+            console.log(`🚀 Inserting ${newProducts.length} new products...`);
+            const { error: insertError } = await supabase.from('products').insert(newProducts);
+            if (insertError) {
+                console.error("❌ Error inserting products:", insertError);
+                return;
+            }
+            console.log(`✅ Inserted ${newProducts.length} new products.`);
+        }
+
+        // 📡 Aktualizujeme zoznam produktov, aby veľkosti odkazovali na správne ID
+        console.log("📡 Fetching updated product list from Supabase...");
+        const { data: updatedProducts, error: updateFetchError } = await supabase
+            .from('products')
+            .select('id');
+
+        if (updateFetchError) {
+            console.error("❌ Error fetching updated product list:", updateFetchError);
+            return;
+        }
+
+        existingProductIds = new Set(updatedProducts.map(p => p.id));
+
+        console.log("📡 Fetching existing sizes from Supabase...");
+        const { data: existingSizes, error: fetchSizesError } = await supabase
+            .from('product_sizes')
+            .select('product_id, size, price');
+
+        if (fetchSizesError) {
+            console.error("❌ Error fetching existing sizes:", fetchSizesError);
+            return;
+        }
+
+        const existingSizeMap = new Map(
+            existingSizes.map(s => [`${s.product_id}-${s.size}`, s.price])
+        );
+
+        // 🛠 Spracovanie veľkostí až po úspešnom vložení produktov
+        for (const item of items) {
+            const productId = item.$.id;
+
+            if (!existingProductIds.has(productId)) {
+                console.error(`❌ Product ID ${productId} not found in database! Skipping sizes.`);
+                continue;
             }
 
             for (const variant of item.VARIANTS[0].VARIANT) {
@@ -81,13 +115,6 @@ async function fetchAndProcessXML() {
                     }
                 }
             }
-        }
-
-        if (newProducts.length > 0) {
-            console.log(`🚀 Inserting ${newProducts.length} new products...`);
-            const { error: insertError } = await supabase.from('products').insert(newProducts);
-            if (insertError) console.error("❌ Error inserting products:", insertError);
-            else console.log(`✅ Inserted ${newProducts.length} new products.`);
         }
 
         if (newSizes.length > 0) {
