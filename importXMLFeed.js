@@ -1,10 +1,8 @@
 const { createClient } = require('@supabase/supabase-js');
 const fetch = require('node-fetch');
 const { parseStringPromise } = require('xml2js');
-const fs = require('fs');
 
 const supabase = createClient(process.env.SUPABASE_URL, process.env.SUPABASE_KEY);
-const xmlFilePath = './feed.xml';
 const xmlUrl = "https://raw.githubusercontent.com/jurajorlicky/xml-import/main/feed.xml";
 
 async function fetchAndProcessXML() {
@@ -20,7 +18,7 @@ async function fetchAndProcessXML() {
 
         console.log(`📊 Total products in XML: ${items.length}`);
 
-        console.log("📡 Fetching product data from Supabase...");
+        console.log("📡 Fetching existing products from Supabase...");
         const { data: existingProducts, error: fetchError } = await supabase
             .from('products')
             .select('id');
@@ -40,22 +38,53 @@ async function fetchAndProcessXML() {
         for (const item of items) {
             const productId = item.$.id;
             const name = item.NAME?.[0] || "Unknown";
-            const manufacturer = item.MANUFACTURER?.[0] || "Unknown";
 
             if (!item.VARIANTS || !item.VARIANTS[0].VARIANT) continue;
 
             let productExists = existingProductIds.has(productId);
             if (!productExists) {
                 console.log(`🆕 Adding new product: ${name} (${productId})`);
-                newProducts.push({ id: productId, name, manufacturer });
+                newProducts.push({ id: productId, name });
+            }
+        }
+
+        // 🛠 Najprv pridáme produkty
+        if (newProducts.length > 0) {
+            console.log(`🚀 Inserting ${newProducts.length} new products...`);
+            const { error: insertError } = await supabase.from('products').insert(newProducts);
+            if (insertError) {
+                console.error("❌ Error inserting products:", insertError);
+                return; // Ak sa produkty nevložia, zastavíme skript
+            }
+            console.log(`✅ Inserted ${newProducts.length} new products.`);
+        }
+
+        console.log("📡 Fetching updated product list from Supabase...");
+        const { data: updatedProducts, error: updateFetchError } = await supabase
+            .from('products')
+            .select('id');
+
+        if (updateFetchError) {
+            console.error("❌ Error fetching updated product list:", updateFetchError);
+            return;
+        }
+
+        const updatedProductIds = new Set(updatedProducts.map(p => p.id));
+
+        // Spracovanie veľkostí až po úspešnom vložení produktov
+        for (const item of items) {
+            const productId = item.$.id;
+
+            if (!updatedProductIds.has(productId)) {
+                console.error(`❌ Product ID ${productId} not found in database! Skipping sizes.`);
+                continue;
             }
 
             for (const variant of item.VARIANTS[0].VARIANT) {
                 const size = variant.PARAMETERS?.[0]?.PARAMETER?.[0]?.VALUE?.[0] || "Unknown";
                 const priceVat = parseFloat(variant.PRICE_VAT?.[0]) || null;
-                const status = variant.AVAILABILITY_OUT_OF_STOCK?.[0] || "Unknown";  // OPRAVENÉ
+                const status = variant.AVAILABILITY_OUT_OF_STOCK?.[0] || "Unknown";
 
-                // Načítanie `product_sizes`
                 const { data: existingSize, error: sizeError } = await supabase
                     .from('product_sizes')
                     .select('product_id, size, price, status, original_price')
@@ -74,7 +103,7 @@ async function fetchAndProcessXML() {
                         product_id: productId, 
                         size, 
                         price: priceVat, 
-                        status: status,  // OPRAVENÉ
+                        status: status,  
                         original_price: priceVat  
                     });
                 } else {
@@ -83,9 +112,9 @@ async function fetchAndProcessXML() {
                         console.log(`🔄 Updating price for ${productId} - ${size}: ${existingSize.price} → ${priceVat}`);
                         updateData.price = priceVat;
                     }
-                    if (existingSize.status !== status) {  // OPRAVENÉ
+                    if (existingSize.status !== status) {  
                         console.log(`🔄 Updating status for ${productId} - ${size}: ${existingSize.status} → ${status}`);
-                        updateData.status = status;  // OPRAVENÉ
+                        updateData.status = status;
                     }
                     if (Object.keys(updateData).length > 0) {
                         updateData.product_id = existingSize.product_id;  
@@ -96,13 +125,8 @@ async function fetchAndProcessXML() {
             }
         }
 
-        if (newProducts.length > 0) {
-            const { error: insertError } = await supabase.from('products').insert(newProducts);
-            if (insertError) console.error("❌ Error inserting products:", insertError);
-            else console.log(`✅ Inserted ${newProducts.length} new products.`);
-        }
-
         if (newSizes.length > 0) {
+            console.log(`🚀 Inserting ${newSizes.length} new sizes...`);
             const { error: insertSizeError } = await supabase.from('product_sizes').insert(newSizes);
             if (insertSizeError) console.error("❌ Error inserting sizes:", insertSizeError);
             else console.log(`✅ Inserted ${newSizes.length} new sizes.`);
