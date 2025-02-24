@@ -16,7 +16,12 @@ jobs:
           python-version: '3.9'
 
       - name: Install dependencies
-        run: pip install requests supabase
+        run: |
+          pip install requests supabase
+          pip list  # Vypíše nainštalované balíčky pre kontrolu
+
+      - name: Debug - vypíše obsah repozitára
+        run: ls -la
 
       - name: Fetch XML and update prices
         run: python update_xml.py
@@ -25,10 +30,14 @@ jobs:
           SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Debug - skontroluj, či bol `feed.xml` upravený
+        run: cat feed.xml || echo "feed.xml sa nenašiel!"
+
       - name: Commit and push changes
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
           git add feed.xml
+          git diff --staged  # Zobrazí, čo sa zmenilo
           git commit -m "Manual XML update" || echo "No changes to commit"
-          git push
+          git push origin main || echo "No changes to push"
