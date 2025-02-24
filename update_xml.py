@@ -9,10 +9,19 @@ SUPABASE_URL = os.getenv("SUPABASE_URL")
 SUPABASE_KEY = os.getenv("SUPABASE_KEY")
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
 
+# Debug výpis, či sa načítali premenné
+print("🔍 Debug - SUPABASE_URL:", SUPABASE_URL)
+print("🔍 Debug - SUPABASE_KEY:", SUPABASE_KEY[:5] + "..." + SUPABASE_KEY[-5:])  # Maskovanie pre bezpečnosť
+
 # Inicializácia Supabase klienta
 supabase = create_client(SUPABASE_URL, SUPABASE_KEY)
 
-# 1️⃣ **Stiahnutie aktuálneho XML feedu**
+# ✅ **Test spojenia so Supabase** - skúšame načítať testovaciu tabuľku `profiles`
+print("🔍 Testujem spojenie so Supabase...")
+response = supabase.from_("profiles").select("*").limit(1).execute()
+print("🔍 Supabase Response (profiles):", response)
+
+# 1️⃣ **Stiahnutie aktuálneho XML feedu z GitHubu**
 GITHUB_REPO = "jurajorlicky/xml-import"
 GITHUB_FILE_PATH = "feed.xml"
 GITHUB_API_URL = f"https://api.github.com/repos/{GITHUB_REPO}/contents/{GITHUB_FILE_PATH}"
@@ -32,13 +41,17 @@ tree = ET.ElementTree(ET.fromstring(xml_content))
 root = tree.getroot()
 
 # 2️⃣ **Načítanie aktuálnych cien a statusov z Supabase**
-data, error = supabase.from_("product_price_view").select("product_id, size, final_price, final_status").execute()
+print("🔍 Načítavam dáta z `product_price_view`...")
+response = supabase.from_("product_price_view").select("product_id, size, final_price, final_status").execute()
+print("🔍 Supabase Response:", response)
+
+data, error = response
 
 if error:
     raise Exception(f"❌ Chyba pri načítaní dát zo Supabase: {error}")
 
 # Mapovanie dát na úpravu XML
-price_map = {(str(row["product_id"]), str(row["size"])): (row["final_price"], row["final_status"]) for row in data[1]}
+price_map = {(str(row["product_id"]), str(row["size"])): (row["final_price"], row["final_status"]) for row in data}
 
 # 3️⃣ **Aktualizácia cien v XML**
 for product in root.findall("SHOPITEM"):
