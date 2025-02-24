@@ -9,14 +9,13 @@ SUPABASE_URL = os.getenv("SUPABASE_URL")
 SUPABASE_KEY = os.getenv("SUPABASE_KEY")
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
 
-# Debug výpis, či sa načítali premenné
 print("🔍 Debug - SUPABASE_URL:", SUPABASE_URL)
-print("🔍 Debug - SUPABASE_KEY:", SUPABASE_KEY[:5] + "..." + SUPABASE_KEY[-5:])  # Maskovanie pre bezpečnosť
+print("🔍 Debug - SUPABASE_KEY:", SUPABASE_KEY[:5] + "..." + SUPABASE_KEY[-5:]) 
 
 # Inicializácia Supabase klienta
 supabase = create_client(SUPABASE_URL, SUPABASE_KEY)
 
-# ✅ **Test spojenia so Supabase** - skúšame načítať testovaciu tabuľku `profiles`
+# ✅ Test spojenia
 print("🔍 Testujem spojenie so Supabase...")
 response = supabase.from_("profiles").select("*").limit(1).execute()
 print("🔍 Supabase Response (profiles):", response)
@@ -45,10 +44,10 @@ print("🔍 Načítavam dáta z `product_price_view`...")
 response = supabase.from_("product_price_view").select("product_id, size, final_price, final_status").execute()
 print("🔍 Supabase Response:", response)
 
-data, error = response
+data = response.data  # ✅ Používame správny spôsob prístupu
 
-if error:
-    raise Exception(f"❌ Chyba pri načítaní dát zo Supabase: {error}")
+if not data:
+    raise Exception(f"❌ Chyba: Supabase nevrátil žiadne dáta!")
 
 # Mapovanie dát na úpravu XML
 price_map = {(str(row["product_id"]), str(row["size"])): (row["final_price"], row["final_status"]) for row in data}
@@ -79,3 +78,4 @@ if upload_response.status_code != 200:
     raise Exception(f"❌ Chyba pri nahrávaní XML na GitHub: {upload_response.json()}")
 
 print("✅ XML feed bol úspešne aktualizovaný.")
+
