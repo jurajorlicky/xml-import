@@ -15,7 +15,7 @@ const GITHUB_API_URL = `https://api.github.com/repos/${GITHUB_REPO}/contents/${G
 // 🔹 Inicializácia Supabase klienta
 const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
 
-// 🔹 Stiahni XML feed zo súboru alebo z GitHubu
+// 🔹 Stiahni XML feed z GitHubu
 async function fetchXMLFromGitHub() {
   try {
     console.log("📥 Sťahujem XML feed z GitHubu...");
@@ -32,12 +32,12 @@ async function fetchXMLFromGitHub() {
   }
 }
 
-// 🔹 Načíta dáta z Supabase
+// 🔹 Načíta dáta z Supabase (product_id + size)
 async function fetchPricesFromSupabase() {
   console.log("📡 Načítavam ceny a dostupnosť z Supabase...");
   const { data, error } = await supabase
     .from("product_price_view")
-    .select("size, final_price, final_status");
+    .select("product_id, size, final_price, final_status");
 
   if (error) {
     console.error("❌ Chyba pri načítaní dát zo Supabase:", error);
@@ -47,10 +47,16 @@ async function fetchPricesFromSupabase() {
   console.log("✅ Dáta z Supabase úspešne načítané!", data.length, "záznamov");
   console.log("🔍 Debug - Údaje zo Supabase:", data);
 
-  return data.reduce((acc, row) => {
-    acc[row.size.trim()] = { price: row.final_price, status: row.final_status };
-    return acc;
-  }, {});
+  // Vytvoríme mapu, kde kľúč = "product_id|size"
+  const priceMap = {};
+  for (const row of data) {
+    const key = `${row.product_id}|${row.size.trim()}`;
+    priceMap[key] = {
+      price: row.final_price,
+      status: row.final_status
+    };
+  }
+  return priceMap;
 }
 
 // 🔹 Aktualizuje ceny a dostupnosť v XML
@@ -59,30 +65,41 @@ async function updateXML(xmlContent, priceMap) {
   const parsedXML = await parseStringPromise(xmlContent);
   let changes = 0;
 
+  // Prechádzame každý SHOPITEM (product)
   parsedXML.SHOP.SHOPITEM.forEach((item) => {
+    // product_id z <SHOPITEM id="xxx">
+    const productId = item.$.id;  // napr. "706", "435" atď.
+
+    // Overíme, či existuje <VARIANTS>
     if (item.VARIANTS && item.VARIANTS[0].VARIANT) {
+      // Prechádzame všetky varianty
       item.VARIANTS[0].VARIANT.forEach((variant) => {
         if (variant.PARAMETERS && variant.PARAMETERS[0].PARAMETER) {
+          // Veľkosť z <VALUE>
           const size = variant.PARAMETERS[0].PARAMETER[0].VALUE[0].trim();
+          console.log(`🔍 Debug - product_id=${productId}, size=${size} pred úpravou: ${JSON.stringify(variant)}`);
 
-          console.log(`🔍 Debug - Produkt ${size} pred úpravou: ${JSON.stringify(variant)}`);
+          // Kľúč v priceMap
+          const key = `${productId}|${size}`;
 
-          if (priceMap[size]) {
-            console.log(`✅ Aktualizujem veľkosť ${size}: cena ${priceMap[size].price}, status ${priceMap[size].status}`);
+          // Skontrolujeme, či existuje v priceMap
+          if (priceMap[key]) {
+            console.log(`✅ Aktualizujem product_id=${productId}, size=${size}: cena ${priceMap[key].price}, status ${priceMap[key].status}`);
 
-            variant.PRICE_VAT[0] = String(priceMap[size].price);
+            // Nastav cenu
+            variant.PRICE_VAT[0] = String(priceMap[key].price);
 
+            // Nastav status
             if (variant.AVAILABILITY_OUT_OF_STOCK) {
-              variant.AVAILABILITY_OUT_OF_STOCK[0] = priceMap[size].status;
+              variant.AVAILABILITY_OUT_OF_STOCK[0] = priceMap[key].status;
             } else if (variant.AVAILABILITY) {
-              variant.AVAILABILITY[0] = priceMap[size].status;
+              variant.AVAILABILITY[0] = priceMap[key].status;
             } else {
-              console.log(`⚠️ Chýba tag pre dostupnosť pre veľkosť ${size}`);
+              console.log(`⚠️ Chýba tag pre dostupnosť pre product_id=${productId}, size=${size}`);
             }
-
             changes++;
           } else {
-            console.log(`⚠️ Veľkosť ${size} nebola nájdená v Supabase.`);
+            console.log(`⚠️ Nenašiel som kľúč ${key} v priceMap`);
           }
         }
       });
@@ -90,7 +107,7 @@ async function updateXML(xmlContent, priceMap) {
   });
 
   if (changes === 0) {
-    console.log("⚠️ Neboli vykonané žiadne zmeny v XML. Skontroluj veľkosti v Supabase.");
+    console.log("⚠️ Neboli vykonané žiadne zmeny v XML. Skontroluj product_id a size v Supabase.");
   } else {
     console.log(`✅ Počet aktualizovaných záznamov: ${changes}`);
   }
@@ -126,13 +143,18 @@ async function uploadXMLToGitHub(updatedXML, sha) {
 
 // 🔹 Hlavná funkcia
 async function main() {
+  // 1. Stiahni XML
   const xmlData = await fetchXMLFromGitHub();
   if (!xmlData) return;
 
+  // 2. Načítaj mapu cien a statusov zo Supabase (product_id + size)
   const priceMap = await fetchPricesFromSupabase();
   if (!priceMap) return;
 
+  // 3. Aktualizuj XML
   const updatedXML = await updateXML(xmlData.xmlContent, priceMap);
+
+  // 4. Nahraj upravené XML na GitHub
   await uploadXMLToGitHub(updatedXML, xmlData.sha);
 }
 
