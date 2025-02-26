@@ -105,4 +105,4 @@ async function uploadXMLToGitHub(updatedXML, sha) {
             headers: { Authorization: `token ${GITHUB_TOKEN}` }
         });
 
-        console.log("✅ XML feed bol úspešne aktualizovaný na Git
+        console.log("✅ XML feed bol úspešne aktualizovaný na Git");
