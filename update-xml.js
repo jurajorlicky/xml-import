@@ -45,7 +45,7 @@ async function fetchPricesFromSupabase() {
     }
 
     console.log("✅ Dáta z Supabase úspešne načítané!", data.length, "záznamov");
-    console.log("🔍 Debug - Veľkosti v Supabase:", data.map(row => row.size));
+    console.log("🔍 Debug - Údaje zo Supabase:", data);
 
     return data.reduce((acc, row) => {
         acc[row.size.trim()] = { price: row.final_price, status: row.final_status };
@@ -65,13 +65,13 @@ async function updateXML(xmlContent, priceMap) {
                 if (variant.PARAMETERS && variant.PARAMETERS[0].PARAMETER) {
                     const size = variant.PARAMETERS[0].PARAMETER[0].VALUE[0].trim();
 
-                    console.log("🔍 Debug - Veľkosť variantu v XML pred úpravou:", size);
+                    console.log(`🔍 Debug - Produkt ${size} pred úpravou: ${JSON.stringify(variant)}`);
 
                     if (priceMap[size]) {
                         console.log(`✅ Aktualizujem veľkosť ${size}: cena ${priceMap[size].price}, status ${priceMap[size].status}`);
+                        
                         variant.PRICE_VAT[0] = String(priceMap[size].price);
 
-                        // Skontrolujeme, aký tag XML používa na dostupnosť
                         if (variant.AVAILABILITY_OUT_OF_STOCK) {
                             variant.AVAILABILITY_OUT_OF_STOCK[0] = priceMap[size].status;
                         } else if (variant.AVAILABILITY) {
@@ -84,8 +84,6 @@ async function updateXML(xmlContent, priceMap) {
                     } else {
                         console.log(`⚠️ Veľkosť ${size} nebola nájdená v Supabase.`);
                     }
-                } else {
-                    console.log("⚠️ PARAMETER pre veľkosť neexistuje, preskakujem variant.");
                 }
             });
         }
@@ -104,6 +102,9 @@ async function updateXML(xmlContent, priceMap) {
 // 🔹 Nahraje XML na GitHub
 async function uploadXMLToGitHub(updatedXML, sha) {
     console.log("📤 Nahrávam aktualizovaný XML feed na GitHub...");
+    console.log("🔍 Debug - XML tesne pred uploadom:", updatedXML.substring(0, 500));
+    console.log("🔍 Debug - SHA starého súboru:", sha);
+
     const encodedContent = Buffer.from(updatedXML).toString('base64');
 
     const updateData = {
