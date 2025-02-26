@@ -45,6 +45,8 @@ async function fetchPricesFromSupabase() {
     }
 
     console.log("✅ Dáta z Supabase úspešne načítané!", data.length, "záznamov");
+    console.log("🔍 Debug - Veľkosti v Supabase:", data.map(row => row.size));
+
     return data.reduce((acc, row) => {
         acc[row.size.trim()] = { price: row.final_price, status: row.final_status };
         return acc;
@@ -62,15 +64,25 @@ async function updateXML(xmlContent, priceMap) {
             item.VARIANTS[0].VARIANT.forEach(variant => {
                 if (variant.PARAMETERS && variant.PARAMETERS[0].PARAMETER) {
                     const size = variant.PARAMETERS[0].PARAMETER[0].VALUE[0].trim();
-                    console.log("🔍 Veľkosť variantu v XML:", size);
+
+                    console.log("🔍 Debug - Veľkosť variantu v XML pred úpravou:", size);
 
                     if (priceMap[size]) {
                         console.log(`✅ Aktualizujem veľkosť ${size}: cena ${priceMap[size].price}, status ${priceMap[size].status}`);
                         variant.PRICE_VAT[0] = String(priceMap[size].price);
-                        variant.AVAILABILITY_OUT_OF_STOCK[0] = priceMap[size].status;
+
+                        // Skontrolujeme, aký tag XML používa na dostupnosť
+                        if (variant.AVAILABILITY_OUT_OF_STOCK) {
+                            variant.AVAILABILITY_OUT_OF_STOCK[0] = priceMap[size].status;
+                        } else if (variant.AVAILABILITY) {
+                            variant.AVAILABILITY[0] = priceMap[size].status;
+                        } else {
+                            console.log(`⚠️ Chýba tag pre dostupnosť pre veľkosť ${size}`);
+                        }
+
                         changes++;
                     } else {
-                        console.log(`⚠️ Veľkosť ${size} nemá záznam v Supabase, preskakujem.`);
+                        console.log(`⚠️ Veľkosť ${size} nebola nájdená v Supabase.`);
                     }
                 } else {
                     console.log("⚠️ PARAMETER pre veľkosť neexistuje, preskakujem variant.");
