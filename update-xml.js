@@ -105,4 +105,22 @@ async function uploadXMLToGitHub(updatedXML, sha) {
             headers: { Authorization: `token ${GITHUB_TOKEN}` }
         });
 
-        console.log("✅ XML feed bol úspešne aktualizovaný na Git");
+        console.log("✅ XML feed bol úspešne aktualizovaný na GitHube.");
+    } catch (error) {
+        console.error("❌ Chyba pri nahrávaní XML na GitHub:", error.response?.data || error.message);
+    }
+}
+
+// 🔹 Hlavná funkcia
+async function main() {
+    const xmlData = await fetchXMLFromGitHub();
+    if (!xmlData) return;
+
+    const priceMap = await fetchPricesFromSupabase();
+    if (!priceMap) return;
+
+    const updatedXML = await updateXML(xmlData.xmlContent, priceMap);
+    await uploadXMLToGitHub(updatedXML, xmlData.sha);
+}
+
+main();
