@@ -1,10 +1,9 @@
-import fs from 'fs';
-import axios from 'axios';
-import { parseStringPromise, Builder } from 'xml2js';
-import { createClient } from '@supabase/supabase-js';
-import dotenv from 'dotenv';
+const fs = require('fs');
+const axios = require('axios');
+const { parseStringPromise, Builder } = require('xml2js');
+const { createClient } = require('@supabase/supabase-js');
+require('dotenv').config();
 
-dotenv.config();
 
 // 🛠️ Načítanie environment premenných
 const SUPABASE_URL = process.env.SUPABASE_URL;
