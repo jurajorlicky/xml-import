@@ -1,0 +1,27 @@
+name: Aktualizácia XML Feedu
+
+on:
+  workflow_dispatch:  # Spustenie len manuálne
+
+jobs:
+  update-xml:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Nastavenie Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: Inštalácia závislostí
+        run: npm install
+
+      - name: Spustenie aktualizácie XML
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node update-xml.js
