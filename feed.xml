@@ -3389,7 +3389,7 @@
         </ATYPICAL_PRODUCT>
         <CURRENCY>EUR</CURRENCY>
         <VAT>0</VAT>
-        <PRICE_VAT>50</PRICE_VAT>
+        <PRICE_VAT>25</PRICE_VAT>
         <PURCHASE_PRICE/>
         <STANDARD_PRICE/>
         <STOCK>
@@ -3503,7 +3503,7 @@
         </ATYPICAL_PRODUCT>
         <CURRENCY>EUR</CURRENCY>
         <VAT>0</VAT>
-        <PRICE_VAT>111</PRICE_VAT>
+        <PRICE_VAT>25</PRICE_VAT>
         <PURCHASE_PRICE/>
         <STANDARD_PRICE/>
         <STOCK>
@@ -3560,7 +3560,7 @@
         </ATYPICAL_PRODUCT>
         <CURRENCY>EUR</CURRENCY>
         <VAT>0</VAT>
-        <PRICE_VAT>10</PRICE_VAT>
+        <PRICE_VAT>25</PRICE_VAT>
         <PURCHASE_PRICE/>
         <STANDARD_PRICE/>
         <STOCK>
